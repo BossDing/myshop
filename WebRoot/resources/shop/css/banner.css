@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*banner  */                                  /*banner  */
+#banner {
+width: 100%;
+height:488px;
+overflow: hidden;
+position: relative;
+z-index:0;
+}
+#banner #ImageList ul {
+  list-style: none;
+}
+#banner #ImageList ul li {
+  position: absolute;
+  width: 100%;
+  height: 488px;
+  top: 0;
+  left: 0;
+}
+#banner #ImageList ul li a {
+   display: block;
+   width: 100%;
+   height: 488px;
+}
+#banner #ImageList ul .tp1 a {
+  background: url(../images/0.jpg) no-repeat top center;
+}
+#banner #ImageList ul .tp2 a {
+  background: url(../images/1.jpg) no-repeat top center;
+}
+#banner #ImageList ul .tp3 a {
+  background: url(../images/2.jpg) no-repeat top center;
+}
+#banner #ImageList ul .tp4 a {
+  background: url(../images/3.jpg) no-repeat top center;
+}
+#banner #ImageList ul .tp5 a {
+   background: url(../images/4.jpg) no-repeat top center;
+}
+#banner #xydd {
+position: absolute;
+bottom:36px;
+left:87%;
+z-index: 10000;
+}
+#banner #xydd ul {
+  list-style: none;
+}
+#banner #xydd ul li {
+  cursor: pointer;
+  float: left;
+  width: 20px;
+  height:20px;
+  background: url(../images/icons.png) no-repeat -27px -59px;
+  margin-right: 6px;
+  color: white;
+  text-align: center;
+}
+#banner #xydd ul li.cur {
+  background-position: 0px -59px;
+}
+#banner #zhezhao {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 488px;
+  background-color: white;
+  z-index: 999;
+  opacity: 0;
+}
+#banner #zhezhao a {
+    display: block;
+    width: 100%;
+    height: 488px;
+}
+/*banner end*/    

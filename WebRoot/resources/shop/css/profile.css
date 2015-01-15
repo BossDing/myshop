@@ -1,0 +1,478 @@
+﻿@charset "utf-8";
+.wdzlq{
+float: right;
+width: 870px;
+height: 701px;
+background: #fff;
+color: #4d4d4d;
+display: block;
+border-top: solid 1px #ff6602;
+font: 12px/1.5 tahoma,arial,\5b8b\4f53;
+}  
+.zlbt{
+height: 30px;
+line-height: 30px;
+padding-left: 20px;
+font-size: 14px;
+font-weight: bold;
+color: #f60;
+background: #fdf6ee;
+} 
+/*我的资料*/                /*我的资料*/ 
+.wdzlq .wdzl{
+display:block;                                            /*控制我的资料的显隐----------------------------------*/
+}
+.wdzlq .wdzl .zlbt{
+height: 30px;
+line-height: 30px;
+padding-left: 20px;
+font-size: 14px;
+font-weight: bold;
+color: #f60;
+background: #fdf6ee;
+}
+/*资料选项*/
+.wdzlq .wdzl .wdzllb {
+margin: 10px 10px 16px 10px;
+}
+.wdzlq .wdzl .wdzllb ul{
+height: 31px;
+border-bottom: solid 1px #DDD;
+}
+.wdzlq .wdzl .wdzllb ul li {
+display: inline-block;
+float: left;
+height: 30px;
+z-index: 99;
+background: #FFF;
+}
+.wdzlq .wdzl .wdzllb ul li a{
+display: inline-block;
+color: #333!important;
+height: 30px;
+margin-bottom: -1px;
+line-height: 30px;
+padding: 0 25px;
+border: solid 1px #DDD;
+background: #FFF;
+}
+.wdzlq .wdzl .wdzllb ul li .xuanzhong{
+font-weight: bold;
+border-bottom: solid 1px #FFF!important;
+_position: relative;
+}
+/*资料选项 end*/
+.wdzlq .wdzl .zlmxq{
+width:850px;
+height:601px;
+margin: 0px 10px 0px 10px;
+border: solid 1px #DDD;
+border-top:0px;
+}
+.wdzlq .wdzl .zlmxq ul{
+padding:0px 50px;
+}
+.wdzlq .wdzl .zlmxq ul li{
+margin:12px 0px;
+}
+.wdzlq .wdzl .zlmxq ul li b{
+font-weight:600;
+}
+.wdzlq .wdzl .zlmxq ul li a{
+color: #3367cc;
+}
+.wdzlq .wdzl .zlmxq ul li a:hover{
+color: #f70;
+}
+.head-pic{
+position: relative;
+width: 122px;
+height: 122px;
+overflow: hidden;
+}
+.head-pic img {
+display: block;
+width: 122px;
+height: 122px;
+}
+.head-pic p {
+height: 22px;
+position: absolute;
+left: 0;
+bottom:0px;
+/*
+bottom:-22px;          鼠标移入头像时调用此样式
+*/
+cursor: pointer;
+}
+.head-pic p span {
+display: inline-block;
+width: 122px;
+height: 22px;
+background: #000;
+opacity: .4;
+filter: alpha(opacity=40);
+}
+.head-pic p em {
+position: absolute;
+left: 0;
+top: 0;
+width: 122px;
+height: 22px;
+line-height: 22px;
+color: #FFF;
+text-align: center;
+font: 12px/1.5 tahoma,arial,\5b8b\4f53;
+}
+.wdzlq .wdzl .zlmxq ul li .jzdz select{
+border:1px solid #ddd;
+}
+.wdzlq .wdzl .zlmxq ul .xqzdz{
+padding-left:65px;
+}
+.wdzlq .wdzl .zlmxq ul .xqzdz input{
+border:1px solid #ddd;
+width: 180px;
+height: 22px;
+}
+.wdzlq .wdzl .zlmxq ul .xqzdz span{
+margin-left:35px;
+color:gray;
+display:none;
+}
+
+.wdzlq .wdzl .zlmxq ul .baocun{
+padding:15px 0px 0px 65px;
+}
+.wdzlq .wdzl .zlmxq ul .baocun a{
+width:77px;
+height:28px;
+display:block;
+color:#fff;
+background: url(../images-sns/anbg.png) left 0 no-repeat;
+background-position: left -75px;
+text-align:center;
+font-size:14px;
+line-height:28px;
+}
+.wdzlq .wdzl .zlmxq ul .baocun a:hover{
+color:#fff;
+background-position: left -105px;
+}
+.wdzlq .wdzl .zlmxq ul .shuru input{
+width: 170px;
+height: 20px;
+padding: 2px;
+border: 1px solid #BFBFBF;
+background: url(../images-sns/text_bg.png) no-repeat;
+color: #4D4D4D;
+line-height: 20px;
+}
+.xmnr {
+width:65px;
+text-align:right;
+margin-right:3px;
+}
+.wdzlq .wdzl .zlmxq ul .hydj{
+overflow:hidden;
+zoom:1;
+}
+.wdzlq .wdzl .zlmxq ul .hydj i{
+width: 14px;
+height:14px;
+display:block;
+float:left;
+margin:2px 2px 0px 0px;
+background: url(../images-sns/icon-nameInfo.png);
+}
+/*我的资料end*/                /*我的资料end*/
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*修改邮箱、手机公用温馨提示处样式 */                /*修改邮箱、手机公用温馨提示处样式 */
+.tips{ 
+margin:0px 30px 0px 40px;
+width:790px;
+font: 12px/2 tahoma,arial,\5b8b\4f53;
+color: #666;
+}
+.tips p{ 
+word-wrap: break-word;
+}
+.tips p b{ 
+color: #f70;
+font-weight:500;
+word-wrap: break-word;
+}
+.tips p strong{
+font-weight: bold;
+color: #333!important;
+line-height:1.5;
+}
+/*修改邮箱、手机公用温馨提示处样式  end*/                /*修改邮箱、手机公用温馨提示处样式  end*/
+
+/*修改邮箱与修改手机1、2、3步公用样式   */                /*修改邮箱与修改手机1、2、3步公用样式    */
+.wzdwz {
+width: 870px;
+height:30px;
+margin-top:30px;
+}
+.wzdwz  ul{ 
+margin-left:50px;
+}
+.wzdwz  ul li{ 
+width:255px;
+height:30px;
+float:left;
+margin-left:-10px;
+color:#fff;
+font:15px/30px "Microsoft YaHei";
+text-align:center;
+}
+.wzdwz  ul .w1{ 
+background:url(../images-sns/w1h.png)no-repeat;
+}
+.wzdwz  ul .w2{ 
+background:url(../images-sns/w2.png)no-repeat;
+}
+.wzdwz  ul .w3{ 
+background:url(../images-sns/w3.png)no-repeat;
+}
+/*绑定选项*/
+.bdxx{ 
+margin:60px 30px 105px 30px;
+width:790px;
+}
+.bdxx .bdlb{ 
+height:26px;
+line-height:26px;
+padding-bottom:20px;
+}
+.bdxx .bdlb div{ 
+float:left;
+margin-right:15px;
+}
+.bdxx .bdlb .wmgr{ 
+display:block;
+margin-right:0px;
+padding-left:20px;
+background:url(../images-sns/common.png) no-repeat -84px -52px;
+}
+.bdxx .bdlb .yzmcw{ 
+display:none;
+padding-left:20px;
+background:url(../images-sns/common.png) no-repeat -84px -24px;
+}
+.bdxx .bdlb .wmgr b{ 
+color:red;
+font-weight:600;
+}
+.bdxx .bdlb .wmgr a{ 
+color: #2272c8!important;
+}
+.bdxx .bdlb .wmgr a:hover{ 
+text-decoration: underline;
+}
+.bdxx .bdlb .zlfbt{ 
+width:75px;
+text-align:right;
+margin-right:10px;
+}
+.bdxx .bdlb div select {
+width:150px;
+height:24px;
+padding:0px 3px;
+line-height:24px;
+border:1px solid #ddd;
+}
+.bdxx .bdlb div .hqyzm {
+display: inline-block;
+width: 119px;
+height: 26px;
+border: 0 none;
+line-height: 26px;
+background: url(../images-sns/anbg.png) no-repeat 0 -294px;
+text-align: center;
+color: #999;
+cursor: default;
+}
+.bdxx .bdlb div .hqyzm:hover {
+background-position: 0 -320px;
+color: #333;
+cursor: pointer;
+}
+.bdxx .bdlb .shur input{
+width:100px;
+height:24px;
+padding:0px 3px;
+line-height:24px;
+border:1px solid #ddd;
+}
+.bdxx .xiayibu{ 
+height:px;
+line-height:26px;
+padding: 18px 20px 0px 84px;
+}
+.bdxx .xiayibu .xybu{ 
+width: 105px;
+height: 26px;
+display:block;
+color:#fff;
+font-size:14px;
+text-align:center;
+line-height: 26px;
+background: url(../images-sns/anbg.png) no-repeat 0 -353px;
+}
+.bdxx .xiayibu .xybu:hover{ 
+background-position: 0 -379px;
+}
+/*修改邮箱与修改手机1、2、3步公用样式  end*/                /*修改邮箱与修改手机1、2、3步公用样式   end*/
+
+/*修改邮箱   */                /*修改邮箱  */
+.mailbox{
+display:none;                                                /*控制修改邮箱的显隐----------------------------------*/
+width: 870px;
+overflow:hidden;
+zoom:1;
+}
+/*修改邮箱   end*/                /*修改邮箱  end*/
+
+/*绑定新邮箱   */                /*绑定新邮箱  */
+.mailbox-x{
+display:none;                                                /*控制绑定新邮箱的显隐----------------------------------*/
+width: 870px;
+overflow:hidden;
+zoom:1;
+}
+.mailbox-x .wzdwz ul .w1{ 
+background:url(../images-sns/w1h.png)no-repeat;
+}
+.mailbox-x .wzdwz ul .w2{ 
+background:url(../images-sns/w2h.png)no-repeat;
+}
+.mailbox-x .wzdwz ul .w3{ 
+background:url(../images-sns/w3.png)no-repeat;
+}
+.mailbox-x .bdxx .gyyx{
+height:57px;
+word-wrap: break-word;
+}
+.mailbox-x .bdxx .gyyx .wmgr {
+word-wrap: break-word;
+margin-top:5px;
+margin-left:12px;
+display:block;
+}
+.mailbox-x .bdxx .gyyx .yzmcw{
+display:none;
+}
+.mailbox-x .bdxx .bdlb .yxshur input {
+width:170px;
+height: 24px;
+padding: 0px 3px;
+line-height: 24px;
+border: 1px solid #ddd;
+}
+/*绑定新邮箱  end*/                /*绑定新邮箱  end*/
+/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*绑定新邮箱成功   */                /*绑定新邮箱成功  */
+.mailbox-cg{
+display:none;                                                /*控制绑定新邮箱的显隐----------------------------------*/
+width: 870px;
+overflow:hidden;
+}
+.mailbox-cg .wzdwz ul .w1{ 
+background:url(../images-sns/w1h.png)no-repeat;
+}
+.mailbox-cg .wzdwz ul .w2{ 
+background:url(../images-sns/w2h.png)no-repeat;
+}
+.mailbox-cg .wzdwz ul .w3{ 
+background:url(../images-sns/w3h.png)no-repeat;
+}
+.mailbox-cg .bdxx{
+font-size:20px;
+text-align:center;
+font-family:Microsoft YaHei;
+color:#333;
+width:325px;
+margin: 60px auto;
+padding-bottom:75px;
+background:url(../images-sns/common.png)no-repeat -77px -268px;
+}
+/*绑定新邮箱成功  end*/                /*绑定新邮箱成功  end*/
+/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*修改绑定手机  */                /*修改绑定手机  */
+.phone{
+display:none;                                                /*控制修改手机的显隐----------------------------------*/
+width: 870px;
+overflow:hidden;
+zoom:1;
+}
+/*修改绑定手机  end*/                /*修改绑定手机  end*/
+
+/*绑定新手机  */                /*绑定新手机  */
+.phone-x{
+display:none;                                                /*控制绑定新手机的显隐----------------------------------*/
+width: 870px;
+overflow:hidden;
+zoom:1;
+}
+.phone-x .wzdwz ul .w1{ 
+background:url(../images-sns/w1h.png) no-repeat;
+}
+.phone-x .wzdwz ul .w2{ 
+background:url(../images-sns/w2h.png) no-repeat;
+}
+.phone-x .wzdwz ul .w3{ 
+background:url(../images-sns/w3.png) no-repeat;
+}
+.phone-x .bdxx .gyyx{
+word-wrap: break-word;
+}
+.phone-x .bdxx .gyyx .wmgr {
+word-wrap: break-word;
+display:block;
+}
+.phone-x .bdlb .lwyzm{
+display:block;
+}
+.phone-x .bdxx .gyyx .yzmcw{
+display:none;
+}
+.phone-x .bdxx .bdlb .yxshur input {
+width:170px;
+height: 24px;
+padding: 0px 3px;
+line-height: 24px;
+border: 1px solid #ddd;
+}
+/*绑定新手机  end*/                /*绑定新手机  end*/
+
+/*绑定新手机成功   */                /*绑定新手机成功  */
+.phone-cg{
+display:none;                                                /*控制绑定新邮箱的显隐----------------------------------*/
+width: 870px;
+overflow:hidden;
+}
+.phone-cg .wzdwz ul .w1{ 
+background:url(../images-sns/w1h.png)no-repeat;
+}
+.phone-cg .wzdwz ul .w2{ 
+background:url(../images-sns/w2h.png)no-repeat;
+}
+.phone-cg .wzdwz ul .w3{ 
+background:url(../images-sns/w3h.png)no-repeat;
+}
+.phone-cg .bdxx{
+font-size:20px;
+text-align:center;
+font-family:Microsoft YaHei;
+color:#333;
+width:325px;
+margin: 60px auto;
+padding-bottom:75px;
+background:url(../images-sns/common.png)no-repeat -77px -268px;
+}
+/*绑定新手机成功   end*/                /*绑定新手机成功  end*/

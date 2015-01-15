@@ -1,0 +1,368 @@
+@charset "UTF-8";
+/* CSS Document */
+body, ol, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, form, fieldset, legend, input {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #f8f8f8;
+}
+ol, ul {
+	list-style: none;
+}
+* {
+	font-family: "tahoma,arial,'Hiragino Sans GB'";
+}
+/*banner  */                                  /*banner  */
+#banner {
+	width: 1050px;
+	height: 380px;
+	overflow: hidden;
+	position: relative;
+	z-index: 0;
+	margin: 10px auto;
+}
+#banner #ImageList ul {
+	list-style: none;
+}
+#banner #ImageList ul li {
+	position: absolute;
+	width: 100%;
+	height: 488px;
+	top: 0;
+	left: 0;
+}
+#banner #ImageList ul li a {
+	display: block;
+	width: 100%;
+	height: 488px;
+}
+#banner #ImageList ul .tp1 a {
+	background: url(../images/s1.jpg) no-repeat top center;
+}
+#banner #ImageList ul .tp2 a {
+	background: url(../images/s2.jpg) no-repeat top center;
+}
+#banner #ImageList ul .tp3 a {
+	background: url(../images/s3.jpg) no-repeat top center;
+}
+#banner #ImageList ul .tp4 a {
+	background: url(../images/s4.jpg) no-repeat top center;
+}
+#banner #ImageList ul .tp5 a {
+	background: url(../images/s5.jpg) no-repeat top center;
+}
+#banner #xydd {
+	position: absolute;
+	bottom: 36px;
+	left: 87%;
+	z-index: 10000;
+}
+#banner #xydd ul {
+	list-style: none;
+}
+#banner #xydd ul li {
+	cursor: pointer;
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: url(../images/icons.png) no-repeat -27px -59px;
+	margin-right: 6px;
+	color: white;
+	text-align: center;
+}
+#banner #xydd ul li.cur {
+	background-position: 0px -59px;
+}
+#banner #zhezhao {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 488px;
+	background-color: white;
+	z-index: 999;
+	opacity: 0;
+}
+#banner #zhezhao a {
+	display: block;
+	width: 100%;
+	height: 488px;
+}
+/*banner end*/    
+
+/*免费试用那一坨*/
+
+
+.syzx {
+	width: 1050px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	margin: 20px auto;
+}
+.syzx .sy_little {
+	width: 1030px;
+	line-height: 43px;
+	background-image: url(../images/sy_tittle.png);
+	color: #FFF;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	font-size: 24px;
+	-moz-box-shadow: 0 0 4px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0,.3);
+	position: relative;
+}
+.syzx .sy_little a {
+	font-size: 14px;
+	color: #FFF;
+	text-decoration: none;
+}
+.syzx .centent {
+	width: 1048px;
+	overflow: hidden;
+	border: 1px solid #eee;
+	background-color: #fff;
+}
+.syzx .centent .xuanyan {
+	float: left;
+	width: 200px;
+	height: 400px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #eee;
+}
+.syzx .centent .xuanyan .xy_little {
+	width: 160px;
+	margin: 20px;
+	line-height: 25px;
+	font-size: 18px;
+	font-weight: 400;
+}
+.syzx .centent .xuanyan .infor {
+	width: 160px;
+	margin: 0px 20px;
+}
+.syzx .centent .xuanyan li {
+	margin-top: 20px;
+}
+.syzx .centent .xuanyan .infor .name {
+	font-size: 14px;
+	color: #F00;
+}
+.syzx .centent .xuanyan .infor .say {
+	font-size: 14px;
+	color: #999;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 20px;
+}
+.syzx .centent .shangpin {
+	float: left;
+	width: 475px;
+	height: 400px;
+	padding-right: 60px;
+	padding-left: 60px;
+	position: relative;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #eee;
+	border-right-color: #eee;
+	border-bottom-color: #eee;
+	border-left-color: #eee;
+}
+.syzx .centent .shangpin .sp_pic {
+	width: 475px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	height: 350px;
+	border: 1px solid #eee;
+	position: relative;
+	background-image: url(../images/shop_pc.jpg);
+	background-repeat: no-repeat;
+}
+.syzx .centent .shangpin .sp_infor {
+	background-color: #FFF;
+	position: absolute;
+	left: 0px;
+	width: 475px;
+	bottom: 0px;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+.syzx .centent .shangpin .sp_pic:hover .sp_infor {
+	background-color: #FFF;
+	position: absolute;
+	left: 0px;
+	width: 475px;
+	bottom: 0px;
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+}
+.syzx .centent .shangpin .sp_infor td {
+	font-weight: 600;
+	color: #333;
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.syzx .centent .shangpin .sp_infor .num {
+	color: #F60;
+}
+.syzx .centent .shangpin .sp_infor .sq_button {
+	width: 150px;
+	height: 30px;
+	color: #fff;
+	text-align: center;
+	background-color: #3399FF;
+	margin-bottom: 5px;
+	border: none;
+	font-size: 18px;
+	line-height: 30px;
+	cursor: pointer;
+	margin-bottom: 10px;
+	/* Gecko browsers */
+	-moz-border-radius: 3px;
+	/* Webkit browsers */
+	-webkit-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	/* W3C syntax - likely to be standard so use for future proofing */
+	border-radius: 3px;
+}
+.syzx .centent .yugao {
+	float: left;
+	width: 250px;
+	height: 400px;
+	position: relative;
+}
+.syzx .centent .yugao li {
+	line-height: 30px;
+	padding-left: 30px;
+	font-weight: 500;
+	font-size: 16px;
+	color: #333;
+}
+.syzx .centent .yugao .yg_shop_pic {
+	width: 200px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+}
+.syzx .centent .yugao .yg_button {
+	width: 190px;
+	height: 35px;
+	background-color: #9ae0fa;
+	color: #fff;
+	line-height: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/* Gecko browsers */
+	-moz-border-radius: 3px;
+	/* Webkit browsers */
+	-webkit-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	/* W3C syntax - likely to be standard so use for future proofing */
+	border-radius: 3px;
+	font-size: 18px;
+	background-image: url(../images/sy_yugao_time.png);
+	background-repeat: no-repeat;
+	background-position: 20px;
+	border: none;
+	cursor: pointer;
+	margin-right: auto;
+	margin-left: auto;
+}
+.yg_yugao {
+	width: 120px;
+	height: 100px;
+	position: absolute;
+	background-image: url(../images/sy_yugao_bg.png);
+	background-repeat: no-repeat;
+	top: 0px;
+	left: -1px;
+}
+.yugao .yg_infor span {
+	color: #D82B39;
+}
+/*免费试用那一坨结束*/
+.sybg {
+	width: 1050px;
+	overflow: hidden;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-left: auto;
+}
+.sybg .sybg_infor {
+	overflow: hidden;
+	width: 780px;
+	float: left;
+}
+.sybg .sybg_infor a {
+	text-decoration: none;
+	color: #F90;
+}
+.sybg .sybg_infor dt {
+	font-size: 22px;
+	height: 20px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #eee;
+	padding-bottom: 15px;
+	color: #CCC;
+	margin-bottom: 15px;
+	margin-top: 8px;
+}
+.sybg .sybg_infor dd {
+	float: left;
+	width: 370px;
+	height: 170px;
+	margin-right: 20px;
+}
+.sybg .sybg_infor ul {
+	float: left;
+	margin-left: 12px;
+	overflow: hidden;
+	width: 178px;
+}
+.sybg .sybg_infor li {
+	overflow: hidden;
+	line-height: 22px;
+	font-size: 14px;
+}
+.sybg .sybg_infor .shop_pic_o {
+	float: left;
+	width: 160px;
+	height: 160px;
+	border: 1px solid #eee;
+}
+.sybg .sybg_infor .shop_pic_t {
+	float: left;
+	width: 70px;
+	height: 70px;
+	margin-right: 12px;
+	border: 1px solid #eee;
+	margin-top: 2px;
+}
+.sybg .sybg_shop {
+	width: 250px;
+	height: 220px;
+	border: 1px solid #eee;
+	float: right;
+}
+/*试用报告那一坨*/

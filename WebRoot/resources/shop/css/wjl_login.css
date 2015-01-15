@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background: #f2f2f2 !important;
+}
+div.container {
+	width: 1190px !important;
+	height: 400px;
+	margin: 0px auto;
+	margin-top: 0px;
+	background-image: url(../images/wjl_login_bg.jpg);
+	background-repeat: no-repeat;
+	background-color: #fff;
+}
+div.container .span12 {
+	width: 410px !important;
+}
+div.login .wrap {
+	margin-bottom: 10px;
+	border: none !important;
+}
+div.container .last {
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	float: right;
+	background: none !important;
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0) !important;
+	-moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0)!important;
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0)!important;
+}
+div.login .main {
+	border: none !important;
+}
+div.login table {
+	width: 100%;
+	margin-top: 30px;
+}
+div.login .submit {
+	width: 250px !important;
+	height: 28px !important;
+	line-height: 28px !important;
+	margin-bottom: 10px;
+	color: #ffffff;
+	cursor: pointer;
+	outline: none;
+	border: solid 1px #fc0303 !important;
+	background-color: #fc0303 !important;
+	border-radius: 2px;
+	font-size: 14px !important;
+}
+div.login .captcha {
+	width: 130px;
+	margin-left: 20px;
+	text-transform: uppercase;
+	ime-mode: disabled;
+}
+div.login .register {
+	background-color: #fff;
+}
+div.login .captchaImage {
+	width: 120px;
+	height: 50px;
+	margin-top: 10px;
+	vertical-align: middle;
+	cursor: pointer;
+	margin-left: 0px;
+}
+input.text {
+	width: 245px;
+	height: 26px;
+	line-height: 26px;
+	padding: 0px 4px;
+	color: #666666;
+	/* -webkit-border-radius: 0px !important; */
+	-moz-border-radius: 0px !important;
+	border-radius: 0px !important;
+	border: 1px solid #ababab;
+	border-color: #b8b8b8 #dcdcdc #dcdcdc #b8b8b8;
+	background: none !important;
+}
+div.login th {
+	width: 110px;
+	padding: 5px 0px;
+	font-weight: normal;
+	text-align: left;
+	font-size: 14px;
+}

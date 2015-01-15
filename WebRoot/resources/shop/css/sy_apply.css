@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/* CSS Document */
+input{ outline:none;}
+
+.jindu{ width:1190px; margin:0px auto; background-color: #DBDBDB; border:1px solid #a0a0a0; overflow: hidden;}
+.jindu ul{ width: 900px; margin:0px auto; overflow:hidden;}
+.jindu li{ padding: 0px 10px; line-height: 60px; height: 60px; float:left;}
+.jindu li img{ margin-bottom:-15px;}
+.tianxie{ background:url(../images/sy_tx_bg.jpg) repeat-x; width: 1130px; margin:0px auto; padding: 0px 30px; overflow: hidden; font-size: 14px; border: 1px solid #a0a0a0;}
+.tianxie .about{ line-height: 50px; height: 50px; border-bottom:1px dashed #a0a0a0; margin-bottom:15px; }
+.tianxie .about i{ color:#F90;font-style:normal; }
+
+.tianxie .queren{ width: 500px; float: left;}
+.tianxie .queren select {
+    background: #fff;
+ 
+    border-radius: 1px;
+    width: 71px;
+}
+.tianxie .queren i{ color:#F00; font-style:normal; }
+.tianxie .queren dt ,.liyou dt{ background-color:#dfdede;  border: 1px solid #a0a0a0; line-height: 35px; padding: 0px 30px; font-size: 14px;} 
+.tianxie .queren dd{ margin: 15px 50px;  overflow: hidden;}
+.tianxie .queren dd span{ width: 78px; text-align:right; margin-right:15px; display: block; float: left; color: #494949;} 
+.tianxie .queren dd .t1{ width:220px; height: 20px; border:1px solid #a0a0a0; float: left; }
+.tianxie .queren dd .t2{
+    width: 44px;
+ 
+    height: 18px;
+    border: 1px solid #a0a0a0;
+}
+.tianxie .queren dd .t3{
+    width: 99px;
+ 
+    height: 18px;
+    border: 1px solid #a0a0a0;
+}
+.tianxie .liyou{
+    width: 570px;
+ 
+    float: right;
+}
+.tianxie .liyou dd .t4{
+    width: 568px;
+    height: 120px;
+    border: 1px solid #a0a0a0;
+}
+.tianxie .liyou i{ color:#F60; font-style:normal;}
+.tianxie .liyou dt{ }
+.tianxie .liyou dd{
+    margin: 10px 0px;
+ }
+.tianxie .liyou dd .bg_tj_but{
+    width: 120px;
+    outline:none;
+	cursor:pointer;
+    height: 25px;
+    border: none;
+    float: right;
+    color: #fff;
+    background: red;
+}
+.le{
+    width: 420px;
+    float: left;
+    margin-top: 35px;
+}
+
+.declaration{
+    border: 1px solid #a0a0a0;
+    font-size: 14px;
+    background: #eee;
+	background-color:#dedede;
+}
+.declaration dt{
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    background: #dedede;
+    border-bottom: 1px solid #a0a0a0;
+    padding: 0px 20px;
+}
+.declaration dd{
+    line-height: 30px;
+    padding: 0px 20px;
+}
+.d_name{
+    margin-top: 10px;
+    color: #AFAFAF;
+}
+.declaration .d_infor{
+    color: #494949;
+ }
+.report{ border: 1px solid #a0a0a0;
+    font-size: 14px;
+	background-color:#dedede;
+ margin-top: 30px;}
+.report dt{
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    background: #dedede;
+    border-bottom: 1px solid #a0a0a0;
+    padding: 0px 20px; }
+.report dd A{ color:#F00; }
+.report .t1{ font-size:16px; }
+.report .r_pic { height:65px; overflow:hidden;}
+.report .r_pic img{ height:65px; width:auto; margin-right:5px; }
+
+
+.le dl{  background: url(../images/sy_tx_bg.jpg) repeat-x;}
+.le dl dd { border-bottom:1px dashed #a0a0a0; line-height: 30px;
+    padding: 10px 20px;}
+.le dl dd:first-child{ border-top:1px solid #a0a0a0; }
+.le dl dd:last-child{ border-bottom:none; }
+
+.about_goods{ float:right; width:755px; margin-top:35px; }
+.about_goods .tittle{
+	margin-bottom:10px;
+	height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    background: #dedede;
+    border: 1px solid #a0a0a0;
+    padding: 0px 20px;}
+.about_goods img{ width:755px;}
+#applyNow{
+width: 105px;
+text-align: right;
+height: 34px;
+line-height: 34px;
+float: left;
+padding-right: 34px;
+color: #ffffff;
+font-size: 14px;
+font-family: "Microsoft YaHei";
+cursor: pointer;
+border: none;
+background-color: #fff;
+background-image: url(../images/all_but_bg.png);
+background-repeat: no-repeat;
+}

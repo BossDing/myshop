@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+body{ background:#f2f2f2;}
+#guide_t{
+    font-size: 20PX;
+    color: #494949;
+    line-height: 50px;
+}
+#lef{
+    width: 1000px;
+    border: 1px solid #adadad;
+    float: left;
+    background: #fff;
+    padding: 0px 20px;
+}
+.guide_tittle{
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px dashed #999;
+    line-height: 50px;
+    margin-bottom: 15px;
+    color: #494949;
+}
+.text{
+    font-size: 14px;
+    line-height: 30px;
+    width: 800px;
+}
+.img{ width:570px;}
+.img img{ width:100%;}
+#guide_nav{
+    float: right;
+    width:118px;
+    border: 1px solid #c8c8c8;
+    background: #c9c7c8;
+    padding: 20px 10px 20px 15px;
+}
+#guide_nav a{color: #494949;}
+#guide_nav dl { border-left:0px dashed #999; padding-left:30px; overflow:hidden; background:url(../images/dl_bg_left.png) left repeat-y; }
+#guide_nav dt { font:bold 12px/30px Arial, "Microsoft YaHei"; }
+#guide_nav dd { font:12px/25px Arial, "Microsoft YaHei"; position:relative; }
+
+#guide_nav #this a { list-style:none; color:#fff; }
+
+
+/*您所在的位置*/
+div.bar_top { width:100%; height:30px; margin-top:15px; }
+div.bar_top span.tit_w { float:left; font:12px/30px Arial, "Microsoft YaHei"; }
+div.bar_top ul { float:left; }
+div.bar_top ul li { float:left; font:13px/30px Arial, "Microsoft YaHei"; }
+div.bar_top ul li a { padding:0 4px; color:#474747; }
+div.bar_top ul li a:hover { color:#ef0000; text-decoration:underline; }
+
+/* 右边指示点 */
+
+.dot_bg { background-image:url(../images/before_dot_bg.png); background-repeat:repeat-x; }
+.left_dot_white { width:8px; height:8px; background-position:0px 0px; }
+.left_dot_grey { width:8px; height:8px; background-position:-8px 0px; }
+.left_dot { width:8px; height:8px; background-position:-8px 0px; }
+
+.left_dot, .left_dot_grey, .left_dot_white { position:absolute; left:-25px; top:8px; }
+#guide_nav dd.selected .left_dot {  background-position:0px 0px; }
+
+/* banner */
+div.banner_img_below { margin-bottom:10px; border:solid 1px #ccc; overflow:hidden; }
+div.banner_img_below img { max-width:1188px;}
+
+
+
+
+
+
+
+

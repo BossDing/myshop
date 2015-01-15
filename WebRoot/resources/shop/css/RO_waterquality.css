@@ -1,0 +1,491 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.fn-clear:after {
+    clear: both;
+    display: block;
+    content: " ";
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+body {
+    font: 12px/1.5 'Tahoma','microsoft yahei','sans-serif';
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.water-quality {
+    background: #f7fbfe url(../images/js_query_wrap.png) repeat-x;
+    min-width: 1210px;
+}
+
+.js-query {
+    background: url(../images/js_query.jpg) no-repeat center top;
+}
+
+.js-container {
+    width: 1090px;
+    margin: 0 auto;
+    padding: 210px 0 30px;
+}
+
+.col-main {
+    width: 615px;
+    float: left;
+}
+
+.col-side {
+    width: 458px;
+    float: right;
+}
+
+.query-area {
+    background: url(../images/js_query_area.png) no-repeat;
+    height: 132px;
+    _height: 237px;
+    padding: 70px 35px 35px;
+    position: relative;
+}
+
+    .query-area .search-city select {
+        float: left;
+        width: 174px;
+        height: 23px;
+        margin-right: 10px;
+    }
+
+        .query-area .search-city select.last {
+            margin: 0;
+        }
+
+    .query-area .search-opt input {
+        border: 1px solid #dcdcdc;
+        background: #fff;
+        width: 520px;
+        height: 16px;
+        line-height: 16px;
+        padding: 8px 10px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .query-area .search-opt a {
+        position: absolute;
+        bottom: 29px;
+        left: 322px;
+        width: 120px;
+        height: 40px;
+        text-indent: -99em;
+        overflow: hidden;
+    }
+/*-------------------------qi*/
+.query-fade {
+    height: 360px;
+    margin-top: 20px;
+    position: relative;
+    display: block;
+}
+
+.query-tds {
+    margin-top: 20px;
+}
+
+    .query-tds img {
+        display: block;
+    }
+
+.query-show {
+    background: url(../images/js_query_show.png) no-repeat;
+    height: 916px;
+    padding: 0 25px;
+    position: relative;
+}
+/*-------------------------end*/
+/*recommend---------------------------------------*/
+.wntj {
+    width: 615px;
+    height: 286px;
+    background: url(../images/wntj.png) no-repeat;
+    margin-top: 20px;
+    position: relative;
+    display: none;
+}
+
+    .wntj .tjbt {
+        padding: 28px 23px 13px 23px;
+    }
+
+    .wntj .tjlb {
+        margin: 0px 13px 0px 13px;
+        width: 589px;
+        height: 175px;
+        overflow: hidden;
+    }
+	
+	.wntj ul {
+        width: 20000em;
+        height: 175px; 
+    	clear:both;
+    	position:relative;  
+    }
+	
+    .wntj ul li {
+        width: 274px;
+        height: 175px;
+        float: left;
+        margin: 0px 10px;
+        background: #fafafa;
+    }
+
+        .wntj ul li .tjxx {
+            width: 94px;
+            height: 147px;
+            float: left;
+            padding: 28px 0px 0px 18px;
+        }
+
+        .wntj ul li a {
+            width: 145px;
+            height: 145px;
+            display: block;
+            float: right;
+            padding: 17px 10px 0px 0px;
+        }
+
+            .wntj ul li a img {
+                width: 100%;
+            }
+
+        .wntj ul li .tjxx h3 {
+            color: #333;
+            font-size: 18px;
+            font-family: "microsoft yahei";
+            line-height: 20px;
+            height: 20px;
+            overflow: hidden;
+            margin-bottom: 5px;
+        }
+
+        .wntj ul li .tjxx .s-name {
+            width: 100%;
+            height: 20px;
+            overflow: hidden;
+            color: #666;
+            font-size: 13px;
+            font-family: "microsoft yahei";
+            line-height: 20px;
+        }
+
+            .wntj ul li .tjxx .s-name a {
+                width: 100%;
+                height: 20px;
+                display: inline-block;
+                overflow: hidden;
+                color: #666;
+                font-size: 13px;
+                font-family: "microsoft yahei";
+                line-height: 20px;
+                padding: 0px;
+                float: left;
+            }
+
+        .wntj ul li .tjxx .s-ext {
+            margin-top: 2px;
+            line-height: 18px;
+            width: 90px;
+            height: 18px;
+            overflow: hidden;
+        }
+
+            .wntj ul li .tjxx .s-ext b {
+                display: inline-block;
+                padding: 0 2px;
+                color: #fff;
+                font-size: 12px;
+                font-weight: 400;
+                background: #E4393C;
+            }
+
+    .wntj .anniu {
+        width: 615px;
+        height: 60px;
+        position: absolute;
+        left: 0px;
+        top: 123px;
+    }
+
+        .wntj .anniu span {
+            width: 35px;
+            height: 60px;
+            display: block;
+        }
+
+        .wntj .anniu .anniuz {
+            margin-left: 12px;
+        }
+
+        .wntj .anniu .anniuy {
+            margin-right: 12px;
+        }
+
+        .wntj .anniu span a {
+            width: 35px;
+            height: 60px;
+            display: block;
+            background-color: #333;
+            opacity: .2;
+            filter: alpha(opacity=20);
+            _font-size: 0;
+            background-image: url(../images/anniu.png);
+            background-position: 0px 0!important;
+            background-repeat: no-repeat;
+        }
+
+            .wntj .anniu span a:hover {
+                opacity: .5;
+                filter: alpha(opacity=50);
+            }
+
+        .wntj .anniu .anniuz a {
+            background-position: 11px 22px!important;
+        }
+
+        .wntj .anniu .anniuy a {
+            background-position: -28px 22px!important;
+        }
+/*recommend end---------------------------------*/
+
+.query-result {
+    border: 1px solid #dcdcdc;
+    background: #FFF;
+    padding: 15px;
+    height: 60px;
+    font-size: 14px;
+    color: #909090;
+    line-height: 30px;
+}
+
+    .query-result li {
+        line-height: 20px;
+    }
+
+    .query-result strong {
+        color: #e71117;
+    }
+
+.query-whats h3 {
+    background: url(../images/whats_ico.png) no-repeat left center;
+    padding-left: 35px;
+    line-height: 27px;
+    margin: 10px 0;
+}
+
+.query-whats p {
+    color: #909090;
+    font-size: 14px;
+}
+
+.query-flash {
+    height: 350px;
+}
+
+.query-value, .query-share {
+    margin-top: 15px;
+}
+
+    .query-value table, .query-value td {
+        border: 1px solid #dcdcdc;
+        background: #FFF;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .query-value td {
+        height: 38px;
+        color: #606060;
+    }
+
+        .query-value td.c1 {
+            color: #1c8acf;
+        }
+
+        .query-value td.c2 {
+            color: #22a650;
+        }
+
+        .query-value td.c3 {
+            color: #d6d733;
+        }
+
+        .query-value td.c4 {
+            color: #d77b27;
+        }
+
+        .query-value td.c5 {
+            color: #e71117;
+        }
+
+    .query-value p {
+        color: #2a77ad;
+        padding: 15px 0;
+        font-size: 14px;
+    }
+
+    .query-share .label {
+        color: #333;
+        line-height: 21px;
+        font-weight: 700;
+        padding-top: 3px;
+    }
+
+.query-custom {
+    margin-top: 15px;
+}
+
+.js-query-standard {
+    background: url(../images/js_query_standard.png) no-repeat center top;
+    height: 323px;
+}
+
+.slide {
+    position: relative;
+    width: 610px;
+    height: 360px;
+    overflow: hidden;
+}
+
+    .slide .wntj {
+        position: absolute;
+        width: 610px;
+        height: 360px;
+        overflow: hidden;
+        background: #fff;
+        display: none;
+    }
+
+.slide-element {
+    position: relative;
+    display: none;
+}
+
+    .slide-element li {
+        position: absolute;
+        display: none;
+    }
+
+        .slide-element li img {
+            display: block;
+        }
+
+.slide-marker {
+    position: absolute;
+    right: 70px;
+    bottom: 10px;
+}
+
+    .slide-marker li {
+        float: left;
+        margin: 0 2px;
+    }
+
+        .slide-marker li a {
+            display: block;
+            width: 10px;
+            height: 10px;
+            background: url(../images/dot.png) no-repeat;
+            text-indent: -99em;
+            overflow: hidden;
+        }
+
+        .slide-marker li.active-marker a {
+            background-image: url(../images/dot_on.png);
+        }
+
+.js-query-tip {
+    background: url(../images/tip_ico.png) no-repeat;
+    width: 270px;
+    height: 100px;
+    padding: 5px 10px;
+    display: none;
+}
+
+#div_district_options {
+    top: 137px !important;
+    left: 35px !important;
+    width: 410px !important;
+}
+
+#result, #error {
+    border: 0px solid #909090 !important;
+    padding: 0px !important;
+    margin: auto;
+    color: #909090 !important;
+}
+
+.tips {
+    bottom: auto !important;
+    top: 178px !important;
+    left: 55px;
+}
+
+/*点击分享*/
+.bdshare-button-style1-16 {
+    zoom: 1;
+}
+
+    .bdshare-button-style1-16:after {
+        content: ".";
+        visibility: hidden;
+        display: block;
+        height: 0;
+        clear: both;
+    }
+
+.fn-left {
+    float: left;
+    display: inline;
+}
+
+.bdshare-button-style1-16 a, .bdshare-button-style1-16 .bds_more {
+    float: left;
+    font-size: 12px;
+    padding-left: 17px;
+    line-height: 16px;
+    height: 16px;
+    background-image: url(../images/icons_1_16.png);
+    _background-image: url(../images/icons_1_16.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin: 6px 6px 6px 0;
+}
+
+.bdshare-button-style1-16 .jiathis_button_qzone {
+    background-position: 0 -52px;
+}
+
+.bdshare-button-style1-16 .jiathis_button_tsina {
+    background-position: 0 -104px;
+}
+
+.bdshare-button-style1-16 .jiathis_button_tqq {
+    background-position: 0 -260px;
+}
+
+.bdshare-button-style1-16 .jiathis_button_renren {
+    background-position: 0 -208px;
+}
+
+.bdshare-button-style1-16 .jiathis_button_weixin {
+    background-position: 0 -1612px;
+}
+/*点击分享 end*/

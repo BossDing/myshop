@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+body{ background:#f2f2f2;}
+
+/*头部跟踪导航*/
+.where-big{
+	width: 1190px;
+	overflow: hidden;
+	margin: 0 auto;
+	line-height: 50px;
+}
+#index_place span {
+margin: 0px 5px;
+}
+.where-big .kfdlb{
+	float: right;
+}
+.where-big .kfdlb li{
+	float: left;
+}
+.where-big .kfdlb li img{
+	padding-right: 5px;
+}
+
+
+.indiv_car{ padding:0px 35px; }
+.indiv_car #my_order{ line-height:50px; height:50px;font-size: 16px; }
+.indiv_car #car_nav{ line-height:40px; height:40px; border-bottom: 2px solid #a0a0a0;position:relative;   }
+.indiv_car #car_nav li{ float:left; width: 220px; text-align:center;  height: 40px;}
+.indiv_car #car_nav #this { border-bottom:2px solid #F00; width: 120PX;}
+.indiv_car #car_nav li i{ color:#F00; font-style:normal; margin:0px 5px;}
+.indiv_car #car_nav li a{ font-size:16px; /* border-right:1px solid #ccc; */ /* width: 210px; */ text-align:center; height:20px; display:block; line-height:20px; margin: 10px 0px;}
+.indiv_car #car_nav #del{ width:80px; height: 20px; padding-left:30px; position:absolute; right:0px; top: 10px; line-height: 20px; color:#a3a3a3;background: url(../images/trash_ico.png) 10px 2px no-repeat;}
+.indiv_car #car_soso{ height:25px; margin: 20px 0px; position: relative; width: 100%;}
+.indiv_car #car_soso span{ color:#fe0202;}
+.indiv_car #car_soso #tex{ line-height: 21px; height: 21px; margin: 2px; width: 220px; color:#ccc; border: none;outline:none;}
+.indiv_car #car_soso #but{ line-height:25px; height:25px; font-size: 12px; position: absolute; border: none; border-left: 1px solid #bfbfbf; top: 0px; background: #d2d2d2; right: 0px; color: #595858; width: 70px;}
+
+#order_infor{color:#5e5e5e;}
+#order_infor td{ text-align:center; padding:5px 0px;}
+#order_infor tr td:first-child{ text-align:left;}
+
+#order_infor tbody{ font-size:10px;}
+#order_infor tbody a{ color:#fe0202;}
+#order_infor tbody td{ padding:20px 0px; border-bottom:1px solid #a0a0a0;}
+#order_infor td  input{cursor:pointer;outline:none;}
+#order_infor td .choose{ border: 2px solid #a0a0a0;width: 13px;height: 13px;color: #999;margin: 0px 10px -1px 5px;}
+#order_infor td .but{ width:70px; border:1px solid #a0a0a0; text-align:center; font-size: 12px; background:#fff; margin-right:5px; color: #8b8a8a;} 
+#order_infor #titleone{background:#c9c8c8;}
+#order_infor #titletwo{ background:#dcdcdc; font-size:12px; line-height:32px; height:32px;}
+#order_infor #titletwo td{ text-align:left; padding:0px 0px;}
+#order_infor .goods{ width:170px; padding:0px 10px; }
+#order_infor .price{ width:90px;}
+#order_infor .quantity{width:100px;}
+#order_infor .operate{ width:100px; }
+#order_infor .pay{width:100px;}
+#order_infor .state{ width:100px;}
+
+
+.addres{    overflow:hidden; border:1px solid #adadad; padding:5px 10px;  }
+#order_infor .addres span{ margin:0px 5px; line-height:25px; height:25px; }
+#new_addres{ width:200px; height:20px; margin-left:15px; margin-top:20px; }
+#new_addres a{ color:#626261;}
+
+.goods_pic{ width:110px; height:110px; overflow:hidden; float:left; margin-left:10px;}
+.goods_pic img{ width:100%; height:auto; }
+.goods_name{ width:160px; margin-top:15px;  float:right; margin-right:10px; height:35px; overflow:hidden;}
+.goods_num{width:160px;  float:right;margin-right:10px}
+.goods_color{width:160px;  float:right;margin-right:10px}
+.total{ height:50px; line-height:50px;}
+/*页码*/
+
+.page_next{ float:right; width:120px; height:30px; background-color:#F00; color:#fff; font-size:14px; text-align:center; border:none; margin:10px 0 30px 0; }
+.stus{margin-left:110px;}

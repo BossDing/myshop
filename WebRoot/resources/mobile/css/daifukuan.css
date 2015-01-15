@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	border: none 0;
+	width: 50%;
+}
+
+.Big {
+	width: 100%;
+	overflow: hidden;
+	background-color: #f5f5f5;
+	margin: 0 auto;
+	overflow: hidden;
+	border-radius: 4px;
+}
+
+.shang {
+	width: 640px;
+	height: 40px;
+	background-color: #CCC;
+	text-align: center;
+	line-height: 40px;
+}
+
+/*收货信息开始*/
+.dingdan-big {
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.shouhuo {
+	width: 95%;
+	margin: 0 auto;
+	font-family: 微软雅黑;
+}
+
+.shouhuo-a {
+	font-size: 16px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	color: #7d7d7e;
+	width: 100%
+}
+
+.shouhuo-b {
+	border-radius: 5px;
+	background-color: #FFF;
+	border: 1px solid #ececec;
+	overflow: hidden;
+}
+
+.shouhuo-b li {
+	font-size: 12px;
+	padding-left: 10px;
+	color: #666;
+}
+
+.dfjsdh {
+	width: 50%;
+}
+
+.shouhuo-b-a {
+	margin-top: 20px;
+}
+
+.shouhuo-b-b {
+	
+}
+
+.shouhuo-b div,.shouhuo-b ul {
+	float: left;
+}
+
+.bottom {
+	width: 220px;
+	margin: 0 auto;
+	padding-top: 50px;
+	overflow: hidden;
+}
+
+.bottom li {
+	float: left;
+	font-family: 微软雅黑;
+}
+
+.bottom li a {
+	font-size: 16px;
+	color: #999;
+}
+
+.bottom-a {
+	padding: 0 30px;
+}
+
+.dfjsdh span {
+	font-size: 14px;
+	color: #EA0000;
+}
+
+.photo {
+	width: 47%;
+}
+
+.photo img {
+}
+
+.right {
+	width: 3%;
+}
+
+.right img {
+	margin-top: 40px;
+	height: 15px;
+}
+
+.meiyou {
+	width: 95%;
+	height: 340px;
+	margin: 0 auto;
+}
+
+.hoi {
+	padding-top: 30px;
+}
+
+.hoi,.fot {
+	font-size: 30px;
+	text-align: center;
+	font-family: 微软雅黑;
+}
+
+.fot a {
+	font-size: 30px;
+	color: #E60000;
+}
+/* CSS Document */

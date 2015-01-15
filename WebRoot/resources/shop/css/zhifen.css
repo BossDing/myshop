@@ -1,0 +1,346 @@
+body{ 
+	background:#f2f2f2;
+}
+.where-big{
+	width: 1190px;
+	overflow: hidden;
+	margin: 0 auto;
+	line-height: 50px;
+}
+.where-big .kfdlb{
+	float: right;
+}
+.where-big .kfdlb li{
+	float: left;
+}
+.where-big .kfdlb li img{
+	padding-top: 17px;
+	padding-right: 5px;
+}
+/*个人资料开始*/
+.ziliao-big{
+	width: 1190px;
+	overflow: hidden;
+	margin: 0px auto;
+}
+.ziliao-big .ziliao-left{
+	width: 165px;
+	background: #ccc;
+	float: left;
+}
+.ziliao-big .ziliao-right{
+	width: 1013px;
+	overflow: hidden;
+	float: right;
+	background: #fff;
+	border: 1px solid #a0a0a0;
+}
+.ziliao-big .ziliao-right .ziliao-right-1{
+	width: 953px;
+	margin: 0px auto;
+}
+.ziliao-right .ziliao-right-1 .right-11{
+	width: 953px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #5e5e5e;
+	border-bottom: 1px dashed #a0a0a0;
+	margin-top: 10px;
+}
+.ziliao-right .ziliao-right-1 .right-12{
+	width: 953px;
+	height: 32px;
+	line-height: 32px;
+	background: #dcdcdc;
+	font-weight: bold;
+	margin-top:20px;
+	border: 1px solid #AFAFAF
+}
+.ziliao-right .ziliao-right-1 .right-12 span{
+	padding-left: 30px;
+	padding-right: 20px;
+	color: #6d6c6c;
+}
+.ziliao-right .ziliao-right-1 .right-12 span a{
+	color: #fe0606;
+	font-size: 14px;
+	padding-left: 6px;
+}
+
+.zhifen{
+	width: 953px;
+	overflow: hidden;
+	font-weight: bold;
+	color: #6d6c6c;
+	margin-top: 20px;
+}
+.zhifen .td-a{
+	width: 180px;
+}
+.zhifen .td-b{
+	width: 413px;
+}
+.dks{
+	border-bottom: 1px solid #999;
+	line-height: 40px;
+}
+.djso{
+	width: 115px;
+	float: right;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-right: -545px;
+}
+.djso a{
+	color: #fe0606;
+}
+.djso a:hover{
+	color: #cb0202;
+	text-decoration: underline;
+}
+/*页码*/
+.yema{
+	width: 234px;
+	margin: 15px auto 0 auto;
+	height: 21px;
+	line-height: 21px;
+	background: #fff;
+}
+.yema li{
+	float: left;
+}
+.yema li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #343434;
+}
+.yema li a:hover{
+	background: #7a7a7a;
+	color: #fff;
+}
+.yema .yema-1{
+	width: 30px;
+	text-align: center;
+}
+.yema .yema-2{
+	width: 70px;
+	height: 19px;
+	border: 1px solid #c4c4c4;
+	text-align: center;
+}
+.yema .yema-2 a{
+	color: #c4c4c4;
+}
+.yema .yema-3{
+	width: 70px;
+	height: 19px;
+	border: 1px solid #999;
+	text-align: center;
+}
+
+/* 产品列表分页 */
+.yema .fenye{
+height: 29px;
+margin: 30px 0 30px 0;
+padding-right: 10px;
+}
+
+
+.yema .fenye b{
+position: absolute;
+width: 0;
+height: 0;
+line-height: 0;
+margin-top: -2px;
+font-size: 0;
+border-width: 5px;
+border-style: solid;
+border-color: #fff #333 #fff #fff;
+}
+
+/*处于第一页时 第一页处箭头样式*/
+.yema .fenye .syys{
+color: #b1b1b1;
+}
+.yema .fenye .syys b{
+left: 1px;
+top: 13px;
+border-color: #fff #b1b1b1 #fff #fff;
+}
+/*处于第一页时 第一页处箭头样式 end*/
+.yema .fenye .syys{
+	font-size:14px;
+position:relative;
+display: inline;
+float: left;
+width: 73px;
+height: 30px;
+line-height: 30px;
+line-height: 34px\9;
+_line-height: 30px;
+margin: 0;
+overflow: hidden;
+text-align: center;
+background: #fff;
+border: 1px solid #d7d7d7;
+}
+.yema .fenye .syysd{
+	font-size:14px;
+position:relative;
+display: inline;
+float: left;
+width: 53px;
+height: 30px;
+line-height: 30px;
+line-height: 34px\9;
+_line-height: 30px;
+margin: 0;
+overflow: hidden;
+text-align: center;
+background: #fff;
+border: 1px solid #d7d7d7;
+}
+/*非处于第一页时 第一页处箭头样式*/
+.yema .fenye .syysd{
+color: #666;
+}
+.yema .fenye .syysd:hover{
+text-decoration: underline;
+}
+.yema .fenye .syysd b{
+	left: 1px;
+top: 13px;
+border-color: #fff #333 #fff #fff;
+}
+/*非处于第一页时 第一页处箭头样式 end*/
+
+/*-------------------------------------------------------------------------------------------*/
+
+/*非处于最后一页时 箭头样式*/
+.yema .fenye .xyys{
+color: #666;
+}
+.yema .fenye .xyys b{
+right: 1px;
+top: 13px;
+border-color: #fff #fff #fff #333;
+}
+.yema .fenye .xyys{
+position:relative;
+font-size:14px;
+width: 73px;
+height: 30px;
+line-height: 30px;
+line-height: 34px\9;
+_line-height: 30px;
+padding: 0;
+overflow: hidden;
+}
+/*非处于最后一页时 箭头样式  end*/
+
+.yema .fenye .xyysd{
+position:relative;
+width: 53px;
+height: 30px;
+line-height: 30px;
+padding: 0 11px;
+font-size: 14px;
+font-weight: bold;
+text-align: center;
+background: #fff;
+border: 1px solid #d7d7d7;
+display: inline;
+float: left;
+margin-left: 4px;
+color: #666;
+}
+/*处于最后一页时 箭头样式*/
+.yema .fenye .xyysd{
+color: #b1b1b1;
+}
+.yema .fenye .xyysd b{
+	right: 1px;
+top: 13px;
+border-color: #fff #fff #fff #b1b1b1;
+}
+/*处于最后一页时 箭头样式  end*/
+.yema .fenye a{
+height: 30px;
+line-height: 30px;
+padding: 0 11px;
+font-size: 14px;
+font-weight: bold;
+text-align: center;
+background: #fff;
+border: 1px solid #d7d7d7;
+display: inline;
+float: left;
+margin-left: 4px;
+color: #666;
+}
+.yema .fenye a:hover{
+text-decoration: underline;
+color: #F70;
+}
+.yema .fenye .dyy{
+border: 1px solid #d7d7d7!important;
+color: #F70;
+}
+.yema .fenye .shenglue{
+margin: 0 10px;
+position: relative;
+display: inline;
+float: left;
+color: #666;
+zoom: 1;
+}
+/*跳转 跳转*/
+.yema .fenye .tiaozhuan{
+height: 33px;
+line-height: 30px;
+line-height: 34px\9;
+_line-height: 30px;
+margin-top: -1px;
+padding-left: 30px;
+overflow: hidden;
+color: #333;
+font-size: 14px;
+zoom:1;
+position: relative;
+display: inline;
+float: left;
+margin-left: 4px;
+}
+.yema .fenye .tiaozhuan input{
+_top: -1px;
+width: 32px;
+height: 26px;
+line-height: 26px;
+margin: 0 3px;
+overflow: hidden;
+text-align: center;
+border: 1px solid #d7d7d7;
+font-size: 100%;
+outline: 0;
+}
+.yema .fenye .tiaozhuan .tzts{
+position: relative;
+top: 1px;
+top: 0\9;
+_top: 0;
+cursor: pointer;
+width: 45px;
+height: 30px;
+line-height: 28px;
+line-height: 32px\9;
+_line-height: 24px;
+overflow: hidden;
+background: url(../images/iconss.png) repeat-x 0 -157px;
+}
+.yema .fenye .tiaozhuan .tzts:hover {
+color: #f70;
+text-decoration: underline;
+}

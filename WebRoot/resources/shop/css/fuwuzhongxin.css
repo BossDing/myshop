@@ -1,0 +1,801 @@
+body{ 
+	background:#f2f2f2;
+}
+.where-big{
+	width: 1190px;
+	overflow: hidden;
+	margin: 0 auto;
+	line-height: 50px;
+}
+.where-big .kfdlb{
+	float: right;
+}
+.where-big .kfdlb li{
+	float: left;
+}
+.where-big .kfdlb li img{
+	padding-right: 5px;
+}
+
+/*鏈嶅姟涓績寮?*/
+.fuwuzhongxin{
+	width: 1190px;
+	overflow: hidden;
+	margin:0 auto;
+	position:relative;
+}
+.fuwu-a{
+	width: 1190px;
+	height: 20px;
+	font-size: 14px;
+	color: #434343;
+}
+.fuwu-b{
+	width: 1092px;
+	overflow: hidden;
+	margin-top: 20px;
+	height:200px;
+	margin:0 45px;
+	z-index:2;
+	text-align:center;
+}
+.fuwu-b .fuwu-b1 .fuwu-b11 img {
+  width: 150px;
+  heigth: 150px;
+}
+.fuwu-b .fuwu-b1{
+	margin: 0 auto;
+}
+.fuwu-b .fuwu-b1 .fuwu-b11{
+	width: 150px;
+	margin: 10px 3px;
+	height: 180px;
+	overflow: hidden;
+	float: left;
+}
+.fuwu-b11a{
+	width: 150px;
+	height: 150px;
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+	*display: block;
+    *font-size:131px;/*杩欎釜鍊奸珮搴︾殑0.873*/
+    *font-family:Arial;
+
+}
+.fuwu-b11a img{
+	vertical-align: middle;
+	width:100%;
+}
+.fuwu-b11b{
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+}
+.pos{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 1190px;
+	overflow: hidden;
+}
+.pos .pos-left{
+	float: left;
+	width: 40px;
+	height: 180px;
+	background: url(../images/ikons_1.png) no-repeat;
+}
+.pos .pos-right{
+	width: 40px;
+	height: 180px;
+	background: url(../images/ikons_2.png) no-repeat;
+	float: right;
+}
+.pos .pos-left:hover{
+	background: url(../images/ikons_1hover.png) no-repeat;
+}
+.pos .pos-right:hover{
+	background: url(../images/ikons_2hover.png) no-repeat;
+}
+.new-big{
+	width: 800px;
+	height: 85px;
+	background: #fff;
+	margin: 20px auto 40px auto;
+	position:relative;
+}
+.new{ 
+	width: 345px; 
+	top: 26px;
+  	margin: 0 auto; 
+  	position:relative;
+  	display:block;
+ }
+div#searchResult {
+display: block;
+position: absolute;
+bottom: 3px;
+width: 354px;
+left: 227px;
+color: #adadad;
+}
+ 
+.soso_text2{ 
+	color:#878787; 
+	width: 330px; 
+	height: 30px; 
+	line-height: 25px; 
+	border: 1px solid #ccc; 
+	font-size:14px; 
+	padding:2px 3px;
+}
+.new1{
+	line-height: 60px;
+	position:absolute; 
+	left:-130px; 
+	top:-12px; 
+	color: #878787;
+}
+.soso_but{ 
+	background:url(../images/fuwusoso.png) no-repeat; 
+	width:34px; 
+	height:30px; 
+	position:absolute; 
+	right:0px; 
+	top:9px; 
+	border:none; 
+}
+.anniu1{
+	width: 104px;
+	height: 37px;
+	position: absolute;
+	top: 0px;
+	right: -120px;
+	background: url(../images/fuwusoso-2.png) no-repeat;
+	border: none;
+	font-size: 14px;
+	color: #fff;
+}
+.anniu1:hover{
+	background: url(../images/fuwusoso-2hover.png) no-repeat;
+}
+.fenlei{
+	width: 940px;
+	margin: 0 auto;
+}
+.fenlei .fenlei-1{
+	width: 200px;
+	overflow: hidden;
+	float: left;
+	border-right: 1px dashed #999;
+	padding: 10px 16px;
+}
+.fenlei-11{
+	width: 123px;
+	margin: 0 auto;
+}
+.fenlei-12 {
+	text-align: center;
+	font-size: 16px;
+	color: #888787;
+	padding: 20px 0 10px 0;
+}
+.fenlei-13{
+	color: #525151;
+}.fenlei-13 a{
+	color: #e60020;
+}
+.none{
+	border: none;
+}
+/*鍦ㄧ嚎鏈嶅姟鐣欒█*/
+.liuyan{
+	width: 1190px;
+	margin:0px auto;
+	overflow: hidden;
+}
+.liuyan-a{
+	width: 1190px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 20px;
+	font-size: 14px;
+	color: #434343;
+	font-weight: bold;
+}
+.liuyan-b{
+	width: 500px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.liuyan-b li{
+	width: 155px;
+	height: 39px;
+	line-height: 39px;
+	font-size: 14px;
+	text-align: center;
+	background: url(../images/liu-1.png) repeat-x;
+	float: left;
+	margin-right: 10px;
+}
+.liuyan-b li {
+	color: #525151;
+}
+.liuyan-b .liuyan-b-1{
+	color: #fff;
+	background: url(../images/liu-1hover.png) repeat-x;
+}
+
+.liuyan-b li:hover{
+	background: url(../images/liu-1hover.png) repeat-x;
+	color:#fff;
+}
+.liuyan-b li a:hover{
+	color: #fff;
+}
+
+/*鏈嶅姟鍐呭*/
+.xiangqing{
+	width: 1190px;
+	overflow: hidden;
+	background: #fff;
+}
+/*瀹夎棰勭害寮?*/
+.xiangqing-a{
+width: 1190px;
+overflow: hidden;
+}
+/**地区选择*/
+span.fieldSet select {
+width: 75px!important;
+}
+.xiangqing-a .xiangqing-a-left{
+	width: 380px;
+	overflow: hidden;
+	float: left;
+	margin-top: 30px;
+	padding: 0 80px 20px 100px;
+	border-right: 1px dashed #a0a0a0;
+}
+.xiangqing-a-left .xiangqing-td1{
+	width: 280px;
+	height: 20px;
+	border: 1px solid #a0a0a0;
+	color: #a6a6a7;
+}
+.xiangqing-a-left td{
+	padding-top: 20px;
+	color: #646464;
+}
+.xiangqing-a-left span{
+	color: #fa0202;
+}
+.xiangqing-a-left .topi{
+	vertical-align: top;
+}
+.xiangqing-a-left .left-ty{
+	font-size: 14px;
+	color: #525151;
+	font-weight: bold;
+}
+.xiangqing-a-left .left-fd{
+	padding-left: 20px;
+}
+#showSn{width:280px; }
+.xiangqing-a-left .textarea1{
+	width: 280px;
+	height: 140px;
+	border: 1px solid #a0a0a0;
+}
+
+.xiangqing-a .xiangqing-a-right{
+	width: 380px;
+	overflow: hidden;
+	float: left;
+	margin-top: 30px;
+	padding: 0 0px 20px 80px;
+}
+.xiangqing-a-right .xiangqing-td1{
+	width: 250px;
+	height: 20px;
+	border: 1px solid #a0a0a0;
+	color: #a6a6a7;
+}
+.xiangqing-a-right .xiangqing-td2{
+	width: 80px;
+	height: 20px;
+	border: 1px solid #a0a0a0;
+	color: #a6a6a7;
+}
+.xiangqing-a-right .xiangqing-td3{
+	width: 50px;
+	height: 20px;
+	border: 1px solid #a0a0a0;
+	color: #a6a6a7;
+	text-align: center;
+}
+.xiangqing-a-right .xiangqing-td4{
+	width: 100px;
+	height: 20px;
+	border: 1px solid #a0a0a0;
+	color: #a6a6a7;
+	text-align: center;
+}
+.xiangqing-a-right .xiangqing-td5{
+	width: 64px;
+	height: 20px;
+	border: 1px solid #a0a0a0;
+	color: #a6a6a7;
+	text-align: center;
+}
+.xiangqing-a-right td{
+	padding-top: 20px;
+	color: #646464;
+}
+.xiangqing-a-right span{
+	color: #fa0202;
+}
+.xiangqing-a-right .left-fd{
+	padding-left: 20px;
+}
+.xiangqing-a-right .anniu2{
+	width: 104px;
+	height: 37px;
+	background: url(../images/fuwusoso-2.png) no-repeat;
+	border: none;
+	font-size: 14px;
+	color: #fff;
+}
+.xiangqing-a-right .anniu2:hover{
+	background: url(../images/fuwusoso-2hover.png) no-repeat;
+}
+/*缁翠慨棰勭害寮?*/
+.xiangqing-b{
+width: 1190px;
+overflow: hidden;
+}
+.xiangqing-b .xiangqing-b-left{
+	width: 380px;
+	overflow: hidden;
+	float: left;
+	height: 330px;
+	margin-top: 30px;
+	padding: 0 80px 20px 100px;
+	border-right: 1px dashed #a0a0a0;
+}
+.xiangqing-b-left .xiangqing-td1{
+	width: 280px;
+	height: 20px;
+	border: 1px solid #a0a0a0;
+	color: #a6a6a7;
+}
+.xiangqing-b-left td{
+	padding-top: 16px;
+	color: #646464;
+}
+.xiangqing-b-left span{
+	color: #fa0202;
+}
+.xiangqing-b-left .topi{
+	vertical-align: top;
+}
+.xiangqing-b-left .left-ty{
+	font-size: 14px;
+	color: #525151;
+	font-weight: bold;
+}
+.xiangqing-b-left .left-fd{
+	padding-left: 20px;
+}
+
+.xiangqing-b-left .textarea1{
+	width: 280px;
+	height: 87px;
+	overflow:auto;
+	border: 1px solid #a0a0a0;
+}
+
+.xiangqing-b .xiangqing-b-right{
+	width: 380px;
+	overflow: hidden;
+	float: left;
+	margin-top: 60px;
+	padding: 0 0px 20px 80px;
+}
+.xiangqing-b-right .xiangqing-td1{
+	width: 250px;
+	height: 20px;
+	border: 1px solid #a0a0a0;
+	color: #a6a6a7;
+}
+.xiangqing-b-right .xiangqing-td2{
+	width: 80px;
+	height: 20px;
+	border: 1px solid #a0a0a0;
+	color: #a6a6a7;
+}
+.xiangqing-b-right .xiangqing-td3{
+	width: 50px;
+	height: 20px;
+	border: 1px solid #a0a0a0;
+	color: #a6a6a7;
+	text-align: center;
+}
+.xiangqing-b-right .xiangqing-td4{
+	width: 100px;
+	height: 20px;
+	border: 1px solid #a0a0a0;
+	color: #a6a6a7;
+	text-align: center;
+}
+.xiangqing-b-right .xiangqing-td5{
+	width: 64px;
+	height: 20px;
+	border: 1px solid #a0a0a0;
+	color: #a6a6a7;
+	text-align: center;
+}
+.xiangqing-b-right td{
+	padding-top: 16px;
+	color: #646464;
+}
+.xiangqing-b-right span{
+	color: #fa0202;
+}
+.xiangqing-b-right .left-fd{
+	padding-left: 20px;
+}
+.xiangqing-b-right .anniu2{
+	width: 104px;
+	height: 37px;
+	background: url(../images/fuwusoso-2.png) no-repeat;
+	border: none;
+	font-size: 14px;
+	color: #fff;
+}
+.xiangqing-b-right .anniu2:hover{
+	background: url(../images/fuwusoso-2hover.png) no-repeat;
+}
+/*寤朵繚鏈嶅姟寮?*/
+.xiangqing-c{
+width: 1190px;
+overflow: hidden;
+padding-top: 30px;
+}
+.yanbao-1{
+	font-size: 14px;
+	color: #525151;
+	font-weight: bold;
+	margin-top: 20px;
+	padding-left: 100px;
+}
+.yanbao-2{
+	margin-top: 20px;
+	padding-left: 100px;
+	height: 22px;
+}
+.yanbao-21{
+	float: left;
+	padding-right: 60px;
+}
+.yanbao-21 div{
+	float: left;
+}
+.yanbao-22{
+	float: left;
+	color: #646464;
+	padding-right: 20px;
+}
+.yanbao-22 span{
+	color: #fa0202;
+}
+.yanbao-td1{
+	width: 200px;
+	height: 20px;
+	color: #646464;
+}
+.yanbao-3{
+	width: 780px;
+	margin: 40px auto 0 auto;
+	height: 120px;
+}
+.yanbao-31{
+	width: 240px;
+	height: 119px;
+	float: left;
+	margin-right: 20px;
+}
+.yanbao-31 div{
+	float: left;
+}
+.yanbao-311{
+	padding-left: 10px;
+	padding-top: 60px;
+	color: #505050;
+	line-height: 26px;
+}
+.yanbao-311 span{
+	font-size: 16px;
+	color: #e60020;
+}
+.tijao{
+	width: 1080px;
+	overflow: hidden;
+	margin-top: 30px;
+	padding-bottom: 20px;
+}
+.tijao .anniu2{
+	width: 104px;
+	height: 37px;
+	background: url(../images/fuwusoso-2.png) no-repeat;
+	border: none;
+	font-size: 14px;
+	color: #fff;
+	float: right;
+}
+.tijao .anniu2:hover{
+	background: url(../images/fuwusoso-2hover.png) no-repeat;
+}
+
+/*鍦ㄧ嚎鐣欒█寮?*/
+.xiangqing-d{
+width: 1190px;
+overflow: hidden;
+}
+.xiangqing-d .xiangqing-d-left{
+	width: 380px;
+	overflow: hidden;
+	float: left;
+	height: 310px;
+	margin-top: 30px;
+	padding: 0 80px 20px 100px;
+	border-right: 1px dashed #a0a0a0;
+}
+.xiangqing-d-left .xiangqing-td1{
+	width: 280px;
+	height: 20px;
+	border: 1px solid #a0a0a0;
+	color: #a6a6a7;
+}
+.xiangqing-d-left td{
+	padding-top: 20px;
+	color: #646464;
+}
+.xiangqing-d-left span{
+	color: #fa0202;
+}
+.xiangqing-d-right .topi{
+	vertical-align: top;
+}
+.xiangqing-d-left .left-ty{
+	font-size: 14px;
+	color: #525151;
+	font-weight: bold;
+}
+.xiangqing-d-left .left-fd{
+	padding-left: 20px;
+}
+
+.xiangqing-d-right .textarea1{
+	width: 330px;
+	height: 180px;
+	border: 1px solid #a0a0a0;
+}
+
+.xiangqing-d .xiangqing-d-right{
+	width: 410px;
+	overflow: hidden;
+	float: left;
+	margin-top: 60px;
+	padding: 0 0px 20px 80px;
+}
+.xiangqing-d-left .xiangqing-td0{
+	width: 100px;
+	height: 20px;
+	border: 1px solid #a0a0a0;
+	color: #a6a6a7;
+
+}
+.xiangqing-d-right .xiangqing-td2{
+	width: 80px;
+	height: 20px;
+	border: 1px solid #a0a0a0;
+	color: #a6a6a7;
+}
+.xiangqing-d-right .xiangqing-td3{
+	width: 50px;
+	height: 20px;
+	border: 1px solid #a0a0a0;
+	color: #a6a6a7;
+	text-align: center;
+}
+.xiangqing-d-right .xiangqing-td4{
+	width: 110px;
+	height: 20px;
+	border: 1px solid #a0a0a0;
+	color: #a6a6a7;
+	text-align: center;
+}
+.xiangqing-d-right .xiangqing-td5{
+	width: 93px;
+	height: 20px;
+	border: 1px solid #a0a0a0;
+	color: #a6a6a7;
+	text-align: center;
+}
+.xiangqing-d-right td{
+	padding-top: 20px;
+	color: #646464;
+}
+.xiangqing-d-right span{
+	color: #fa0202;
+}
+.xiangqing-d-right .left-fd{
+	padding-left: 20px;
+}
+.xiangqing-d-right .anniu2{
+	width: 104px;
+	height: 37px;
+	background: url(../images/fuwusoso-2.png) no-repeat;
+	border: none;
+	font-size: 14px;
+	color: #fff;
+	float: right;
+}
+.xiangqing-d-right .anniu2:hover{
+	background: url(../images/fuwusoso-2hover.png) no-repeat;
+}
+
+/*鏈嶅姟璇︽儏寮?*/
+.fu-big{
+	width: 1190px;
+	margin: 40px auto 0 auto;
+	height: 420px;
+}
+.fu-a{
+	width: 380px;
+	overflow: hidden;
+	margin-right: 20px;
+	float: left;
+}
+.fu-a .fu-a1{
+	font-size: 14px;
+	font-weight: bold;
+	color: #434343;
+	width: 1190px;
+	height: 40px;
+}
+.fu-a .fu-a2{
+	width: 380px;
+	height: 380px;
+	background: #fff;
+}
+.fu-a .fu-a2 ul{
+	width: 320px;
+	margin:0 auto;
+}
+.fu-a .fu-a2 ul li{
+	color: #525151;
+	overflow: hidden;
+	padding-top: 20px;
+}
+.fu-a .fu-a2 ul li .div-1{
+	float: left;
+}
+.fu-a .fu-a2 ul li .div-2{
+	float: left;
+	padding-top: 15px;
+	color: #525151;
+	line-height: 24px;
+	padding-left: 20px;
+}
+.fu-a .fu-a2 ul li .div-2 span{
+	font-size: 14px;
+	font-weight: bold;
+	color: #525151;
+}
+.fu-a .fu-a2 ul li .div-3{
+	float: left;
+	padding-top: 23px;
+}
+.fu-a .fu-a2 ul li .div-4{
+	float: left;
+	color: #727272;
+	padding-left: 20px;
+	width: 253px;
+	font-size: 8px;
+}
+.fu-a .fu-a2 ul li .div-4 .span-a{
+	font-size: 14px;
+	font-weight: bold;
+	color: #525151;
+}
+.fu-a .fu-a2 ul li .div-4 .span-b{
+	font-size: 35px;
+	font-weight: bold;
+	color: #e60020;
+}
+.fu-fd .fu-td1{
+	width: 200px;
+	height: 20px;
+	color: #959494;
+}
+.fu-a .fu-a3{
+	width: 380px;
+	height: 380px;
+	background: #fff;
+	background: url(../images/fi.png) no-repeat;
+}
+.fu-a .fu-a3 table{
+	width: 320px;
+	margin: 0 auto;
+}
+.fu-a .fu-a3 td{
+	padding-top: 20px;
+	color: #525151;
+	font-weight: bold;
+}
+.fu-fd .anniu2{
+	width: 104px;
+	height: 37px;
+	background: url(../images/fuwusoso-2.png) no-repeat;
+	border: none;
+	font-size: 14px;
+	color: #fff;
+}
+.fu-fd .anniu2:hover{
+	background: url(../images/fuwusoso-2hover.png) no-repeat;
+}
+.lopk{
+	width: 320px;
+	margin: 0 auto;
+}
+.lopk-1{
+	font-size: 14px;
+	color: #525151;
+	font-weight: bold;
+	padding-bottom: 10px;
+	padding-top: 15px;
+}
+.lopk-2{
+	width: 318px;
+	height: 140px;
+	border: 1px solid #ccc;
+	background: #fff;
+}
+.fu-b{
+	width: 380px;
+	overflow: hidden;
+	margin-right: 10px;
+	float: left;
+}
+.fu-b .fu-b1{
+	font-size: 14px;
+	font-weight: bold;
+	color: #434343;
+	width: 1190px;
+	height: 40px;
+}
+.fu-b .fu-b2{
+	width: 380px;
+	height: 380px;
+	background: #fff;
+}
+.fu-b .fu-b2 ul{
+	width: 320px;
+	margin:0 auto;
+}
+.fu-b .fu-b2 ul li{
+	color: #484848;
+	overflow: hidden;
+	padding-top: 20px;
+	font-size: 14px;
+}
+.fu-b .fu-b2 ul li a{
+	color: #e60020;
+	float: right;
+}
+.fu-b .fu-b2 ul li a:hover{
+	text-decoration: underline;
+}

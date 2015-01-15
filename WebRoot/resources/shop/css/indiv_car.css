@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+body{ background:#f2f2f2;}
+
+/*个人中心导航*/
+.indiv_nav{ width:165px; overflow:hidden; float:left; margin-right:10px;}
+.indiv_nav a{ color:#5e5e5e; display:block; width:100%;}
+.indiv_nav a:hover{ color:#f93636;}
+.indiv_nav dl{ padding-bottom:10px;background:#e1e0e0;} 
+.indiv_nav dt{ padding-left:50px; width:115px; background-color:#c9c8c8; height:35px; line-height:35px; color:#5e5e5e; font-weight:bold;}
+.indiv_nav dd{padding-left:50px; width:115px; background:#e1e0e0; border-bottom:1px dashed #999;height:30px; line-height:30px; color:#5e5e5e;}
+.indiv_nav dl dd:last-child{border:none;}
+
+
+/*个人中心内容框*/
+.indiv_content{ width:1015px; overflow:hidden; font-size:14px; background:#fff;}
+
+
+.indiv_car{ padding:0px 35px; }
+.indiv_car #my_order{ line-height:50px; height:50px;font-size: 16px; }
+.indiv_car #car_nav{ line-height:40px; height:40px; border-bottom: 2px solid #a0a0a0;position:relative;   }
+.indiv_car #car_nav li{ float:left; width:110px; text-align:center;  height: 40px;}
+.indiv_car #car_nav #this { border-bottom:2px solid #F00;}
+.indiv_car #car_nav li i{ color:#F00; font-style:normal; margin:0px 5px;}
+.indiv_car #car_nav li a{ font-size:16px; border-right:1px solid #ccc; width:110px; text-align:center; height:20px; display:block; line-height:20px; margin: 10px 0px;}
+.indiv_car #car_nav #del{ width:80px; height: 20px; padding-left:30px; position:absolute; right:0px; top: 10px; line-height: 20px; color:#a3a3a3;}
+.indiv_car #car_soso{ height:25px; border: 1px solid #bfbfbf; margin: 20px 0px; position: relative; width: 290px;}
+.indiv_car #car_soso #tex{ line-height: 21px; height: 21px; margin: 2px; width: 220px; color:#ccc; border: none;outline:none;}
+.indiv_car #car_soso #but{ line-height:25px; height:25px; font-size: 12px; position: absolute; border: none; border-left: 1px solid #bfbfbf; top: 0px; background: #d2d2d2; right: 0px; color: #595858; width: 70px;}
+
+#order_infor{color:#5e5e5e;}
+#order_infor td{ text-align:center; padding:5px 0px;}
+#order_infor tr td:first-child{ text-align:left;}
+
+#order_infor tbody{  border:1px solid #a0a0a0; font-size:10px;}
+#order_infor tbody a{ color:#fe0202;}
+#order_infor tbody td{ padding:20px 0px; border-left:1px solid #a0a0a0;}
+#order_infor td  input{cursor:pointer;outline:none;}
+#order_infor td .choose{ border: 2px solid #a0a0a0;width: 13px;height: 13px;color: #999;margin: 0px 10px -1px 5px;}
+#order_infor td .but{ width:70px; border:1px solid #a0a0a0; text-align:center; font-size: 12px; background:#fff; margin-right:5px; color: #8b8a8a;} 
+#order_infor #titleone{background:#c9c8c8;}
+#order_infor #titletwo{ background:#dcdcdc; font-size:12px; line-height:32px; height:32px;}
+#order_infor #titletwo td{ text-align:left; padding:0px 0px;}
+#order_infor .goods{ width:330px; }
+#order_infor .price{ width:90px;}
+#order_infor .quantity{width:115px;}
+#order_infor .operate{ width:140px; }
+#order_infor .pay{width:140px;}
+#order_infor .state{ width:185px;}
+
+.goods_pic{ width:110px; height:110px; overflow:hidden; float:left; margin-left:10px;}
+.goods_pic img{ width:100%; height:auto; }
+.goods_name{ width:160px; margin-top:15px;  float:right; margin-right:10px; height:35px; overflow:hidden;}
+.goods_num{width:160px;  float:right;margin-right:10px}
+.goods_color{width:160px;  float:right;margin-right:10px}
+
+/*页码*/
+.page{ width:200px; overflow:hidden;  margin:10px 0px;}
+.page .page_last{ width:20px; border:1px solid #d9d9d9; background:#fff; font-size: 12px; float: right;cursor:pointer; color:#c0c1be;}
+.page .page_next{ width:80px; border:1px solid #d9d9d9;background:#fff; font-size: 12px; float: right; margin-left: 3px;cursor:pointer;color:#c0c1be;}

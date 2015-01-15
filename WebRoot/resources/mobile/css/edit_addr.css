@@ -1,0 +1,105 @@
+@charset "utf-8";
+*{margin:0;padding:0; font-size:12px; text-decoration:none;}
+li{list-style:none;}
+img{border:none 0;}
+
+.Big{
+	width:100%;
+	margin:0 auto;
+	overflow:hidden;
+	max-width:720px;
+	border-radius:4px;
+	}
+.shang{
+	width:640px;
+	height:40px;
+	background-color:#CCC;
+	text-align:center;
+	line-height:40px;
+	}
+/*新增地址开始*/
+.shouhuo{
+	width:96%;
+	margin:0 auto;
+	}
+.shouhuo-A{
+	font-size: 15px;
+	padding-top: 5px;
+	padding-bottom:10px;	
+	}
+.new-nane{
+	width:97%;
+	height: 30px;
+	font-size: 15px;
+	border:1px solid #CCC;
+	border-radius:5px;
+	padding-left:10px;
+	background:url(../images/new-nane_50.png) repeat-x;
+	line-height: 60%;
+	}
+.sheng{
+	width:100%;
+	height:50px;
+	font-size:18px;
+	padding-left:5px;
+	border:1px solid #CCC;
+	border-radius:5px;
+	background:url(../images/where_50.png) repeat-x;
+	}
+.qu{
+	width:96%;
+	height:50px;
+	font-size:18px;
+	padding-left:5px;
+	border:1px solid #CCC;
+	border-radius:5px;
+	background:url(../images/where_50.png) repeat-x;
+	}
+.sheng-big,.qu-big{
+	width:48%;
+	}
+.where{
+	height: 15px;
+	display:block;
+	margin-bottom: 5px;
+	}
+.where div{
+	float:left;
+	}
+.shi{
+	width:100%;
+	height:50px;
+	font-size:18px;
+	padding-left:5px;
+	border:1px solid #CCC;
+	border-radius:5px;
+	background:url(../images/where_50.png) repeat-x;
+	display:block;
+	}
+.di textarea{
+	width:96%;
+	height: 70px;
+	border:1px solid #CCC;
+	border-radius:5px;
+	font-size: 15px;
+	padding-left:5px;
+	background:url(../images/di_50.png) repeat-x;
+	}
+.Big-denglu{
+	width:95%;
+	height:50px;
+	margin:0 auto;
+	margin-top: 35px;
+	overflow:hidden;
+	background:#ed560a;
+	font-size:15pt;
+	text-align:center;
+	line-height:50px;
+	color:#FFF;
+	}
+.moren{
+	margin-bottom: 5px;
+	margin-top: 10px;
+	}
+/* CSS Document */
+

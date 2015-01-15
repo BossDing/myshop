@@ -1,0 +1,85 @@
+body{ 
+	background:#f2f2f2;
+}
+.where-big{
+	width: 1190px;
+	overflow: hidden;
+	margin: 0 auto;
+	line-height: 50px;
+}
+.where-big .kfdlb{
+	float: right;
+}
+.where-big .kfdlb li{
+	float: left;
+}
+.where-big .kfdlb li img{
+	padding-right: 5px;
+}
+/*个人资料开始*/
+.ziliao-big{
+	width: 1190px;
+	overflow: hidden;
+	margin: 0px auto;
+}
+.ziliao-big .ziliao-left{
+	width: 165px;
+	background: #ccc;
+	float: left;
+}
+.ziliao-big .ziliao-right{
+	width: 1013px;
+	overflow: hidden;
+	float: right;
+	height: 478px;
+	background: #fff;
+	border: 1px solid #a0a0a0;
+}
+.ziliao-big .ziliao-right .ziliao-right-1{
+	width: 953px;
+	margin: 0px auto;
+}
+.ziliao-right .ziliao-right-1 .right-11{
+	width: 953px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #5e5e5e;
+	border-bottom: 1px dashed #a0a0a0;
+	margin-top: 10px;
+}
+.ziliao-right .ziliao-right-1 .right-12{
+	width: 953px;
+	height: 60px;
+	line-height: 60px;
+	color: #3e3e3e;
+}
+.ziliao-right .ziliao-right-1 .right-13{
+	width: 953px;
+	overflow: hidden;
+	color: #3e3e3e;
+	margin-top: 20px;
+}
+.ziliao-right .ziliao-right-1 .right-13 .tr-1{
+	background: #eeeeee;
+	line-height: 36px;
+	border: 1px solid #d2d2d2;
+}
+.ziliao-right .ziliao-right-1 .right-13 .tr-2{
+	padding-top: 50px;
+}
+.ziliao-right .ziliao-right-1 .right-13 .ty-1{
+	width: 613px;
+	padding-top: 10px;padding-left: 20px;
+}
+.ziliao-right .ziliao-right-1 .right-13 .ty-2{
+	width: 170px;
+	padding-top: 10px;
+}
+.no{
+	height: 30px;
+	line-height: 30px;
+	width: 953px;
+	margin-top: 10px;
+	border-top: 1px solid #a0a0a0;
+}

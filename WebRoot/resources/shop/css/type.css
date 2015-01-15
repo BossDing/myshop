@@ -1,0 +1,201 @@
+@charset "UTF-8";
+/* CSS Document */
+body{ background:#ffffff;}
+
+/*头部跟踪导航*/
+.where-big{
+	width: 1190px;
+	overflow: hidden;
+	margin: 0 auto;
+	line-height: 50px;
+}
+#index_place span {
+margin: 0px 5px;
+}
+.where-big .kfdlb{
+	float: right;
+}
+.where-big .kfdlb li{
+	float: left;
+}
+.where-big .kfdlb li img{
+	padding-right: 5px;
+}
+
+
+
+/*精品推荐*/
+.recommend{ width:1210px; overflow:hidden;}
+.recommend img{ width:100%;position: absolute;bottom: 0px;right: 0px;}
+div#recommend_once img {
+width: 400px;
+height: 400px;
+margin: 20px -20px 60px 40px;
+}
+.recommend dt{ float:left; width:590px; height:740px; position:relative; border:1px solid #aaaaaa; margin-right:7px;margin-bottom:8px; overflow:hidden;}
+.recommend dd{ position:relative; margin-right:7px; margin-bottom:8px; width:290px; height:365px;border:1px solid #aaaaaa; float:left; overflow:hidden;}
+.recommend_twice{ margin:15px; overflow:hidden; position:absolute;}
+#recommend_once{ height:485px; width:590px; overflow:hidden; position: relative;}
+#recommend_once_text{ padding: 30px 38px; background-color:#dcdcdc; color:#6e6e6e; line-height:18px; height: 195px;}
+#recommend_once_text #text_one{ height:90px; border-bottom:1px solid #ccc; padding-bottom:7px; }
+#recommend_once_text #text_two{ height:90px; overflow:hidden; margin-top:7px; }
+#recommend_once_infor{ width:270px; height:460px; position:absolute; bottom: 255px; left:20px; background-image:url(../images/this_bg.png); background-position: 40px 440px; background-repeat:no-repeat;}
+#recommend_once_infor .heading{width:250px!important; height:83px!important;}
+#recommend_button {  height:35px; overflow:hidden; margin-top:150px; }
+#recommend_button #buy{ width:104px; height:34px; margin:0px 10px; background-image:url(../images/recommend_but_bg.png); border:none;cursor:pointer;  }
+#recommend_button #know_more{ width:104px; height:34px;  background-image:url(../images/recommend_but_2.png); border:none;cursor:pointer;  }
+#recommend_once_infor .model{ }
+#recommend_once_infor .heading{font-weight: bold;font-size: 28px;
+margin: 20px 0px; width: 200px;height: 70px;line-height: 33p;}
+#recommend_once_infor .price{line-height: 100px;font-size: 20px;
+font-family: -webkit-body;height: 100px;}
+
+/*型号，标题，价格*/
+/*型号，标题，价格*/
+.recommend_twice{ margin:15px; overflow:hidden; position:absolute;top:0px;left:0px;}
+.model{ height:15px; font-size:12px; margin:0px 0px 10px 0px; color:#7e7e7d; }
+.heading{ height:30px; color:#414140; font-size:24px;margin:5px 0px 10px 0px; overflow:hidden;}
+.price{ font-size:16px; height:20px; font-weight:bold;  color:#414140 !important;margin:10px 0px; }
+
+
+/*筛选条件*/
+.sift{ width:1190px; font-size: 14px; margin:0px auto; margin-bottom:50px; background-color:#ccc; border: 1px solid #adadad;}
+.sift a{ color:#414141;}
+.sift a:hover{ color:#F60;}
+.sift li{ border-bottom:1px dashed #666; overflow:hidden;}
+.sift liast-child{ border:none;}
+.sift li dl{  overflow:hidden; float:left; margin-left:50px; width:500px;}
+.sift dt{ float:left; color:#F30; height:40px; line-height:40px; font-weight: bold; font-size: 14px; }
+.sift dd{ height:40px; line-height:40px; overflow:hidden;  float: left;}
+.sift dd span{ margin:0px 5px; }
+
+
+/*产品列表*/
+.mybe_like{ overflow:hidden; margin: 0px auto; width: 1300px;}
+.mybe_like li{ width:200px; margin-right: 47px; float:left; margin-top: 30px;margin-top: 20px;margin-bottom: 20px;}
+.mybe_like li:first-child{ /* margin:0px; */ }
+.like_lit{ border:1px solid #a0a0a0; overflow: hidden; background:#dedede; height:50px; line-height:50px; font-size: 14px; color:#595757; padding:0px 20px;}
+.like_pic{ width:200px; height:200px; overflow:hidden; border: 1px solid #adadad;}
+.like_pic img{ width:200px; height:200px;}
+.like_name{ line-height:20px;height: 40px; }
+.like_tt{ overflow:hidden; height:25px; }
+.like_price{ float:left; font-size:18px; color:#F60; }
+.like_com{ float:right; font-size:12px; height:25px; line-height:30px; }
+.like_com i{ font-style:normal; color:#F60;}
+
+
+/*排序*/
+.sequence{
+    width: 600px;
+    float: left;
+}
+.sequence span{
+    font-weight: bold;
+}
+.sequence .this{ background-color:#F60; }
+/*
+.sequence input{
+    background: #fff;
+    border: none;
+    font-size: 12px;
+    padding: 0px 5px;
+    height: 25px;
+    line-height: 25px;
+    padding-right: 25px;
+    margin-left: 10px;
+    color: #666;
+}
+.sequence_but2 {
+background: url(../images/soso-1.png) no-repeat;
+border: none;
+font-size: 12px;
+padding: 0px 5px;
+height: 25px;
+width: 59px;
+line-height: 25px;
+padding-right: 25px;
+margin-left: 10px;
+color: #666;
+}*/
+.sequence_but2 {
+background: url(../images/soso-1.png) right -1px no-repeat;
+border: none;
+font-size: 12px;
+height: 25px;
+line-height: 25px;
+padding-left: 5px;
+padding-right: 21px;
+margin-left: 10px;
+color: #666;
+background-color: #fff;
+}
+
+.sequence_but {
+background: url(../images/soso-1.png) no-repeat;
+border: none;
+font-size: 12px;
+padding: 0px 5px;
+height: 25px;
+width: 59px;
+line-height: 25px;
+padding-right: 25px;
+margin-left: 10px;
+color: #fff;
+}
+.sequence_but1 {
+background-color: #F56301;
+border: none;
+font-size: 12px;
+padding: 0px 5px;
+height: 25px;
+width: 75px;
+line-height: 25px;
+padding-right: 25px;
+margin-left: 10px;
+color: #fff;
+}
+.page{
+    width: 300px;
+    float: right;
+    font-size: 14px;
+}
+.page i{ font-style:normal; color:#F90;}
+.page .last{
+    padding: 0 8px;
+    background: none;
+    border: 1px solid#aaa;
+}
+.page .next{
+    border: 1px solid #adadad;
+ 
+    background: none;
+    padding: 0 5px;
+}
+.page .last:hover{
+    padding: 0 8px;
+    background: none;
+    border: 1px solid #F60;
+	color:#f60;
+}
+.page .next:hover{
+    border: 1px solid #F60;
+	color:#f60;
+    background: none;
+    padding: 0 5px;
+}
+
+
+
+
+/*技术介绍*/
+.new{ overflow:hidden;}
+.new img { width:100%; height:190px; }
+.new li{ float:left; color:#414140; position:relative; margin-right:23px; width:280px;}
+.new li:last-child{ margin:0px;}
+.n_one{ font-size:14px; font-weight:bold;  }
+.n_two{ font-size:14px; }
+.new .recommend_twice{ margin-top:5px;}
+.new .heading{ color:#fedc5d; font-weight:bold; }
+#n_four .heading{ color:#2399b8 !important; font-weight:bold; }
+
+

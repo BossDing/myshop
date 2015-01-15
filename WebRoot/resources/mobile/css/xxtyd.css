@@ -1,0 +1,144 @@
+@charset "utf-8";
+/*共用样式*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.fa {
+	float: left;
+}
+
+.fb {
+	float: right;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.img {
+	border: 0px;
+}
+
+.cencen {
+	height: 10px;
+	clear: both;
+}
+
+.cenmini {
+	height: 6px;
+	clear: both;
+}
+
+.cenmax {
+	height: 18px;
+	clear: both;
+}
+
+body {
+	font-family: Microsoft YaHei, "\534E\6587\7EC6\9ED1", Helvetica,
+		Helvetica, Arial, sans-serif;
+}
+/*共用样式结束*/
+.czxxdq {
+	width: 100%;
+	padding: 20px 0px 0px 0px;
+	background: #fff;
+	overflow: auto;
+}
+
+.czxxdq .czxxd {
+	width:;
+	height: auto;
+	padding: 15px;
+	background: #eee;
+	overflow: auto;
+}
+
+.czxxdq .czxxd .qxz {
+	position: relative;
+	margin: 10px 0;
+	background-color: #FFFFFF;
+	overflow: visible;
+	width: 100%;
+}
+
+.czxxdq .czxxd .qxz .xzlb {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 15px;
+	padding: 0 2%;
+	font-family: Microsoft YaHei;
+	outline: none;
+	background: url(../images/xzfh.png) no-repeat;
+	background-position: right center;
+	-webkit-appearance: none;
+}
+
+.czxxdq .czxxd .chax {
+	overflow: visible;
+	position: relative;
+}
+
+.czxxdq .czxxd .chax a {
+	float: right;
+	display: block;
+	width: 75px;
+	height: 35px;
+	background-color: #EE7B6F;
+	line-height: 35px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 15px;
+	font-weight: 900;
+}
+
+.czxxdq .czxxd .result {
+	float: left;
+	font-size: 15px;
+	margin-top: 8px;
+}
+
+.czxxdq .czxxd .result .shuliang {
+	color: #e60020;
+}
+/*搜索样式   */
+.ssjg {
+	padding: 10px;
+	overflow-x: hidden;
+	margin-bottom: 10px;
+	background: #fff;
+}
+
+.ssjg ul li {
+	padding: 5px 0;
+	border-top: 1px solid #DDDDDD;
+}
+
+.ssjg ul li:hover {
+	background: #fcfcfc;
+}
+
+.ssjg ul li .dianm {
+	font-size: 18px;
+	font-weight: 800;
+	color: #ee7005;
+}
+
+.ssjg ul li .xiz {
+	font-size: 15px;
+	font-weight: 600;
+	color: #666666;
+	word-wrap: break-word;
+	overflow-x: hidden;
+	word-break: break-all;
+}
+
+/*搜索样式   */

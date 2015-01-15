@@ -1,0 +1,145 @@
+.nav-index1 {
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	background: #ecebeb;
+}
+
+.nav-index1 ul {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-box;
+	display: box;
+	border-bottom: .15em solid #f6f6f6;
+}
+
+.nav-index1 ul:first-child {
+	/* border-top: .15em solid #f6f6f6; */
+	
+}
+
+.nav-index1 li {
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-ms-box-flex: 1;
+	box-flex: 1;
+}
+
+.nav-index1 li:first-child {
+	border-left: 0 none;
+}
+
+.nav-index1 li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.nav-index1 li a .ico {
+	display: block;
+	margin: 0 auto 0em;
+	width: 3em;
+	height: 2.6em;
+	-webkit-background-size: 4em 4em;
+	-moz-background-size: 5em 5em;
+	-o-background-size: 5em 5em;
+	background-size: 3em 3em;
+}
+
+.nav-index1 li a .t {
+	color: #333;
+	font-size: 1.1em;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+
+.nav-index1 .ico-qb {
+	background: url(../images/home1.png) no-repeat;
+}
+
+.nav-index1 .ico-ss {
+	background: url(../images/qbsp1.png) no-repeat;
+}
+
+.nav-index1 .ico-th {
+	background: url(../images/gwc1.png) no-repeat;
+}
+
+.nav-index1 .ico-pc {
+	background: url(../images/qbsp2.png) no-repeat;
+}
+
+.nav-index2 {
+	position: absolute;
+	top: 4%;
+	left: 65%;
+}
+
+.nav-index2 {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-box;
+	display: box;
+	border-bottom: .15em solid #f6f6f6;
+}
+
+.nav-index2:first-child {
+	border-top: .15em solid #f6f6f6;
+}
+
+.nav-index2 {
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-ms-box-flex: 1;
+	box-flex: 1;
+}
+
+.nav-index2 :first-child {
+	border-left: 0 none;
+}
+
+.nav-index2  a {
+	display: block;
+	width: 100%;
+	height: 8.5em;
+	text-align: center;
+}
+
+.nav-index2  a .ico {
+	display: block;
+	margin: 0 auto .5em;
+	width: 5em;
+	height: 5em;
+	-webkit-background-size: 5em 5em;
+	-moz-background-size: 5em 5em;
+	-o-background-size: 5em 5em;
+	background-size: 2em 2em;
+}
+
+.nav-index2  a .t {
+	color: #fff;
+	font-size: 1.1em;
+	position: absolute;
+	top: 4%;
+	left: 14%;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+
+.nav-index2 .ico-qb {
+	background: url(../images/err.png) no-repeat;
+}
+
+.p2-money {
+	text-decoration: line-through;
+	margin-left: 5px;
+	COLOR: #999;
+}
+
+#p-synopsis {
+	COLOR: #f8932b;
+}
+
+.p1-money {
+	COLOR: #eb6100;
+}

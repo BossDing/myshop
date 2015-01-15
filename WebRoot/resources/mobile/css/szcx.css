@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{ background:#f8f8f8; padding:0em; margin:0em;}
+select{width:240px; height:30px; overflow:hidden; background:url(../images/arrow.png) no-repeat 215px;
+border:1px solid #ccc;
+-moz-border-radius: 0px; /* Gecko browsers */
+-webkit-border-radius: 0px; /* Webkit browsers */
+border-radius:0px;
+}
+select { padding:5px; background:transparent; width:268px; font-size: 1.2em; border:none; height:30px;
+-webkit-appearance: none; /*for Webkit browsers*/
+ color:#666;}
+
+
+.top{background:#6CF; padding:0em 1em; height:3em; overflow:hidden; }
+.top .return{ background: url(../images/return_ico.png) -5px 0px no-repeat;background-size:3em;width: 3em;height:3em;  }
+.sz_diqu{ background:#fff; padding:1em; border-bottom:1px solid #eee;}
+.tittle{ font-size:1.5em; padding:.2em 0em; color:#999;} 
+.address{ margin:1em 0em; overflow:hidden;}
+.address .sel{ float: left; color: #57D7FF; width: 48%;background: #F0F9FF;border: 1px solid #E0F5FF;text-align: center; }
+.address .sel_2{ float: right;
+width: 48%;
+color: #57D7FF; background: #F0F9FF;
+border: 1px solid #E0F5FF;
+text-align: center;}
+.soso{ overflow:hidden; position:relative; border: 1px solid #28C3FF;margin-top: 1em;}
+.soso .so_tex{ width:95%; height:30px; font-size:1.5em; padding:0em .5em; border: none;}
+.soso .so_but{ width:6em; position:absolute; top: 0px; right: 0px; height: 30px; line-height:27px; text-align:center; border: none; border-left: 1px solid #0CF; color:#28C3FF;; background: #fff; font-size:1.3em; }
+.pic{border:1em solid #FFF; margin-top:1em; background:url(../images/jpeg.jpg) center no-repeat; height:20em; background-size:1000px;-moz-box-shadow:0 0 4px rgba(0,0,0,.1);
+-webkit-box-shadow:0 0 4px rgba(0,0,0,.1);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:300px) {
+    body {
+        font-size: 8.33333px;
+    }
+
+    .viewport {
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width:310px) and (min-width:300px) {
+    body {
+        font-size: 8.33333px;
+    }
+
+    .viewport {
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width:320px) and (min-width:310px) {
+    body {
+        font-size: 8.88889px;
+    }
+
+    .viewport {
+        max-width: 320px;
+    }
+}
+
+@media only screen and (max-width:360px) and (min-width:320px) {
+    body {
+        font-size: 8.88889px;
+    }
+
+    .viewport {
+        max-width: 360px;
+    }
+}
+
+@media only screen and (max-width:360px) and (min-width:350px) {
+    body {
+        font-size: 10px;
+    }
+
+    .viewport {
+        max-width: 360px;
+    }
+}
+
+@media only screen and (max-width:480px) and (min-width:360px) {
+    body {
+        font-size: 10px;
+    }
+
+    .viewport {
+        max-width: 480px;
+    }
+}
+
+@media only screen and (max-width:480px) and (min-width:470px) {
+    body {
+        font-size: 13.33333px;
+    }
+
+    .viewport {
+        max-width: 480px;
+    }
+}
+
+@media only screen and (max-width:560px) and (min-width:480px) {
+    body {
+        font-size: 13.33333px;
+    }
+
+    .viewport {
+        max-width: 560px;
+    }
+}
+
+@media only screen and (max-width:570px) and (min-width:560px) {
+    body {
+        font-size: 15.83333px;
+    }
+
+    .viewport {
+        max-width: 570px;
+    }
+}
+
+@media only screen and (max-width:640px) and (min-width:570px) {
+    body {
+        font-size: 15.83333px;
+    }
+
+    .viewport {
+        max-width: 640px;
+    }
+}
+
+@media only screen and (max-width:640px) and (min-width:630px) {
+    body {
+        font-size: 17.77778px;
+    }
+
+    .viewport {
+        max-width: 640px;
+    }
+}
+.col1 {
+	padding: 1em;
+	text-align: center;
+	background: #ffffff;
+	border-bottom: 1px solid #eee;
+}
+
+.col1 span {
+color: #999;
+font-size: 1.6em;
+font-family: "微软雅黑";
+}
+@media only screen and (max-width:710px) and (min-width:640px) {
+    body {
+        font-size: 17.77778px;
+    }
+
+    .viewport {
+        max-width: 710px;
+    }
+}

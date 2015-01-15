@@ -1,0 +1,179 @@
+@charset "utf-8";
+*{margin:0;padding:0; font-size:13px; text-decoration:none;}
+li{list-style:none;}
+
+img{
+	border:none 0;
+	width: 15%;
+}
+#cancel{
+	padding-left: 20%;
+}
+.Big{
+	overflow:hidden;
+	background-color:#FFF;
+	margin:0 auto;
+	margin-top:10px;
+	margin-bottom:20px;
+	overflow:hidden;
+	border-radius:4px;
+	padding-bottom:20px;
+	}
+/*y订单信息开始*/
+.shouhuo{
+	width:96%;
+	margin:0 auto;
+	font-family:微软雅黑;
+	}
+.top-big table{
+	width:100%;
+	overflow:hidden;
+	height:100%;
+	}
+.one-a,.one-b{
+	font-size:14px;
+	}
+
+.top-big td{
+	width:33%;
+	font-family:微软雅黑;
+	}
+.one-b{
+	color:#EA0000;
+	}
+
+.two-b span,.two-b{
+	font-size:12px;
+	color:#666;
+	}
+.four-a,.five-a{
+	font-size:14px;
+	color:#666;
+	}
+.four-b span,.five-b span{
+	font-size:12px;
+	color:#666;
+	}
+.five-a,.five-b{
+	border-bottom:1px solid #e5e5e5;
+	padding-bottom:20px;
+	}
+.Car-big-a{
+	float:left;
+	width:20%;
+	}
+.Car-big-A div{
+	}
+.Car-big-A{
+	overflow:hidden;
+	border-bottom:1px dashed #e5e5e5;
+	width:100%;
+	}
+.Car-big-b{
+	float: right;
+	width: 58%;
+	margin-top: 8px;
+	}
+.Car-big-b-b span{
+	font-family:微软雅黑;
+	font-size:12px;
+	color:#999;
+	}
+.Car-big-b-a{
+	width:80%;
+	font-family:微软雅黑;
+	font-size:14px;
+	color:#333;
+	}
+/*支付方式开始*/
+.zhifu-b{
+	width:100%;
+	height:56px;
+	margin-top:20px;
+	font-family:微软雅黑;
+	font-size:20px;
+	color:#666;
+	background:url(../images/Car-top-bei_03.png) repeat-x;
+	padding-left:10%;
+	border:1px solid #CCC;
+	line-height:86px;
+	border-radius:10px;
+	}
+.bigj{
+	width:90%;
+	margin:0 auto;
+	}
+/*立即支付按钮开始*/
+.Big-denglu{
+	width:90%;
+	height:56px;
+	margin:0 auto;
+	margin-top:20px;
+	overflow:hidden;
+	background:url(../images/es_03.png) repeat-x;
+	font-family:微软雅黑;
+	font-size:20px;
+	text-align:center;
+	line-height:56px;
+	color:#FFF;
+	border-radius:5px;
+	border:1px solid #991102;
+	}
+
+.bottom{
+	width:210px;
+	margin:0 auto;
+	padding-top:50px;
+	}
+.bottom li{
+	float:left;
+	font-family:微软雅黑;
+	}
+.bottom li a{
+	font-size:16px;
+	color:#999;
+	}
+.bottom-a{
+	padding:0 20px;
+	}
+.meiyou{
+	width:95%;
+	height:300px;
+	margin:0 auto;
+	}
+.hoi{
+	padding-top:30px;
+	}
+.hoi,.fot{
+	font-size:30px;
+	text-align:center;
+	font-family:微软雅黑;
+	}
+.fot a{
+	font-size:30px;
+	color:#E60000;
+	}
+/* CSS Document */
+.button{
+	height: 45px;
+	width: 85%;
+	background-color: #ec540a;
+	color: #fff;
+	-webkit-appearance: none;
+	font-size: 20px;
+	margin-left: 7%;
+	margin-bottom: 10px;
+	text-align: center;
+	line-height: 45px;
+}
+.thumbnail{
+	width:150%;
+	}
+.xuanze {
+width: 85%;
+height: 32px;
+margin-left: 7%;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+

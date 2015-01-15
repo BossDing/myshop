@@ -1,0 +1,210 @@
+@charset "utf-8";
+*{margin:0;padding:0; font-size:18px; text-decoration:none;}
+li{list-style:none;}
+img{border:none 0;}
+p {margin-top : 150px;}
+.Big{
+	width: 100%;
+	overflow: hidden;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+	}
+.xing-big{
+	overflow: hidden;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #e5e5e5;
+	}
+
+.xiang-a{
+	width: 85%;
+	background: url(../images/jiajia_46.png) no-repeat left;
+	font-family: 微软雅黑;
+	font-size: 18px;
+	color: #333;
+	float: left;
+	margin-top: 15px;
+	padding-left: 40px;
+	margin-left: 20px;
+	line-height: 30px;
+	height: 30px;
+	margin-bottom: 15px;
+	}
+.xiang-a:hover{
+	background:url(../images/jiajia-hover_46.png) no-repeat left;
+	color:#F00;
+	}
+
+.xiang-c{
+	width:10%;
+	height:88px;
+	background-color:#f8f8fa;
+	border-left:2px solid #e0e0e0;
+	text-align:center;
+	float:right;
+	}
+.xiang-c img{
+	padding-top:30px;
+	}
+.xiang-c:hover{
+	background-color:#dddddd;
+	}
+	
+/*购物车详情开始*/	
+.Car-big{
+	width: 95%;
+	overflow: hidden;
+	background-color: #FFF;
+	margin-top: 20px;
+	border-radius: 10px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	}
+.Car-big-a{
+	width: 30%;
+	height: 30%;
+	padding-top: 5%;
+	}
+.Car-big-A div{
+	float: left;
+	}
+.Car-big-A{
+	overflow: hidden;
+	width: 100%;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #e5e5e5;
+	position: relative;
+	}
+.Car-big-b{
+	padding-top: 5%;
+	padding-left: 10px;
+	width: 65%;
+	}
+.Car-big-A .del a{
+	width: 100%;
+	height: 100%;
+	color: #FF0000;
+	display: block;
+}	
+.Car-big-A .del{
+	background-color: #f8f8f8;
+	font-family: Verdana, Geneva, sans-serif;
+	height: 20px;
+	width: 20px;
+	top: -2px;
+	right: 5px;
+	color: #999;
+	text-align: center;
+	font-size: 12px;
+	position: absolute;
+	border-radius: 10px;
+	line-height: 20px;
+}
+.Car-big-b-b span{
+	font-family: 微软雅黑;
+	font-size: 14px;
+	color: #999;
+	}
+.Car-big-b-a{
+	width: 420px;
+	padding-bottom: 10px;
+	}
+.Car-big-b-a a{
+	font-family: 微软雅黑;
+	font-size: 18px;
+	color: #333;
+	}
+.Car-big-b-b {
+	overflow: hidden;
+	line-height: 25px;
+	}
+.Car-big-b-a a:hover{
+	color:#F00;
+	}
+/*合计开始*/
+.heji span{
+	font-family: Arial;
+	font-size: 18px;
+	line-height: 50px;
+	color: #F00;
+	width: 90%;
+	}
+.heji{
+	width: 100%;
+	height: 70px;
+	background: url(../images/jie-a_46.png) repeat-x;
+	margin-top: 20px;
+	}
+.heji_centent{
+	width: 95%;
+	height: 70px;
+	font-family: 微软雅黑;
+	font-size: 18px;
+	line-height: 70px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+.heji img{
+	padding-top:10px;
+	float:right;
+         }
+.jia{
+	width: 20px;
+	height: 20px;
+	background-color: #f8f8f8;
+	font-size: 14px;
+	color: #666;
+	line-height: 20px;
+	border: 1px solid #f8f8f8;
+	text-align: center;
+	display: block;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.shuliang{
+	overflow: hidden;
+	width: 120px;
+}
+.shuliang_a{ 
+   float:left;
+}
+.num{
+	width: 40px;
+	height: 20px;
+	background-color: #f8f8f8;
+	line-height: 20px;
+	font-size: 14px;
+	border: 1px solid #eee;
+	color: #666;
+	text-align: center;
+	float: left;
+} 
+.jiesuan{
+	width: 30%;
+	height: 55%;
+	background-color: #e9510b;
+	font-size: 16px;
+	color: #FFF;
+	position: absolute;
+	right: 0px;
+	top: 15px;
+	line-height: 35px;
+}
+.jiesuan:hover{
+	
+}
+.emptycar{
+	display:block;
+	background: url(../images/emptycart.png) no-repeat center;
+	margin-bottom: -104px;
+	background-size: 40%;
+	width: 361px;
+	height: 336px
+	}
+input{-webkit-appearance:none; /*去除input默认样式*/}
+/* CSS Document */

@@ -1,0 +1,33 @@
+﻿.promotion_title{
+	font: bold 20px/48px "宋体";
+	color: #c0504d;
+	text-align: center;
+}
+
+.promotion_introdduction{
+	font: 14px/28px "宋体";
+	color: #333;
+	text-align: left !important;
+	padding:0 30px;
+}
+.promotion_introdduction p{
+	font: 14px/28px "宋体";
+	color: #333;
+	text-align: left !important;
+}
+
+#copy_button{	
+	width:110px;
+	height:32px;
+	background:url("/resources/shop/images/copy_share_link.png") no-repeat;
+	float:left;
+	border:0;
+	cursor:pointer;
+}
+#copy_and_share{
+	padding-left:150px;
+	padding-bottom:30px;
+}
+div.member div .yaoq{
+	border:0px;
+}

@@ -1,0 +1,221 @@
+@charset "utf-8";
+*{margin:0;padding:0;font-size:12px; text-decoration:none;}
+li{list-style:none;}
+img{border:none 0;}
+
+.Big{
+	width:100%;
+	max-width:650px;
+	height:960px;
+	margin:0 auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	overflow:hidden;
+	border-radius:4px;
+	position:relative;
+	}
+.shang{
+	width:640px;
+	height:40px;
+	background-color:#CCC;
+	text-align:center;
+	line-height:40px;
+	}
+.Big-top{
+	width:640px;
+	height:96px;
+	background-color:#500101;
+	}
+.Big-top-left{
+	width:101px;
+	height:94px;
+	background:url(../images/left-hover_07_07.png) no-repeat bottom right;
+	
+	}
+.Big-top-left:hover{
+	background:url(../images/red-left_07.png) no-repeat bottom right;
+	}
+.Big-top-right{
+	height:92px;
+	width:538px;
+	background:url(../images/right_07.png) repeat-x;
+	margin-top:2px;
+	margin-left:1px;
+	font-family:微软雅黑;
+	font-size:30px;
+	line-height:92px;
+	text-align:center;
+	color:#eae9e6;
+	}
+.Big-top div{
+	float:left;
+	}
+.Call{
+	width:90%;
+	height:50px;
+	line-height:50px;
+	margin:0 auto;
+	font-family:微软雅黑;
+	font-size:20px;
+	color:#323232;
+	}
+.Call-border{
+	width:90%;
+	height:4px;
+	margin:0 auto;
+	background:url(../images/ew_30.png) repeat-x;
+	}
+
+.KK{
+	width:90%;
+	margin:0 auto;
+	margin-top:30px;
+	border-radius:10px;
+	}
+.KK table{
+	width:100%;
+	margin:0 auto;
+	height:56px;
+	line-height:56px;
+	font-family:微软雅黑;
+	font-size:16px;
+	}
+.KK table tr td{
+	height:46px;
+	line-height:46px;
+	font-family:微软雅黑;
+	font-size:15px;
+	background:#fff;
+	border-bottom: 2.5px #f5f5f5 solid;
+	}
+.left-1{
+	width:30%;
+	padding-left:10px;
+	color:#666;
+	}
+.right-2{
+	width:60%;
+	background:#FFF;
+	padding-left:10px;
+	position:relative;
+	border-right: 2px #f5f5f5 solid;
+	}
+.Big-denglu{
+	width:79%;
+	height:46px;
+	margin:0 auto;
+	margin-top:20px;
+	overflow:hidden;
+	background:#4dbeff;
+	font-family:微软雅黑;
+	font-size:20px;
+	text-align:center;
+	line-height:46px;
+	color:#FFF;
+	}
+.no{
+	position:absolute;
+	top:0px;
+	right:5px;
+	color:#EA0000;
+	display:none;
+	}
+table input {
+	border:none;
+}
+.table_input {
+	width:100%;
+	height:100%;
+}
+.err_msg1{
+	width: 35%;
+	height: 2.5em;
+	position: absolute;
+	left: 37%;
+	top: 27%;
+	font-size: 12px;
+	font-family: 微软雅黑;
+	color: #a80101;
+	text-align: left;
+	}
+.err_msg2{
+	width: 35%;
+	height: 2.5em;
+	position: absolute;
+	left: 37%;
+	top: 32%;
+	font-size: 12px;
+	font-family: 微软雅黑;
+	color: #a80101;
+	text-align: left;
+	}
+/* ---------- Form ---------- */
+
+input.text {
+	width: 220px;
+	height: 26px;
+	line-height: 26px;
+	padding: 0px 4px;
+	color: #666666;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	border: 1px solid;
+	border-color: #b8b8b8 #dcdcdc #dcdcdc #b8b8b8;
+	background: url(../images/common.gif) 0px 0px no-repeat;
+}
+
+input.text[type=file], input.text[type=checkbox] {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+input.text:hover {
+	-webkit-transition: box-shadow linear 0.2s;
+	-moz-transition: box-shadow linear 0.2s;
+	-ms-transition: box-shadow linear 0.2s;
+	-o-transition: box-shadow linear 0.2s;
+	transition: box-shadow linear 0.2s;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+	-moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+	border: 1px solid #74b9ef;
+	background: none;
+}
+
+textarea.text {
+	width: 440px;
+	height: 160px;
+	padding: 4px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	border: 1px solid #c1c1c1;
+}
+
+textarea.text:hover {
+	-webkit-transition: box-shadow linear 0.2s;
+	-moz-transition: box-shadow linear 0.2s;
+	-ms-transition: box-shadow linear 0.2s;
+	-o-transition: box-shadow linear 0.2s;
+	transition: box-shadow linear 0.2s;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+	-moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+	border: 1px solid #74b9ef;
+}
+.input_sp{
+	width:100%;
+	height:100%;
+}
+#area_select > select {
+	height: 2.5em;
+}
+.fieldSet {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	outline: 0px;
+}
+/* CSS Document */
+

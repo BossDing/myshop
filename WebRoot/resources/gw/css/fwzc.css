@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 服务政策新增 2014-10-14 */
+
+.clear { clear:both }
+
+div.gy_nr ul.out_box { }
+div.gy_nr ul.out_box li { margin:10px auto; border-bottom:dashed 1px #a0a0a0; padding:10px 0px; position:relative; }
+div.gy_nr ul.out_box li .pic_box { margin-left:112px; }
+div.gy_nr ul.out_box li .pic_box img { }
+
+div.gy_nr .item_tit { width:84px; height:64px; background:url(images/item_tit_bg.gif) no-repeat; position:absolute; top:34px; left:0px; }
+div.gy_nr .item_tit h2.tit_h { font:bolder 12px/2 Arial, "Microsoft YaHei"; color:#e30101; text-align:center; text-shadow:0px 0px 1px #ccc; margin-top:16px; margin-left:-6px; }

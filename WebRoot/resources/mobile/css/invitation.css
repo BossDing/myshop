@@ -1,0 +1,155 @@
+body{
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding:0px;
+	margin:0px;
+}
+.reward—pic{ width:100%; text-align:center;}
+.reward—pic img{ width:100%; height:auto;}
+p{ margin:0px; padding:0px;}
+.reward_little { color:#900; font-size:2em; padding:.7em;
+background:#fff;
+}
+.reward_infor{ font-size:.8em; background:#fff; }
+.reward_infor a { color:#39F;}
+.reward_infor p{ margin:1em 0em;}
+.reward_infor_centent {padding: 1em;}
+.reward_bottom{ width:100%; padding:.5em 0em; text-align:center; background-color:#fff;}
+.reward_but{ background-color:#F60; width:13em; height:2.5em; margin:0em auto 0px auto; color:#FFF; line-height:2em; font-size:1.5em; border:none; border-radius:3px; }
+
+
+@media only screen and (max-width:300px) {
+    body {
+        font-size: 8.33333px;
+    }
+
+    .viewport {
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width:310px) and (min-width:300px) {
+    body {
+        font-size: 8.33333px;
+    }
+
+    .viewport {
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width:320px) and (min-width:310px) {
+    body {
+        font-size: 8.88889px;
+    }
+
+    .viewport {
+        max-width: 320px;
+    }
+}
+
+@media only screen and (max-width:360px) and (min-width:320px) {
+    body {
+        font-size: 8.88889px;
+    }
+
+    .viewport {
+        max-width: 360px;
+    }
+}
+
+@media only screen and (max-width:360px) and (min-width:350px) {
+    body {
+        font-size: 10px;
+    }
+
+    .viewport {
+        max-width: 360px;
+    }
+}
+
+@media only screen and (max-width:480px) and (min-width:360px) {
+    body {
+        font-size: 10px;
+    }
+
+    .viewport {
+        max-width: 480px;
+    }
+}
+
+@media only screen and (max-width:480px) and (min-width:470px) {
+    body {
+        font-size: 13.33333px;
+    }
+
+    .viewport {
+        max-width: 480px;
+    }
+}
+
+@media only screen and (max-width:560px) and (min-width:480px) {
+    body {
+        font-size: 13.33333px;
+    }
+
+    .viewport {
+        max-width: 560px;
+    }
+}
+
+@media only screen and (max-width:570px) and (min-width:560px) {
+    body {
+        font-size: 15.83333px;
+    }
+
+    .viewport {
+        max-width: 570px;
+    }
+}
+
+@media only screen and (max-width:640px) and (min-width:570px) {
+    body {
+        font-size: 15.83333px;
+    }
+
+    .viewport {
+        max-width: 640px;
+    }
+}
+
+@media only screen and (max-width:640px) and (min-width:630px) {
+    body {
+        font-size: 17.77778px;
+    }
+
+    .viewport {
+        max-width: 640px;
+    }
+}
+.col1 {
+	padding: 1em;
+	text-align: center;
+	background: #ffffff;
+	border-bottom: 1px solid #eee;
+}
+
+.col1 span {
+color: #999;
+font-size: 1.6em;
+font-family: "微软雅黑";
+}
+@media only screen and (max-width:710px) and (min-width:640px) {
+    body {
+        font-size: 17.77778px;
+    }
+
+    .viewport {
+        max-width: 710px;
+    }
+}
+
+.jiathis_style{
+	padding-top:8px;
+	margin-bottom: 10px;
+}

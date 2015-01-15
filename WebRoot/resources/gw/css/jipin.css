@@ -1,0 +1,60 @@
+
+.jipin-big{
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.jipin-big li{
+	width: 100%;
+}
+.jipin-big li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.jipin-1{
+	height: 435px;
+	margin: 0 auto;
+	background: url(../images/jipin-1.jpg) no-repeat center;
+}
+.jipin-2{
+	height: 587px;
+	margin: 0 auto;
+	background: url(../images/jipin-2.jpg) no-repeat center;
+}
+.jipin-3{
+	height: 437px;
+	margin: 0 auto;
+	background: url(../images/jipin-3.jpg) no-repeat center;
+}
+
+.jipin-4{
+	margin: 0 auto;
+	height: 550px;
+	background: url(../images/jipin-4.jpg) no-repeat center;
+}
+.jipin-5{
+	margin: -19px auto 0 auto;
+	height: 550px;
+	background: url(../images/jipin-5.png) no-repeat center;
+}
+.jipin-6{
+	margin: 0 auto;
+	height: 584px;
+	background: url(../images/jipin-6.jpg) no-repeat center;
+}
+.jipin-7{
+	margin: 0 auto;
+	height: 636px;
+	background: url(../images/jipin-7.jpg) no-repeat center;
+}
+.jipin-8{
+	margin: 0 auto;
+	height: 689px;
+	background: url(../images/jipin-8.jpg) no-repeat center;
+}
+.jipin-9{
+	margin: 0 auto;
+	height: 689px;
+	background: url(../images/jipin-9.jpg) no-repeat center;
+}

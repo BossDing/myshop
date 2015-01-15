@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/* CSS Document */
+body{margin:0px; padding:0px; background-color:#f8f8f8;}
+dl,dt,dd{ margin:0em; padding:0em;}
+.divide{ font-size:1.5em; padding:0em; } 
+.divide dt{ margin:0em 1em; font-size:1em; line-height:1.5em;  color:#B6B6B6; height:1.5em; line-height:1.9em; }
+.divide dd{ background:#fff; overflow:hidden;}
+.divide_infor{ font-size:1em; overflow:hidden;border-bottom: .08em solid #eee;  }
+.divide_pic{ float:left; margin:1em; width:3em; height:3em;}
+.divide_pic img{ width:100%; height:100%;}
+.divide_name{ line-height:1.5em; float:left; margin:1em; width:10em; height:3em; overflow:hidden;}
+.divide_num{float:left; margin:1em; width:3em; height:3em; line-height:3em; text-align:center; color:#C00;}
+
+/*比例缩放body代码*/
+
+
+@media only screen and (max-width:300px) {
+    body {
+        font-size: 8.53333px;
+    }
+
+    .viewport {
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width:310px) and (min-width:300px) {
+    body {
+        font-size: 8.53333px;
+    }
+
+    .viewport {
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width:320px) and (min-width:310px) {
+    body {
+        font-size: 8.88889px;
+    }
+
+    .viewport {
+        max-width: 320px;
+    }
+}
+
+@media only screen and (max-width:360px) and (min-width:320px) {
+    body {
+        font-size: 8.88889px;
+    }
+
+    .viewport {
+        max-width: 360px;
+    }
+}
+
+@media only screen and (max-width:360px) and (min-width:330px) {
+    body {
+        font-size: 10px;
+    }
+
+    .viewport {
+        max-width: 360px;
+    }
+}
+
+@media only screen and (max-width:480px) and (min-width:360px) {
+    body {
+        font-size: 10px;
+    }
+
+    .viewport {
+        max-width: 480px;
+    }
+}
+
+@media only screen and (max-width:480px) and (min-width:470px) {
+    body {
+        font-size: 13.53333px;
+    }
+
+    .viewport {
+        max-width: 480px;
+    }
+}
+
+@media only screen and (max-width:360px) and (min-width:480px) {
+    body {
+        font-size: 13.53333px;
+    }
+
+    .viewport {
+        max-width: 360px;
+    }
+}
+
+@media only screen and (max-width:370px) and (min-width:360px) {
+    body {
+        font-size: 13.83333px;
+    }
+
+    .viewport {
+        max-width: 370px;
+    }
+}
+
+@media only screen and (max-width:640px) and (min-width:370px) {
+    body {
+        font-size: 13.83333px;
+    }
+
+    .viewport {
+        max-width: 640px;
+    }
+}
+
+@media only screen and (max-width:640px) and (min-width:630px) {
+    body {
+        font-size: 17.77778px;
+    }
+
+    .viewport {
+        max-width: 640px;
+    }
+}
+.col1 {
+padding: 1em;
+text-align: center;
+background: #ffffff;
+border-bottom: 1px solid #eee;
+}
+
+.col1 span {
+color: #999;
+font-size: 1.6em;
+font-family: "微软雅黑";
+}
+@media only screen and (max-width:710px) and (min-width:640px) {
+    body {
+        font-size: 17.77778px;
+    }
+
+    .viewport {
+        max-width: 710px;
+    }
+}
+

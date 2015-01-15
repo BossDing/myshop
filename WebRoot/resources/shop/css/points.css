@@ -1,0 +1,53 @@
+﻿#points_tab_h{
+	overflow:hidden;
+	border-bottom-width:2px;
+	border-bottom-color:#0081cc;
+	border-bottom-style:solid;
+	margin: 0 10px;
+}
+.tab_h{
+	float:left;
+	line-height:30px;
+	padding-right:18px;
+	padding-left:18px;
+	font-family:"宋体";
+	font-size:14px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	cursor:pointer;
+	font-size-adjust:none;
+	font-stretch:normal;
+	color:#808080;
+	
+}
+.tab_d{
+
+}
+#points_tab_d{
+	clear:both;
+	overflow:hidden;
+	padding-top:28px;
+	padding-right:0px;
+	padding-bottom:28px;
+	padding-left:30px;
+	font-family:"微软雅黑",Arial, Helvetica, sans-serif;
+	font-size:28px;
+	
+}
+.cur{
+	cursor:default;
+	color:#ffffff;
+	background:#0081cc;
+}
+#points_bill{
+	font-size:14px;
+	font-weight:bold;
+	color:#808080;
+}
+#points_bill td,th{
+	text-align:center;
+	border:1px solid #808080;
+	width:160px;
+	height:32px;
+}

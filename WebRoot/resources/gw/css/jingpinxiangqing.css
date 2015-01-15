@@ -1,0 +1,132 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body{ margin:0px; padding:0px;}
+ul,li,dt,dd{ padding:0px; margin:0px; list-style-type:none; }
+a{ text-outline:none; text-decoration:none;}
+
+#clear{ clear:both;}
+.content_jp{ width:1190px; margin:0px auto; overflow:hidden; position:relative;}
+.jp_pinlei_nav{ overflow:hidden;  padding: 20px;}
+.jp_xq{ float:left; width:1020px; }
+.jp_nav_x {
+float: right;
+width: 120px;
+height:100%;
+background: #ddd;
+padding: 30px 20px 20px 10px;
+position: absolute;
+right: 0px;
+top: 0px;}
+.jp_xq img{ width:1020px;}
+.jp_pinlei_nav { width:1020px;margin: 0px auto 100px auto;line-height: 20px;}
+
+.jp_pinlei_nav li{ float:left; width:145px; font-size:12px;}
+.jp_pinlei_nav li dt{ font-weight:bold;}
+.jp_pinlei_nav li dd{}
+.jp_tittle{ font-size:14px; width:1020px; margin: 50px auto 0px auto; font-weight:bold;}
+.jp_pinlei_nav a{ color:#000;}
+
+<!--左边导航-->
+#guide_t{
+    font-size: 20PX;
+    color: #494949;
+    line-height: 50px;
+}
+#lef{
+    width: 970px;
+    border: 1px solid #adadad;
+    float: left;
+    background: #fff;
+    padding: 0px 20px;
+}
+.guide_tittle{
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px dashed #999;
+    line-height: 50px;
+    margin-bottom: 15px;
+    color: #494949;
+}
+.text{
+    font-size: 14px;
+    line-height: 30px;
+    width: 800px;
+}
+.img{ width:570px;}
+.img img{ width:100%;}
+#guide_nav{
+    float: right;
+    border-left:0px dashed #999;
+    
+	
+}
+#guide_nav a{color: #494949;}
+#guide_nav a:hover{color: #fff; font-size:14px;}
+/*#guide_nav dl{ padding-left:15px; overflow:hidden; }
+#guide_nav dt{
+    font-size: 12px;
+    line-height: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#guide_nav dd{
+    font-size: 12px;
+    line-height: 25px;
+}*/
+#guide_nav dl { border-left:0px dashed #999; padding-left:20px; overflow:hidden; background:url(../images/dl_bg_left.png) left repeat-y; width:100px; }
+#guide_nav dt { cursor: pointer; font:bold 12px/30px Arial, "Microsoft YaHei"; }
+#guide_nav dd { font:12px/25px Arial, "Microsoft YaHei"; position:relative; }
+
+#guide_nav #this a{
+	list-style:none;
+	
+}
+
+#guide_nav .this a {
+font-size: 14px;
+color: #494949;
+}
+
+/* 右边指示点 */
+
+.dot_bg { background-image:url(../images/before_dot_bg.png); background-repeat:no-repeat; }
+.left_dot { width:8px; height:8px; background-position:-8px 0px; }
+.left_dot { position:absolute; left:-15px; top:8px; }
+
+#guide_nav dd.selected .left_dot {  background-position:0px 0px; }
+
+#back-to-top{
+		position:fixed;
+		bottom:5%;
+		right:50%;
+		margin-right:-628px;
+		
+	}
+	#back-to-top a{
+		text-align:center;
+		text-decoration:none;
+		color:#797979;
+		display:block;
+		width:39px;
+		/*使用CSS3中的transition属性给跳转链接中的文字添加渐变效果*/
+		-moz-transition:color 1s; 
+		-webkit-transition:color 1s;
+		-o-transition:color 1s;
+	}
+	#back-to-top a:hover{
+		color:#979797;
+	}
+	#back-to-top a span{
+		display:block;
+		height:50px;
+		width:36px;
+		background:url(../images/top.png) no-repeat center center;
+		margin-bottom:5px;
+		-moz-transition:background 1s;
+		-webkit-transition:background 1s;
+		-o-transition:background 1s;
+	}
+	#back-to-top a:hover span{
+		background:url(../images/top.png) no-repeat center center;
+	}

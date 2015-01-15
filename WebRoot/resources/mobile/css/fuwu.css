@@ -1,0 +1,106 @@
+@charset "utf-8";
+*{margin:0;padding:0; font-size:12px; text-decoration:none;}
+li{list-style:none;}
+img{border:none 0;}
+
+.Big{
+	width:100%;
+	overflow:hidden;
+	background-color:#f5f5f5;
+	margin:0 auto;
+	margin-top:20px;
+	overflow:hidden;
+	border-radius:4px;
+	}
+
+/*头部开始*/
+.dingdan-top{
+	width:100%;
+	height:86px;
+	/*background:url(../images/es_03.png) repeat-x;*/
+	}
+.dingdan-top-left{
+	width:80px;
+	height:86px;
+	/*background:url(../images/home_20.png) no-repeat center;*/
+	display:block;
+	}
+.dingdan-top-center{
+	width:97%;
+	text-align:center;
+	font-family:微软雅黑;
+	font-size:20px;
+	color: #FFF0F0;
+	}
+.dingdan-top-right{
+	width:90px;
+	height:86px;
+	/*background:url(../images/Car_25.png) no-repeat center;*/
+	display:block;
+	}
+.bottom{
+	width:180px;
+	margin:0 auto;
+	padding-top:20px;
+	overflow:hidden;
+	}
+.bottom li{
+	float:left;
+	font-family:微软雅黑;
+	}
+.bottom li a{
+	font-size:16px;
+	color:#999;
+	}
+.bottom-a{
+	padding:0 10px;
+	}
+.quanbu-big{
+	width:100%;
+	overflow:hidden;
+	background-color:#f4f4f4;
+	margin-top:20px;
+	margin:0 auto;
+	padding-bottom:20px;
+	}
+.left-one ul{
+	width:96%;
+	overflow:hidden;
+	margin:0 auto;
+	background-color:#FFF;
+	font-family:微软雅黑;
+	border-radius:10px;
+	margin-top:30px;
+	}
+.left-one li{
+	height:74px;
+	width:96%;
+	line-height:74px;
+	padding-left:20px;
+	border-bottom:1px dashed #DEDEDE;
+	overflow:hidden;
+	}
+.left-one span{
+	font-size:20px;
+	color:#787878;
+	padding-left:20px;
+	}
+.left-top{
+	font-size:24px;
+	color:#222;
+	}
+.left-top span{
+	margin-left:-20px;
+	float:left;
+	color:#333;
+	}
+.left-top img{
+	float:right;
+	padding-top:20px;
+	padding-right:20px;
+	}
+.left-one{
+	margin-top:10px;
+	}
+/* CSS Document */
+

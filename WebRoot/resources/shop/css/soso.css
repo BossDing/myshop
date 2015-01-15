@@ -1,0 +1,385 @@
+
+.where-big{
+	width: 1190px;
+	overflow: hidden;
+	margin: 0 auto;
+	line-height: 50px;
+}
+.where-big .kfdlb{
+	float: right;
+}
+.where-big .kfdlb li{
+	float: left;
+}
+.where-big .kfdlb li img{
+	padding-top: 17px;
+	padding-right: 5px;
+}
+
+.where-big{
+	width: 1190px;
+	overflow: hidden;
+	margin: 0 auto;
+	line-height: 50px;
+}
+#index_place span {
+margin: 0px 5px;
+}
+.where-big .kfdlb{
+	float: right;
+}
+.where-big .kfdlb li{
+	float: left;
+}
+.where-big .kfdlb li img{
+	padding-right: 5px;
+}
+
+/*产品列表*/
+.mybe_like{ overflow:hidden; margin: 0px auto; width: 1235px;}
+.mybe_like li{ width:200px; margin-right: 47px; float:left; margin-top: 30px;margin-top: 20px;margin-bottom: 20px;}
+.mybe_like li:first-child{ /* margin:0px; */ }
+.like_pic{ width:200px; height:200px; overflow:hidden; border: 1px solid #adadad;}
+.like_pic img{width:200px; height:200px;}
+.like_pic:hover{ border: 1px solid #f26709;}
+.like_name{ line-height:20px; color: #adadac;}
+.like_tt{ overflow:hidden; height:25px; }
+.like_price{ float:left; font-size:18px; color:#F60; }
+.like_com{ float:right; font-size:12px; height:25px; line-height:30px; color: #adadac;}
+.like_left{ float:left; font-size:12px; height:25px; line-height:30px; color: #adadac;}
+.like_com i{ font-style:normal; color:#F60;}
+
+
+/*排序*/
+.sequence{
+    width: 600px;
+    float: left;
+}
+.sequence span{
+    font-weight: bold;
+}
+.sequence .this{ background-color:#F60; }
+.sequence_but2{
+    background: url(../images/soso-1.png) no-repeat;
+    border: none;
+    font-size: 12px;
+    padding: 0px 5px;
+    height: 25px;
+    width: 59px;
+    line-height: 25px;
+    padding-right: 25px;
+    margin-left: 10px;
+    color: #666;
+}
+.sequence_but3{
+    background: url(../images/soso-2.png) no-repeat;
+    border: none;
+    font-size: 12px;
+    padding: 0px 5px;
+    height: 25px;
+    width: 102px;
+    line-height: 25px;
+    padding-right: 25px;
+    margin-left: 10px;
+    color: #666;
+}
+.sequence_but{
+    background: url(../images/soso-1.png) no-repeat;
+    border: none;
+    font-size: 12px;
+    padding: 0px 5px;
+    height: 25px;
+    width: 59px;
+    line-height: 25px;
+    padding-right: 25px;
+    margin-left: 10px;
+    color: #fff;
+}
+.page{
+    width: 300px;
+    float: right;
+    font-size: 14px;
+}
+.page i{ font-style:normal; color:#F90;}
+.page .last{
+    padding: 0 8px;
+    background: none;
+    border: 1px solid#aaa;
+    border:1px solid #adadad;
+}
+.page .next{
+    border: 1px solid #adadad;
+ 
+    background: none;
+    padding: 0 5px;
+}
+.page .last:hover{
+    padding: 0 8px;
+    background: none;
+    border: 1px solid #F60;
+	color:#f60;
+}
+.page .next:hover{
+    border: 1px solid #F60;
+	color:#f60;
+    background: none;
+    padding: 0 5px;
+}
+/*页码*/
+.yema-big{
+	width: 1190px;
+	padding-top: 20px;
+	border-top: 1px dashed #aaa;
+	height: 40px;
+}
+.yema{
+	width: 234px;
+	float: right;
+	height: 21px;
+	line-height: 21px;
+	background: #fff;
+}
+.yema li{
+	float: left;
+}
+.yema li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #343434;
+}
+.yema li a:hover{
+	background: #7a7a7a;
+	color: #fff;
+}
+.yema .yema-1{
+	width: 30px;
+	text-align: center;
+}
+.yema .yema-2{
+	width: 70px;
+	height: 19px;
+	border: 1px solid #c4c4c4;
+	text-align: center;
+}
+.yema .yema-2 a{
+	color: #c4c4c4;
+}
+.yema .yema-3{
+	width: 70px;
+	height: 19px;
+	border: 1px solid #999;
+	text-align: center;
+}
+
+/*重新搜索*/
+.new-big{
+	width: 1190px;
+	height: 60px;
+	background: #dfdede;
+}
+.new{ 
+	width: 440px; 
+	top: 16px;
+  	margin: 0 auto; 
+  	position:relative;
+ }
+.soso_text2{ 
+	color:#878787; 
+	width: 432px; 
+	height: 25px; 
+	line-height: 25px; 
+	border: 1px solid #ccc; 
+	font-size:14px; 
+	padding:2px 3px;
+}
+.new1{
+	line-height: 60px;
+	position:absolute; 
+	left:-65px; 
+	top:-14px; 
+	color: #878787;
+}
+.soso_but{ 
+	background:url(../images/head_soso.jpg); 
+	width:34px; 
+	height:30px; 
+	position:absolute; 
+	right:0px; 
+	top:0px; 
+	border:none; 
+}
+.two{
+	width: 1190px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.two-left{
+	width: 452px;
+	overflow: hidden;
+	float: left;
+}
+.two-left-a{
+	width: 450px;
+	height: 36px;
+	line-height: 36px;
+	padding-left: 20px;
+	background: #dfdede;
+	font-size: 16px;
+	color: #595757;
+}
+.two-left-b{
+	width: 450px;
+	overflow: hidden;
+}
+.two-left-b1{
+	width: 450px;
+	overflow: hidden;
+	margin-top: 25px;
+	padding-bottom: 22px;
+	border-bottom: 1px dashed #aaa;
+}
+.left-b11{
+	width: 104px;
+	height: 104px;
+	float: left;
+	border: 1px solid #aaa;
+}
+.left-b12{
+	width: 320px;
+	overflow: hidden;
+	float: right;
+}
+.left-b12 a{
+	color: #adadac;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.left-b12 a:hover{
+	text-decoration: underline;
+}
+.left-b12 .span1{
+	color: #f26709;
+}
+.left-b12 .span2{
+	color: #f26709;
+	font-size: 18px;
+	padding-right: 40px;
+}
+/*页码*/
+.yema2{
+	width: 234px;
+	float: right;
+	height: 21px;
+	line-height: 21px;
+	background: #fff;
+	margin-top: 20px;
+}
+.yema2 li{
+	float: left;
+}
+.yema2 li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #343434;
+}
+.yema2 li a:hover{
+	background: #7a7a7a;
+	color: #fff;
+}
+.yema2 .yema-1{
+	width: 30px;
+	text-align: center;
+}
+.yema2 .yema-2{
+	width: 70px;
+	height: 19px;
+	border: 1px solid #c4c4c4;
+	text-align: center;
+}
+.yema2 .yema-2 a{
+	color: #c4c4c4;
+}
+.yema2 .yema-3{
+	width: 70px;
+	height: 19px;
+	border: 1px solid #999;
+	text-align: center;
+}
+
+
+.two-right{
+	width: 722px;
+	overflow: hidden;
+	float: right;
+}
+.two-right-a{
+	width: 720px;
+	height: 36px;
+	line-height: 36px;
+	padding-left: 20px;
+	background: #dfdede;
+	font-size: 16px;
+	color: #595757;
+}
+/*产品列表*/
+.mybe_like2{ overflow:hidden; margin: 0px auto; width: 720px;}
+.mybe_like2 li{ width:200px; margin-left: 30px; float:left; margin-top: 20px;padding-bottom: 20px;}
+.mybe_like2 li:first-child{ /* margin:0px; */ }
+.like_lit{ border:1px solid #a0a0a0; overflow: hidden; background:#dedede; height:50px; line-height:50px; font-size: 14px; color:#595757; padding:0px 20px;}
+.like_pic1{ width:200px; height:200px; overflow:hidden; border: 1px solid #adadad;}
+.like_pic1 img{width:200px;height:200px;}
+.like_pic1:hover{ border: 1px solid #f26709;}
+.like_name1{ line-height:20px; color: #adadac;}
+.like_tt1{ overflow:hidden; height:25px; }
+.like_price1{ float:left; font-size:18px; color:#F60; }
+.like_com1{ float:right; font-size:12px; height:25px; line-height:30px; color: #adadac;}
+.like_com1 i{ font-style:normal; color:#F60;}
+/*页码*/
+.yema-big3{
+	width: 720px;
+	padding-top: 20px;
+	border-top: 1px dashed #aaa;
+	height: 40px;
+}
+.yema3{
+	width: 234px;
+	float: right;
+	height: 21px;
+	line-height: 21px;
+	background: #fff;
+}
+.yema3 li{
+	float: left;
+}
+.yema3 li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #343434;
+}
+.yema3 li a:hover{
+	background: #7a7a7a;
+	color: #fff;
+}
+.yema3 .yema-1{
+	width: 30px;
+	text-align: center;
+}
+.yema3 .yema-2{
+	width: 70px;
+	height: 19px;
+	border: 1px solid #c4c4c4;
+	text-align: center;
+}
+.yema3 .yema-2 a{
+	color: #c4c4c4;
+}
+.yema3 .yema-3{
+	width: 70px;
+	height: 19px;
+	border: 1px solid #999;
+	text-align: center;
+}

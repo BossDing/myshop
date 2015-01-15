@@ -1,0 +1,240 @@
+@charset "utf-8";
+*{margin:0;padding:0; font-size:12px; text-decoration:none;}
+li{list-style:none;}
+img{border:none 0;}
+
+.Big{
+	width:100%;
+	margin:0 auto;
+	overflow:hidden;
+	border-radius:4px;
+	}
+.shang{
+	width:640px;
+	height:40px;
+	background-color:#CCC;
+	text-align:center;
+	line-height:40px;
+	}
+/*收货信息开始*/
+.dingdan-big{
+	width:100%;
+	margin:0 auto;
+	/* background-color:#F1F1F1; */
+	}
+.shouhuo{
+	width:95%;
+	margin:0 auto;
+	font-family:微软雅黑;
+	}
+.shouhuo-a{
+	font-size: 15px;
+	padding-bottom: 5px;
+	padding-top:10px;
+	}
+.shouhuo-b{
+	width:100%;
+	height: 90px;
+	border-radius:5px;
+	background-color:#FFF;
+	border:1px solid #ececec;
+	overflow:hidden;
+	}
+.shouhuo-bb{
+	width:100%;
+	height:70px;
+	border-radius:5px;
+	background-color:#FFF;
+	overflow:hidden;
+	}
+.shouhuo-b li{
+	font-size: 16px;
+	padding-left:10px;
+	color:#666;
+	}
+.shouhuo-b-a{
+	margin-top: 10px;
+	}
+.shouhuo-b-b{
+	width:7%;
+	height:35px;
+	background:url(../images/shouhuo.png) no-repeat;
+	float:right;
+	padding-right:10px;
+	}
+/*支付方式/送货时间/发票信息开始*/
+.zhifu{
+	font-family:微软雅黑;
+	}
+.zhifu-a,.peisong-a{
+	font-size: 15px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	}
+.zhifu-b{
+	width:100%;
+	height: 38px;
+	font-family:微软雅黑;
+	font-size:16px;
+	padding-left:20px;
+	color:#666;
+	border-radius:5px;
+	border:1px solid #CCC;
+	}
+.zhifu-bb{
+	/* width: 92%; */
+	height: 68px;
+	font-family:微软雅黑;
+	font-size:16px;
+	padding-left:20px;
+	color:#666;
+	border-radius:5px;
+	border:1px solid #CCC;
+	}
+/*配送方式开始*/
+.peisong{
+	font-family:微软雅黑;
+	}
+.peisong-b{
+	width:100%;
+	height:100px;
+	border:1px solid #CCC;
+	line-height:100px;
+	font-size:28px;
+	background-color:#FFF;
+	border-radius:5px;
+	}
+.peisong-b span{
+	line-height:100px;
+	font-size:28px;
+	padding-left:10px;
+	color:#666;
+	}
+.Yes{
+	width:600px;
+	height:84px;
+	background:url(../images/dingdan_03.png) no-repeat;
+	margin-top:30px;
+	}
+.bottom{
+	width:38%;
+	margin:0 auto;
+	padding-top:50px;
+	overflow:hidden;
+	}
+.bottom li{
+	float:left;
+	font-family:微软雅黑;
+	}
+.bottom li a{
+	font-size:20px;
+	color:#999;
+	}
+.bottom-a{
+	padding:0 30px;
+	}
+	
+.fdn{
+	width:100%;
+	overflow:hidden;
+	background-color:#FFF;
+	margin-top:20px;
+	border-radius:5px;
+	border:1px solid #ccc;
+	}
+.AAAA{
+	background:url(../images/xiao-right_03.png) no-repeat;
+	}
+.AAAA,.BBBB{
+	width:98%;
+	height:100px;
+	line-height:100px;
+	font-family:微软雅黑;
+	font-size:28px;
+	padding-left:30px;
+	color:#666;
+	border-bottom:1px solid #EBEBEB;
+	}
+.fdn a:hover{
+	color:#F00;
+	}
+.wh{
+	width:94%;
+	height:100px;
+	background-color:#FFF;
+	line-height:100px;
+	font-family:微软雅黑;
+	font-size:24px;
+	padding-left:23px;
+	}
+.Big-denglu{
+	width:100%;
+	height: 60px;
+	margin-top: 10px;
+	overflow:hidden;
+	}
+.Big-denglu div{
+	float:left;
+	}
+.denglu-left{
+	width:12px;
+	height: 40px;
+	}
+.denglu-center{
+	height: 40px;
+	width:90%;
+	font-family:微软雅黑;
+	font-size:22px;
+	text-align:center;
+	line-height: 40px;
+	color:#FFF;
+	background-color: #e9510b;
+	}
+.denglu-right{
+	width:12px;
+	height: 40px;
+	}
+.xuanze{
+	line-height: 30px;
+	background-image: url((../images/jiajia_46.png);
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	height: 100%;
+}
+.xuanze a{
+	width: 80%;
+	height: 100%;
+	display: block;
+	padding-left: 20%;
+	font-size: 14px;
+	height: 100%;
+	color: #999;
+	line-height: 40px;
+	background-image: url(../images/jiajia_46.png);
+	background-repeat: no-repeat;
+	background-position: 10px 5px;
+}
+.xuanze a:hover{
+	background-image: url(../images/jiajia-hover_46.png);
+	background-repeat: no-repeat;
+	background-position: 10px 5px;
+}
+strong,i{
+	font-size: 14px;
+	color: #F60;
+	line-height: 20px;
+} 
+.denglu{
+	width: 100%;
+	height: 40px;
+	background-color: #C00;
+	font-size: 18px;
+	color: #FFF;
+	line-height: 30px;
+	border-radius: 5px;
+	border: 1px solid #A10003;
+	-webkit-appearance:none; /*去除input默认样式*/
+	display: block;
+}
+/* CSS Document */
+

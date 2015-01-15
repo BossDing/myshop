@@ -1,0 +1,109 @@
+@charset "utf-8";
+*{margin:0;padding:0; font-size:12px; text-decoration:none;}
+li{list-style:none;}
+img{border:none 0;}
+
+.Big{
+	width:100%;
+	overflow:hidden;
+	background-color:#f5f5f5;
+	margin:0 auto;
+	margin-top:20px;
+	overflow:hidden;
+	border-radius:4px;
+	}
+.shang{
+	width:640px;
+	height:40px;
+	background-color:#CCC;
+	text-align:center;
+	line-height:40px;
+	}
+/*商品开始*/
+.dingdan-big{
+	width:100%;
+	margin:0 auto;
+	padding-bottom:20px;
+	}
+.one-hang{
+	width:100%;
+	margin:0 auto;
+	}
+.one-hang-left,.one-hang-right{
+	width:49%;
+	overflow:hidden;
+	background:#FFF;
+	margin-top:10px;
+	}
+.one-hang-right{
+	margin-left:1%;
+	}
+.one-hang div{
+	float:left;
+	}
+.photo{
+	border-bottom:1px dashed #CCCCCC;
+	border-left:1px dashed #CCCCCC;
+	border-top:1px dashed #CCCCCC;
+	}
+.photo img{
+	padding:5px 5px;
+	}
+.Name{
+	font-family:微软雅黑;
+	font-size:10px;
+	padding-top:10px;
+	text-align:center;
+	}
+.jia{
+	text-align:center;
+	color:#666;
+	}
+.jia,.jia span{
+	font-family:Arial;
+	}
+.jia span{
+	color:#EA0000;
+	font-size:12px;
+	}
+.jia del{
+	color:#a5a5a5;
+	text-decoration: line-through;
+}
+.bottom{
+	width:220px;
+	margin:0 auto;
+	padding-top:30px;
+	overflow:hidden;
+	}
+.bottom li{
+	float:left;
+	font-family:微软雅黑;
+	}
+.bottom li a{
+	font-size:16px;
+	color:#999;
+	}
+.bottom-a{
+	padding:0 30px;
+	}
+
+.meiyou{
+	width:95%;
+	height:300px;
+	margin:0 auto;
+	}
+.hoi{
+	padding-top:30px;
+	}
+.hoi,.fot{
+	font-size:30px;
+	text-align:center;
+	font-family:微软雅黑;
+	}
+.fot a{
+	font-size:30px;
+	color:#E60000;
+	}
+/* CSS Document */
+

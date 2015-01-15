@@ -1,0 +1,149 @@
+body{ 
+	background:#f2f2f2;
+}
+.where-big{
+	width: 1190px;
+	overflow: hidden;
+	margin: 0 auto;
+	line-height: 50px;
+}
+.where-big .kfdlb{
+	float: right;
+}
+.where-big .kfdlb li{
+	float: left;
+}
+.where-big .kfdlb li img{
+	padding-right: 5px;
+}
+/*个人资料开始*/
+.ziliao-big{
+	width: 1190px;
+	overflow: hidden;
+	margin: 0px auto;
+}
+.ziliao-big .ziliao-left{
+	width: 165px;
+	height: 495px;
+	background: #ccc;
+	float: left;
+}
+.ziliao-big .ziliao-right{
+	width: 1013px;
+	overflow: hidden;
+	float: right;
+	height: 630px;
+	background: #fff;
+	border: 1px solid #a0a0a0;
+}
+.ziliao-big .ziliao-right .ziliao-right-1{
+	width: 953px;
+	margin: 0px auto;
+}
+.ziliao-right .ziliao-right-1 .right-11{
+	width: 953px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #5e5e5e;
+	border-bottom: 1px dashed #a0a0a0;
+	margin-top: 10px;
+}
+
+.liu-a{
+	width: 953px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.liu-a div{
+	float: left;
+	font-weight: bold;
+	color: #3e3e3e;
+}
+.liu-a .fdk{
+	padding-right: 20px;
+}
+.liu-a input{
+	margin-top: 5px;
+}
+.zu{
+	width: 953px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.zu div{
+	float: left;
+}
+.zu .zu-i{
+	font-weight: bold;
+	color: #3e3e3e;
+	line-height: 30px;
+	padding-right: 20px;
+}
+.zu .zu-2 .td-a{
+	width: 500px;
+	height: 30px;
+	line-height: 30px;
+}
+.shan{
+	width: 953px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.shan div{
+	float: left;
+}
+.shan .shan-a{
+	font-weight: bold;
+	color: #3e3e3e;
+	line-height: 30px;
+	padding-right: 10px;
+}
+.shan .anniu{
+	width: 100px;
+	height: 24px;
+	font-weight: bold;
+	color: #3e3e3e;
+}
+.fdjq{
+	font-weight: bold;
+	color: #999;
+	padding-left: 5px;
+}
+.zhi{
+	font-weight: bold;
+	padding-left: 50px;
+	color: #999;
+}
+.fdpp{
+	width: 953px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.fdpp div{
+	float: left;
+}
+.fdpp .dks0{
+	font-weight: bold;
+	color: #3e3e3e;
+	padding-right: 10px; 
+}
+.fdpp .opi textarea{
+	font-weight: bold;
+	width: 500px;
+	height: 150px;
+	border: 1px solid #ccc; 
+}
+.ds09 .anniu{
+	width: 140px;
+	height: 28px;
+	background: #ff0000;
+	border: none;
+	font-weight: bold;
+	color: #fff;
+	margin:30px 0 0 60px;
+}
+.ds09 .anniu:hover{
+	background: #d50303;
+}

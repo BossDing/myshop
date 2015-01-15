@@ -1,0 +1,171 @@
+body{ 
+	background:#f2f2f2;
+}
+
+.tehui-big{
+	width: 1190px;
+	overflow: hidden;
+	margin: 0px auto;
+}
+.tehui-top{
+	width: 1190px;
+	height: 24px;
+	line-height: 24px;
+	font-weight: bold;
+	margin: 0 auto;
+}
+.tehui-top li{
+	float: left;
+	color: #525252;
+}
+.tehui-top li a{
+	color: #525252;
+}
+.tehui-top li a:hover{
+	color: #e60020;
+}
+.tehui-xq{
+	width: 1190px;
+	overflow: hidden;
+	margin-bottom:20px;
+}
+.tehui-xq img{ height:408px;}
+.tehui-xq .tehui-xq1{
+	height: 408px;
+	background: url(../images/tehui-1.jpg) no-repeat;
+	margin-bottom: 20px;
+}
+.tehui-xq1-a{
+	font-size: 24px;
+	font-weight: bold;
+	color: #414140;
+}
+.tehui-xq1-right{
+	width: 350px;
+	height:175px;
+	overflow: hidden;
+	top: 210px;
+	left: 680px;
+	position: absolute;
+}
+.tehui-xq1-a div.redline {
+	float:left;
+	text-decoration:line-through;
+	color:#d90a24;
+	padding-top: 10px;
+}
+.tehui-xq1-a div.redline span{
+	font-size: 13px;
+	padding-right: 10px;
+	color: #333;	
+}
+.tehui-xq1-b{
+	font-size: 13px;
+	font-weight: bold;
+	margin: 20px 10px 20px 0px;
+	float:left;
+	color: #414140;
+}
+.tehui-xq1-b span{
+	font-size: 18px;
+	color: #d90a24;
+}
+.tehui-xq1-c .tehui-xq1-c1{
+	width: 104px;
+	height: 34px;
+	background: url(../images/shop.png) no-repeat;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 34px;
+	text-align: center;
+}
+.tehui-xq1-c .tehui-xq1-c1 a{
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.tehui-xq1-c .tehui-xq1-c1 a:hover{
+	background: url(../images/shop-hover.png) no-repeat;
+}
+.tehui-xq1-c .tehui-xq1-c2{
+	width: 104px;
+	height: 34px;
+	background: url(../images/shou.png) no-repeat;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 34px;
+	text-align: center;
+	margin-left: 20px;
+}
+.tehui-xq1-c .tehui-xq1-c2 a{
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.tehui-xq1-c .tehui-xq1-c2 a:hover{
+	background: url(../images/shou-hover.png) no-repeat;
+}
+.tehui-xq1-c{
+	height: 34px;
+	margin-top: 20px;
+}
+.tehui-xq1-c div{
+	float: left;
+}
+.tehui-xq .tehui-xq2{
+	height: 408px;
+	background: url(../images/tehui-2.jpg) no-repeat;
+	margin-bottom: 20px;
+}
+.tehui-xq .tehui-xq3{
+	height: 408px;
+	background: url(../images/tehui-3.jpg) no-repeat;
+	margin-bottom: 20px;
+}
+.tehui-xq .tehui-xq4{
+	height: 408px;
+	background: url(../images/tehui-4.jpg) no-repeat;
+	margin-bottom: 20px;
+}
+/*页码*/
+.yema{
+	width: 234px;
+	margin: 0 auto;
+	height: 21px;
+	line-height: 21px;
+	background: #fff;
+}
+.yema li{
+	float: left;
+}
+.yema li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #343434;
+}
+.yema li a:hover{
+	background: #7a7a7a;
+	color: #fff;
+}
+.yema .yema-1{
+	width: 30px;
+	text-align: center;
+}
+.yema .yema-2{
+	width: 70px;
+	height: 19px;
+	border: 1px solid #c4c4c4;
+	text-align: center;
+}
+.yema .yema-2 a{
+	color: #c4c4c4;
+}
+.yema .yema-3{
+	width: 70px;
+	height: 19px;
+	border: 1px solid #999;
+	text-align: center;
+}

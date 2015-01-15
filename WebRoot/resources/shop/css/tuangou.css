@@ -1,0 +1,176 @@
+body{ 
+	background:#f2f2f2;
+}
+.where-big{
+	width: 1190px;
+	overflow: hidden;
+	margin: 0 auto;
+	line-height: 50px;
+}
+.where-big .kfdlb{
+	float: right;
+}
+.where-big .kfdlb li{
+	float: left;
+}
+.where-big .kfdlb li img{
+	/*padding-top: 17px;*/
+	padding-right: 5px;
+}
+.where-big .kfdlb li a{
+	cursor:pointer;
+}
+
+/*个人资料开始*/
+.tuangou-big{
+	width: 1190px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.tuan-top{
+	width: 1190px;
+	overflow: hidden;
+	height: 1340px;
+}
+.tuangou-big .tuan-1{
+	width: 584px;
+	overflow: hidden;
+	height: 425px;
+	float: left;
+	margin-right: 9px;
+	background: #fff;
+	border: 1px solid #aaa;
+	margin-bottom: 15px;
+}
+.tuan-1 .tuan-11{
+	width: 550px;
+	margin: 11px auto;
+	font-size: 15px;
+	color: #040404;
+}
+.tuan-1 .tuan-12{
+	position: relative;
+	background-color: #f5a826;
+	height: 245px;
+}
+.tuan-1 .tuan-12 img{
+	display:block;
+	position:absolute;
+	width: 230px;
+	height: 230px;
+	right:20px;
+	top:10px;
+	}
+.jia{
+	position: absolute;
+	width:400px;
+	top: 30px;
+	left: 32px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #414140;
+}
+.jia .name1{ height: 21px; overflow:hidden;}
+.jia .name2{ font-size:22px; height: 32px; overflow:hidden; margin-bottom: 40px;}
+.jia .jia-1{
+	font-size: 18px;
+}
+.jia .jia-2{
+	font-size: 36px;
+}
+.jia .jia-3{
+	font-size: 25px;
+	color:red;
+}
+.tuan-1 .tuan-13{
+	width: 584px;
+	overflow: hidden;
+	margin: 15px 0 0 30px;
+ }
+.tuan-1 .tuan-13 .tuan-13-left{
+	width: 250px;
+	float: left;
+}
+.tuan-1 .tuan-13 .tuan-131{
+	color: #7f7f7f;
+	padding-left: 10px;
+}
+ .tuan-1 .tuan-13 .tuan-131 div{
+float: left;
+color: #7f7f7f;
+width: 39px;
+}
+.tuan-1 .tuan-13 .tuan-13-right{
+	width: 300px;
+	overflow: hidden;
+	float: right;
+	margin-top: 8px;
+}
+.tuan-1 .tuan-13 .tuan-13-right div{
+	float: left;
+}
+.tuan-1 .tuan-13 .tuan-13-right .tuan-13-q{
+	margin-right: 15px;
+}
+.tuan-1 .tuan-13 .tuan-13-right .anniu1{
+	width: 104px;
+	height: 34px;
+	border: none;
+	color: #fff;
+	font-size: 15px;
+	background:url(../images/shop.png) no-repeat;
+}
+.tuan-1 .tuan-13 .tuan-13-right .anniu1:hover{;
+	background:url(../images/shop-hover.png) no-repeat;
+}
+.tuan-1 .tuan-13 .tuan-13-right .anniu2{
+	width: 104px;
+	height: 34px;
+	border: none;
+	color: #fff;
+	font-size: 15px;
+	background:url(../images/shou.png) no-repeat;
+}
+.tuan-1 .tuan-13 .tuan-13-right .anniu2:hover{;
+	background:url(../images/shou-hover.png) no-repeat;
+}
+/*页码*/
+.yema{
+	width: 234px;
+	margin: 0px auto;
+	height: 21px;
+	line-height: 21px;
+	background: #fff;
+}
+.yema li{
+	float: left;
+}
+.yema li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #343434;
+}
+.yema li a:hover{
+	background: #7a7a7a;
+	color: #fff;
+}
+.yema .yema-1{
+	width: 30px;
+	text-align: center;
+}
+.yema .yema-2{
+	width: 70px;
+	height: 19px;
+	border: 1px solid #c4c4c4;
+	text-align: center;
+}
+.yema .yema-2 a{
+	color: #c4c4c4;
+}
+.yema .yema-3{
+	width: 70px;
+	height: 19px;
+	border: 1px solid #999;
+	text-align: center;
+}

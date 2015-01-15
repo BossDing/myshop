@@ -1,0 +1,290 @@
+body{ 
+	background:#f2f2f2;
+}
+.where-big{
+	width: 1190px;
+	overflow: hidden;
+	margin: 0 auto;
+	line-height: 50px;
+}
+.where-big .kfdlb{
+	float: right;
+}
+.where-big .kfdlb li{
+	float: left;
+}
+.where-big .kfdlb li img{
+	padding-top: 17px;
+	padding-right: 5px;
+}
+/*个人资料开始*/
+.ziliao-big{
+	width: 1190px;
+	overflow: hidden;
+	margin: 0px auto;
+}
+.ziliao-big .ziliao-left{
+	width: 165px;
+	background: #ccc;
+	float: left;
+}
+.ziliao-big .ziliao-right{
+	width: 1013px;
+	overflow: hidden;
+	float: right;
+	background: #fff;
+	border: 1px solid #a0a0a0;
+}
+.ziliao-big .ziliao-right .ziliao-right-1{
+	width: 953px;
+	margin: 0px auto;
+}
+.ziliao-right .ziliao-right-1 .right-11{
+	width: 953px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #5e5e5e;
+	border-bottom: 1px dashed #a0a0a0;
+	margin-top: 10px;
+}
+
+.zhifen{
+	width: 953px;
+	overflow: hidden;
+	color: #6d6c6c;
+	margin-top: 20px;
+}
+.zhifen .td-a{
+	width: 100px;
+}
+.zhifen .td-a a{
+	color: #e8243a;
+}
+.zhifen .td-d{
+	width: 200px;
+}
+.zhifen .td-c{
+	width: 260px;
+	text-align: center;
+}
+.zhifen .td-b{
+	width: 393px;
+}
+.zhifen .td-b input{
+	margin-left: 30px;
+	margin-right: 10px;
+	vertical-align: bottom;
+}
+.zhifen .td-b .td-b-1{
+	width: 393px;
+	overflow: hidden;
+}
+.zhifen .td-b .td-b-1 .td-b-1-left{
+	width: 120px;
+	height: 120px;
+	border: 1px solid #a0a0a0;
+	float: left;
+}
+.zhifen .td-b .td-b-1 .td-b-1-left img{
+	width:100%;
+	height:100%;
+	}
+.zhifen .td-b .td-b-1 .td-b-1-right{
+	float: left;
+	color: #717171;
+	padding-left: 20px;
+}
+.zhifen .td-b .td-b-1 .td-b-1-right .li-1{
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+.zhifen .td-b .td-b-1 .td-b-1-right .li-2{
+	line-height: 24px;
+}
+.zhifen span{
+	color: #e8243a;
+}
+.zhifen  .td-b-1-right span{
+	color: #e8243a;
+	padding: 0 5px;
+}
+.dks1{
+
+	height: 40px;
+}
+.dks2{
+	border-bottom: 1px dashed #d2d2d2;
+	height: 160px;
+}
+.bei{
+	background: #eeeeee;
+	border: 1px solid #d2d2d2;
+}
+/*页码*/
+.yema{
+	width: 234px;
+	float: right;
+	height: 21px;
+	line-height: 21px;
+	background: #fff;
+	margin-top: 10px;
+}
+.yema li{
+	float: left;
+}
+.yema li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #343434;
+}
+.yema li a:hover{
+	background: #7a7a7a;
+	color: #fff;
+}
+.yema .yema-1{
+	width: 30px;
+	text-align: center;
+}
+.yema .yema-2{
+	width: 70px;
+	height: 19px;
+	border: 1px solid #c4c4c4;
+	text-align: center;
+}
+.yema .yema-2 a{
+	color: #c4c4c4;
+}
+.yema .yema-3{
+	width: 70px;
+	height: 19px;
+	border: 1px solid #999;
+	text-align: center;
+}
+
+/*提交报告开始*/
+
+.tijiao{
+	width: 970px;
+	overflow: hidden;
+	margin: 20px 0 0 30px;
+}
+.tijiao-a{
+	width: 950px;
+	height: 36px;
+	line-height: 36px;
+	background: #eee;
+	border: 1px solid #d2d2d2;
+}
+.tijiao-a li{
+	float: left;
+	text-align: center;
+	color: #717171;
+	width: 190px;
+}
+.tijiao-b{
+	width: 970px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.tijiao-b li{
+	float: left;
+	padding-right: 17px;
+	color: #b0aeae;
+}
+.tijiao-b textarea{
+	width: 175px;
+	border: 1px solid #d2d2d2;
+	background: #eee;
+	height: 250px;
+}
+.tijiao-c{
+	width: 950px;
+	margin:20px auto 0 auto;
+	height: 30px;
+}
+.tijiao-c div{
+	float: left;
+}
+.tijiao-c .tijiao-1{
+	width: 28px;
+}
+.tijiao-c .tijiao-1 img{
+	visibility: center;
+}
+.tijiao-c .tijiao-2{
+	width: 150px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	color: #717171;
+	border: 1px solid #a0a0a0;
+	margin-left: 10px;
+}
+.tijiao-c .tijiao-2:hover{
+	background: #f6f6f6;
+}
+.tijiao-c .tijiao-3 input{
+	width: 80px;
+	height: 26px;
+	border: 1px solid #999;
+	background: #a0a0a0;
+	border-radius: 4px;
+	color: #fff;
+}
+.tijiao-c .tijiao-3{
+	margin-left: 20px;
+}
+.tijiao-c .tijiao-3 input:hover{
+	background: #808080;
+}
+.tijiao-d{
+	float: right;
+}
+.tijiao-d input{
+	vertical-align: bottom;
+	margin-right: 5px;
+}
+.tijiao-e{
+	width: 102px;
+	float: right;
+	display: block;
+	margin: 15px 20px 20px 0;
+}
+.tijiao-e input{
+	width: 100px;
+	height: 36px;
+	background: #d90a24;
+	border: 1px solid #c10119;
+	color: #fff;
+	border-radius: 6px;
+	font-size: 15px;
+}
+.tijiao-e input:hover{
+	background: #c10119;
+}
+.bao-photo{
+	width: 970px;
+	overflow: hidden;
+	margin: 20px 0;
+}
+.bao-photo li{
+	width: 175px;
+	border: 1px solid #d2d2d2;
+	float: left;
+	margin-right: 17px;
+}
+.agreement {
+height: 96px;
+line-height: 24px;
+padding: 0px 4px;
+color: #999999;
+overflow-y: scroll;
+border: 1px solid #e6e6e6;
+}
+div.panel {
+display: none;
+width: 600px;
+margin: 0px 10px;
+}

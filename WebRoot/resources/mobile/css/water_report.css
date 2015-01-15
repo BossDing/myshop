@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body,dl,dt,dd{ padding:0px; margin:0px; }
+body{ background:#f8f8f8;} 
+
+.top{background:#6CF; padding:0em 1em; height:3em; overflow:hidden; }
+.top .return{ background: url(../images/return_ico.png) -5px 0px no-repeat;background-size:3em;width: 3em;height:3em;  }
+
+
+.water_report{ background-color:#fff; margin:1em; padding:1em; line-height:1.8em; overflow:hidden; border-radius:3px;-moz-box-shadow:0 0 4px rgba(0,0,0,.1);
+-webkit-box-shadow:0 0 4px rgba(0,0,0,.1); }
+
+.water_report strong{ color:#666; }
+.water_report i{ font-style:normal; color:#69F; }
+.water_report dl{ margin-bottom:1em;}
+.water_report dt{ font-size:1.8em;  margin:.5em 0em; color:#333; font-weight:700;   }
+.water_report dd{ font-size:1.2em; color:#999; }
+
+
+
+
+
+
+
+@media only screen and (max-width:300px) {
+    body {
+        font-size: 8.33333px;
+    }
+
+    .viewport {
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width:310px) and (min-width:300px) {
+    body {
+        font-size: 8.33333px;
+    }
+
+    .viewport {
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width:320px) and (min-width:310px) {
+    body {
+        font-size: 8.88889px;
+    }
+
+    .viewport {
+        max-width: 320px;
+    }
+}
+
+@media only screen and (max-width:360px) and (min-width:320px) {
+    body {
+        font-size: 8.88889px;
+    }
+
+    .viewport {
+        max-width: 360px;
+    }
+}
+
+@media only screen and (max-width:360px) and (min-width:350px) {
+    body {
+        font-size: 10px;
+    }
+
+    .viewport {
+        max-width: 360px;
+    }
+}
+
+@media only screen and (max-width:480px) and (min-width:360px) {
+    body {
+        font-size: 10px;
+    }
+
+    .viewport {
+        max-width: 480px;
+    }
+}
+
+@media only screen and (max-width:480px) and (min-width:470px) {
+    body {
+        font-size: 13.33333px;
+    }
+
+    .viewport {
+        max-width: 480px;
+    }
+}
+
+@media only screen and (max-width:560px) and (min-width:480px) {
+    body {
+        font-size: 13.33333px;
+    }
+
+    .viewport {
+        max-width: 560px;
+    }
+}
+
+@media only screen and (max-width:570px) and (min-width:560px) {
+    body {
+        font-size: 15.83333px;
+    }
+
+    .viewport {
+        max-width: 570px;
+    }
+}
+
+@media only screen and (max-width:640px) and (min-width:570px) {
+    body {
+        font-size: 15.83333px;
+    }
+
+    .viewport {
+        max-width: 640px;
+    }
+}
+
+@media only screen and (max-width:640px) and (min-width:630px) {
+    body {
+        font-size: 17.77778px;
+    }
+
+    .viewport {
+        max-width: 640px;
+    }
+}
+.col1 {
+	padding: 1em;
+	text-align: center;
+	background: #ffffff;
+	border-bottom: 1px solid #eee;
+}
+
+.col1 span {
+color: #999;
+font-size: 1.6em;
+font-family: "微软雅黑";
+}
+@media only screen and (max-width:710px) and (min-width:640px) {
+    body {
+        font-size: 17.77778px;
+    }
+
+    .viewport {
+        max-width: 710px;
+    }
+}

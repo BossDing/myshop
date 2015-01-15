@@ -1,0 +1,17 @@
+@charset "utf-8";
+.im_online_chat {
+    float: right;
+}
+.im_online_chat a {
+    height: 25px;
+    width: 82px;
+}
+.im_online_chat .offlines {
+    background-position: -3px -27px;
+}
+.im_online_chat .onlines {
+	background-position: -3px -2px;
+	cursor:pointer;
+}
+.online_icon_mid{display:block;background-image:url(../images/mid_icon.gif);background-repeat:no-repeat;overflow:hidden;cursor:pointer;border:none;}
+

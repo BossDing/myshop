@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+body{ background:#f2f2f2;}
+
+
+
+
+.indiv_car{ padding:0px 35px; }
+.indiv_car #my_order{ line-height:50px; height:50px;font-size: 16px; }
+.indiv_car #car_nav{ line-height:40px; height:40px; border-bottom: 2px solid #a0a0a0;position:relative;   }
+.indiv_car #car_nav li{ float:left; width: 230px; text-align:center;  height: 40px;}
+.indiv_car #car_nav #this { border-bottom:2px solid #F00;}
+.indiv_car #car_nav li i{ color:#F00; font-style:normal; margin:0px 5px;}
+.indiv_car #car_nav li a{ font-size:16px; width:100%;  text-align:center; height:20px; display:block; line-height:20px; margin: 10px 0px;}
+.indiv_car #car_nav #del{ width:80px; height: 20px; padding-left:30px; position:absolute; right:0px; top: 10px; line-height: 20px; color:#a3a3a3;}
+
+
+#order_infor{color:#5e5e5e;}
+#order_infor td{ text-align:center; padding:5px 0px;}
+#order_infor tr td:first-child{ text-align:left;}
+
+#order_infor tbody{ 
+border-bottom:1px solid #a0a0a0; font-size:10px;}
+#order_infor tbody a{ color:#fe0202;}
+#order_infor tbody td{ padding:5px 0px; }
+#order_infor td  input{cursor:pointer;outline:none;}
+#order_infor td .choose{ border: 2px solid #a0a0a0;width: 13px;height: 13px;color: #999;margin: 0px 10px -1px 5px;}
+#order_infor td .but{ width:70px; border:1px solid #a0a0a0; text-align:center; font-size: 12px; background:#fff; margin-right:5px; color: #8b8a8a;} 
+#order_infor #titleone{background:#c9c8c8;}
+#order_infor #titletwo{ background:#dcdcdc; font-size:12px; line-height:32px; height:32px;}
+#order_infor #titletwo td{ text-align:left; padding:0px 0px;}
+#order_infor .choose{ width:80px; }
+#order_infor .goods{ width:330px; }
+#order_infor .price{ width:90px;}
+#order_infor .quantity{width:115px;}
+#order_infor .quantity input{ }
+#order_infor .quantity #reduce{ width:15px; height:15px;  line-height:15px; color:#000; border:1px solid #a0a0a0;  background:#fff; }
+#order_infor .quantity #num{width:30px; height:15px; text-align:center;  line-height:15px; color:#000; border:1px solid #a0a0a0;  background:#fff; }
+#order_infor .quantity #add{ width:15px; height:15px;  line-height:15px; color:#000; border:1px solid #a0a0a0; background:#fff;  }
+#order_infor .operate{ width:140px; }
+#order_infor .pay{width:140px;}
+#order_infor .state{ width:185px;}
+
+.goods_pic{ width:110px; height:110px; overflow:hidden; float:left; margin-left:10px;}
+.goods_pic img{ width:100%; height:auto; }
+.goods_name{ width:150px; margin-top:15px;  float:right; margin-right:10px; height:35px; overflow:hidden;text-align:left;}
+.goods_num{width:150px;  float:right;margin-right:10px;text-align:left;}
+.goods_color{width:150px;  float:right;margin-right:10px; text-align:left;}
+
+
+.amount{ width:250px; overflow:hidden; font-size:10px; line-height:25px; }
+.amount dt{ width:150px; float:left; height:25px; text-align:left;}
+.amount dd{ width:100px; float:left; height:25px; text-align:right;}
+.amount .zonge{ line-height:50px; height:50px; font-size:16px; }
+/*页码*/
+.page{ overflow:hidden;padding: 20px 0px 40px 0px;
+border-top: 1px solid #a0a0a0;}
+.page .page_last{ width: 140px; height: 30px; border: none; background:#fff; font-size: 14px; float: right;cursor:pointer; color: #FFFFFF; background-color: #ff0000;}
+.page .page_next{ width: 140px; height: 30px; border: none;background:#fff; font-size: 14px; float: right; margin-left:5px; background-color: #ff0000; cursor:pointer; color: #FFFFFF;
+text-align: center;
+line-height: 30px;}

@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{ margin:0px; padding:0px; background-color:#f9f9f9; font:Arial,Helvetica,sans-serif}
+ul,li,p,strong,i{ margin:0px; padding:0px;list-style:none;} 
+
+.banner{ width:100%; overflow:hidden; background-color:#FFF; text-align:center; }
+.banner img { text-align:center;}
+.p_sales_til{ font-size:22px; width:1050px; color:#000; line-height:50px; margin:20px auto 0px auto; }
+.p_sales{ width:1065px; overflow:hidden; margin:0px auto
+40px auto ;}
+.p_sales_centent{ width:340px; overflow:hidden; background-color:#fff;}
+.p_sales ul{ overflow:hidden; }
+.p_sales li{ border:1px solid #eee; width:340px; margin:5px 6px 5px 7px; float:left; background-color:#fff; }
+.p_sales li:hover{ border:2px solid #FFA505; margin:4px 5px 4px 6px; }
+.p_sales li:hover .p_sales_centent_time{ color:#333; }
+.p_sales li:hover .p_sales_centent_time i{ background-image:url(../images/tehuichuxiao_bg.png); background-position:-65px -104px;}
+.p_sales_centent .p_sales_centent_name{ padding:10px; height:40px; font-size:14px; line-height:20px;}
+.p_sales_centent_pic{ width:320px; position:relative; height:240px;text-align:center; margin:10px; }
+.p_sales_centent_pic img{ text-align:center;  width:320px; }
+.p_sales_centent_infor{  padding:0px 10px 10px 10px; height:50px; background-color:#5AA8F0; position:relative;}
+.p_sales_centent_price{ float:left;font-family:tahoma,arial,sans-serif;color: #fff; font-size:30px; line-height:50px; }
+
+.p_sales_centent_discount { float:left; height:50px; }
+.p_sales_centent_discount_a{ display:block; font-size:12px; width:45px; height:24px; color:#FFF; margin:5px; padding-left:20px;line-height:24px;background-position:3px -223px; background-image:url(../images/tehuichuxiao_bg.png); }
+ .p_sales_centent_discount_b{display: block;font-size:12px; width:75px;color: #fff;text-align: center;text-decoration: line-through;
+}
+
+.p_sales_centent_buy{ float:right; height:50px; width:120px; position:absolute; right:0px;}
+.p_sales_centent_buy_button{
+	background-color: #F88C11;
+	width: 100px;
+	height: 35px;
+	margin: 7px;
+	text-align: center;
+	line-height: 35px;
+	color: #FFF;
+	cursor: pointer;
+	border-radius: 4px;
+	font-size: 16px;
+	border-bottom: 1px solid #AF6826;
+	font:800;
+}
+.p_sales_centent_time { color:#CCC; padding:10px; border-top:1px solid #eee; }
+.p_sales_centent_time i{ background-image:url(../images/tehuichuxiao_bg.png); background-position:-47px -104px; display:block; width:18px; height:18px; float:left; }
+.p_sales_centent_time_infor{  float:left; width:200px; height:20px;font-size:14px; margin:10px 0px;  }
+.p_sales_centent_name a {
+color: #5a5a5a;
+}

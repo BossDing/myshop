@@ -1,0 +1,148 @@
+body{ 
+	background:#f2f2f2;
+}
+.where-big{
+	width: 1190px;
+	overflow: hidden;
+	margin: 0 auto;
+	line-height: 50px;
+}
+.where-big .kfdlb{
+	float: right;
+}
+.where-big .kfdlb li{
+	float: left;
+}
+.where-big .kfdlb li img{
+	padding-top: 17px;
+	padding-right: 5px;
+}
+/*个人资料开始*/
+.ziliao-big{
+	width: 1190px;
+	overflow: hidden;
+	margin: 0px auto;
+}
+.ziliao-big .ziliao-left{
+	width: 165px;
+	height: 480px;
+	background: #ccc;
+	float: left;
+}
+.ziliao-big .ziliao-right{
+	width: 1013px;
+	overflow: hidden;
+	float: right;
+	height: 480px;
+	background: #fff;
+	border: 1px solid #a0a0a0;
+}
+.ziliao-big .ziliao-right .ziliao-right-1{
+	width: 953px;
+	margin: 0px auto;
+}
+.ziliao-right .ziliao-right-1 .right-11{
+	width: 953px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #5e5e5e;
+	border-bottom: 1px dashed #a0a0a0;
+	margin-top: 10px;
+}
+.ziliao-right .ziliao-right-1 .right-12{
+	width: 953px;
+	height: 32px;
+	line-height: 32px;
+	margin-top:20px;
+	border-bottom: 2px solid #AFAFAF
+}
+.ziliao-right .ziliao-right-1 .right-12 li{
+	float: left;
+	padding: 0 20px;
+	line-height: 32px;
+	color: #5e5e5e;
+	background: url(../images/you-1right.png) right no-repeat;
+}
+.ziliao-right .ziliao-right-1 .right-12 .you-1{
+	border-bottom: 2px solid #ff0000;
+}
+.ziliao-right .ziliao-right-1 .right-12 li:hover{
+	border-bottom: 2px solid #ff0000;
+}
+.ziliao-right .ziliao-right-1 .right-12 span{
+	color: #ff0000;
+	padding-left: 5px;
+}
+.ziliao-right .ziliao-right-1 .right-12 span a{
+	color: #fe0606;
+	font-size: 14px;
+	padding-left: 6px;
+}
+
+.zhifen{
+	width: 953px;
+	overflow: hidden;
+	color: #6d6c6c;
+	margin-top: 20px;
+}
+.zhifen .td-a{
+	width: 214px;
+}
+.zhifen .td-b{
+	width: 100px;
+}
+.zhifen a{
+	color: #4a83f7;
+}
+.zhifen a:hover{
+	color: #ff0000;
+	text-decoration: underline;
+}
+.dks{
+	border-bottom: 1px solid #d2d2d2;
+	line-height: 40px;
+}.bei{
+	background: #eeeeee;
+	border: 1px solid #d2d2d2;
+}
+/*页码*/
+.yema{
+	width: 234px;
+	margin: 15px auto 0 auto;
+	height: 21px;
+	line-height: 21px;
+	background: #fff;
+}
+.yema li{
+	float: left;
+}
+.yema li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #343434;
+}
+.yema li a:hover{
+	background: #7a7a7a;
+	color: #fff;
+}
+.yema .yema-1{
+	width: 30px;
+	text-align: center;
+}
+.yema .yema-2{
+	width: 70px;
+	height: 19px;
+	border: 1px solid #c4c4c4;
+	text-align: center;
+}
+.yema .yema-2 a{
+	color: #c4c4c4;
+}
+.yema .yema-3{
+	width: 70px;
+	height: 19px;
+	border: 1px solid #999;
+	text-align: center;
+}

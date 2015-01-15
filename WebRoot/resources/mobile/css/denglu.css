@@ -1,0 +1,223 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+.aa {
+	margin-left: 6%;
+	font-size: 13px;
+	color: #ff0000;
+}
+.bb {
+	font-size: 13px;
+	color: #ff0000;
+}
+img {
+	border: none 0;
+}
+
+.Big {
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+	overflow: hidden;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.shang {
+	width: 640px;
+	height: 40px;
+	background-color: #CCC;
+	text-align: center;
+}
+
+.Big-top {
+	width: 640px;
+	height: 96px;
+	background-color: #500101;
+}
+
+.Big-top-left {
+	width: 101px;
+	height: 94px;
+	background: url(../images/left-hover_07_07.png) no-repeat bottom right;
+}
+
+.Big-top-left:hover {
+	background: url(../images/red-left_07.png) no-repeat bottom right;
+}
+
+.Big-top-right {
+	height: 92px;
+	width: 538px;
+	background: url(../images/right_07.png) repeat-x;
+	margin-top: 2px;
+	margin-left: 1px;
+	font-family: 微软雅黑;
+	font-size: 30px;
+	text-align: center;
+	color: #eae9e6;
+}
+
+.Big-top div {
+	float: left;
+}
+
+.Call {
+	width: 78%;
+	height: 50px;
+	margin: 0 auto;
+	font-family: 微软雅黑;
+	font-size: 16px;
+	color: #323232;
+	line-height: 50px;
+}
+
+.Call-border {
+	width: 78%;
+	height: 4px;
+	margin: 0 auto;
+	background: url(../images/ew_30.png) repeat-x;
+}
+
+.zhang {
+	width: 100%;
+	height: 40px;
+	padding-top: 0px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	position: relative;
+}
+.zhang span {
+	color:#ff0000;
+	position: absolute;
+	top: 44%;
+	left: -4%;
+}
+.zhanghu {
+	width: 99%;
+	height: 40px;
+	background: url(../images/KK_26.png) repeat-x;
+	border: 1px solid #cdcdcd;
+	padding-left: 5px;
+	color: #999;
+	font-size: 18px;
+}
+
+.KK {
+	width: 78%;
+	padding-top: 0px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+.NOo {
+	width: 50%;
+	height: 55px;
+	background: url(../images/u_06_03.png) no-repeat;
+	position: absolute;
+	left: 20%;
+	top: 6%;
+	padding-left: 7px;
+	padding-top: 10px;
+	font-size: 12px;
+	font-family: 微软雅黑;
+	color: #a80101;
+}
+
+input {/*-webkit-appearance:none; 去除input默认样式*/}
+
+.Big-denglu {
+	width: 100%;
+	height: 50px;
+	margin-top: 20px;
+	overflow: hidden;
+	background: #4dbeff;
+	font-family: 微软雅黑;
+	font-size: 20px;
+	text-align: center;
+	color: #FFF;
+	border: 1px solid #92aee9;
+	border-radius:3px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+#yz {
+	overflow: hidden;
+	padding-top: 20px;
+}
+
+.yanzheng_input {
+	float: left;
+	width: 60%;
+	height: 50px;
+	background: url(../images/KK_26.png) repeat-x;
+	border: 1px solid #cdcdcd;
+	padding-left: 5px;
+	color: #999;
+	font-size: 18px;
+}
+
+.yanzhengma {
+	font-size: 38px;
+	text-align: center;
+	width: 35%;
+	float: right;
+	height: 50px;
+	color: #999;
+	background-color: #CCC;
+}
+
+.fine {
+    color:#a0a0a0;
+	padding-top: 10px;
+	width: 100%;
+	position:fixed;
+	bottom:0px;
+	line-height:40px;
+	text-align:center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.fine a {
+	color: #a0a0a0;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.fine a:hover {
+	color: #c80606;
+}
+
+.submit {
+	width: 100%;
+	height: 50px;
+	margin-top: 15px;
+	overflow: hidden;
+	font-family: 微软雅黑;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+	color: #FFF;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	background: #ed560a;
+}
+/* CSS Document */
