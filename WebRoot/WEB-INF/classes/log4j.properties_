@@ -1,0 +1,26 @@
+log4j.rootLogger=INFO,console,file
+log4j.appender.Threshold=INFO
+log4j.appender.console=org.apache.log4j.ConsoleAppender 
+log4j.appender.console.layout=org.apache.log4j.SimpleLayout
+log4j.appender.file=org.apache.log4j.RollingFileAppender
+#log4j.appender.file.MaxFileSize=100KB 
+log4j.appender.file.MaxBackupIndex=3
+#log4j.appender.file.File=e:/project/macromall/WEB-INF/classes/macro.log  
+log4j.appender.file.File=D:/btdg/macromall/logs2/macro.log  
+log4j.appender.file.Append=false
+ 
+log4j.appender.file.layout=org.apache.log4j.PatternLayout
+log4j.appender.file.layout.ConversionPattern=%d-[HL] %p %t %c - %m%n
+log4j.appender.file.dailyFile.DatePattern='.'yyyy-MM-dd'.log'    
+
+
+
+
+log4j.logger.org.hibernate=info  
+log4j.logger.org.hibernate.SQL=debug
+log4j.logger.org.hibernate.HQL=debug        
+log4j.logger.org.hibernate.type=TRACE 
+#log4j.logger.org.hibernate.type.descriptor.sql.BasicBinder=TRACE	   
+#log4j.logger.org.hibernate.type.descriptor.sql.BasicExtractor=TRACE 
+#log4j.logger.org.hibernate.engine.QueryParameters=DEBUG
+#log4j.logger.org.hibernate.engine.query.HQLQueryPlan=DEBUG       

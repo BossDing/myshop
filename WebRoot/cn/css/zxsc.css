@@ -1,0 +1,211 @@
+*{
+	padding: 0;
+	margin: 0;
+	border:0;
+}
+body{
+	background: #EFEFEF;
+}
+.clear {
+	display: block;
+	height: 0;
+	line-height: 0;
+	overflow: hidden;
+	clear: both;
+	font-size: 0;
+}
+.f_l {
+	float: left;
+}
+ul li{
+	list-style: none;
+}
+/*header开始*/
+.header{
+	width: 1146px;
+	height:64px;
+	padding: 2px 12px;
+	background: #F9F9F9;
+	border-bottom: 1px solid #B5DBF2;
+	margin: 0 auto;
+}
+.header div{
+	float: left;
+}
+.header .logo{
+	height:62px;
+	padding: 0 38px 0 18px;
+}
+.header .logo img{
+	float: left;
+}
+.header .logo h3{
+	font: bold 32px/62px "微软雅黑";
+	color: #13AAFF;
+	float: left;
+}
+.header .sousuo{
+	width: 437px;
+	height: auto;
+	padding: 12px 8px 12px 188px;
+	float: right;
+}
+.header .sousuo div{
+	width: 433px;
+	height:32px;
+	padding: 4px;
+	background: #3687D9;
+}
+.header .sousuo input{
+	width: 336px;
+	height:30px;
+	padding: 1px 8px;
+	line-height: 30px;
+	color: #666;
+	float: left;
+}
+.header .sousuo span a{
+	padding: 5px 23px;
+	font: bold 16px/22px "宋体";
+	color: #FFF;
+	text-decoration: none;
+	cursor: pointer;
+	float: left;
+}
+.header .juzi{
+	padding: 3px;
+	float: right;
+}
+/*header结束*/
+/*导航开始*/
+.nav{
+	width: 744px;
+	height: 38px;
+	padding: 0 213px;
+	background: #1075C4;
+	margin: 0 auto;
+}
+.nav ul{
+	margin: 0 auto;
+	float: left;
+}
+.nav ul li{
+	padding: 8px 0;
+	list-style: none;
+	font: 16px/22px "微软雅黑";
+	color: #E1FAFF;
+	float: left;
+}
+.nav ul li a{
+	padding: 0 22px;
+	text-decoration: none;
+	border-right: 1px solid #E1FAFF;
+	float: left;
+} 
+.nav ul li.last a{
+	border:0;
+}
+.nav ul li a:link,.nav ul li a:visited{
+	color: #FFF;
+}
+.nav ul li a:hover{
+	color: #022F6A;
+}
+/*导航结束*/
+/*内容开始*/
+.content{
+	width: 1170px;
+	height: auto;
+	padding: 5px 0 28px;
+	background: #FFF;
+	overflow: hidden;
+	margin: 10px auto;
+}
+.content .mbdh{
+	padding-left: 12px;
+	height: 32px;
+	font: 12px/32px "宋体";
+	color: #022F6A;
+}
+.content .cont_main{
+	padding-left: 12px;
+	height: auto;
+	overflow: hidden;
+}
+.content .cont_main table,tr,td{
+	border: 1px solid #022F6A;
+	border-collapse: collapse;
+	vertical-align: middle;
+	text-align: center;
+}
+.content .cont_main table{
+	width: 1146px;
+}
+.content .cont_main table tr td{
+	width: 286px;
+	height: 138px;
+	padding: 12px 0;
+	overflow: hidden;
+}
+.content .cont_main table tr.tit td{
+	height: 112px;
+}
+.content .cont_main table h5{
+	font: bold 16px/38px "宋体";
+}
+.content .cont_main table li{
+	width: 285px;
+	list-style: none;
+	font: 14px/32px "宋体";
+	overflow: hidden;
+	float: left;
+}
+.content .cont_main table li a{
+	text-align: center;
+	overflow: hidden;
+}
+.content .cont_main table .tit li a{
+	padding-left: 42px;
+	float: left;
+}
+/*内容结束*/
+/*footer开始*/
+#footer {
+	padding: 22px 0 32px;
+	background: #858585;
+	margin-top: 30px;
+	font: 12px/28px "宋体";
+	overflow: hidden;
+}
+#footer .center {
+	width: 1054px;
+	height: auto;
+	padding: 8px 58px 0;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#footer .center .yj{
+	padding: 18px 38px 18px 183px;
+	float: left;
+}
+#footer .center ul{
+	padding: 0 138px;
+	border: 1px solid #022F6A;
+	overflow: hidden;
+}
+#footer .center ul li {
+	list-style: none;
+	padding: 0 8px;
+	font: bold 16px/64px "宋体";
+	color: #004D94;
+	float: left;
+}
+#footer .wx{
+	width: 152px;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+/*footer结束*/
+
+

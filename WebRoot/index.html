@@ -1,0 +1,1152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>欢迎光临万家乐官方商城-厂家直销、最低价格、品质保障、货到付款、配送及时、放心服务、轻松购物 </title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SHOP++ Team" />
+	<meta name="copyright" content="SHOP++" />
+	<meta name="keywords" content="万家乐,万家乐集团,万家乐商城,万家乐官方商城,万家乐官网,万家乐官方网站,万家乐官方旗舰店,万家乐旗舰店,万家乐商城旗舰店,万家乐网上商城,万家乐官方网站,热水器,万家乐热水器,万家乐家电,家电网购" />
+	<meta name="description" content="万家乐官方商城-中国直销商城，在线销售燃气热水器、电热水器、空气能热水器、太阳能热水器、厨电套装、燃气灶、吸油烟机、消毒柜、壁挂炉、散热器、空气净化器、生活电器等产品，为您提供愉悦的网上商城购物体验!" />
+    <link href="/resources/shop/css/index.css" rel="stylesheet" type="text/css" />
+    <link href="/resources/shop/css/product.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/resources/shop/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="/resources/shop/js/common.js"></script>
+    <script type="text/javascript" src="/resources/shop/js/banner.js"></script>
+    <script type="text/javascript" src="/resources/shop/js/jquery.slides.min.js"></script>
+    <script type="text/javascript">
+     $().ready(function() {
+     
+	var $slider = $("#slider");
+	var $newArticleTab = $("#newArticle .tab");
+	var $promotionProductTab = $("#promotionProduct .tab");
+	var $promotionProductInfo = $("#promotionProduct .info");
+	var $hotProductTab = $("#hotProduct .tab");
+	var $newProductTab = $("#newProduct .tab");
+	var $hotProductImage = $("#hotProduct img");
+	var $newProductImage = $("#newProduct img");
+	var $qiye_click = $("#qiye_click");
+	var $shangcheng_click = $("#shangcheng_click");
+	var $jiadian_click = $("#jiadian_click");
+	/**
+	$slider.nivoSlider({
+		effect: "random",
+		animSpeed: 1000,
+		pauseTime: 6000,
+		controlNav: true,
+		keyboardNav: false,
+		captionOpacity: 0.4
+	});
+	
+	
+	$newArticleTab.tabs("#newArticle .tabContent", {
+		tabs: "li",
+		event: "mouseover",
+		initialIndex: 1
+	});
+	
+	$promotionProductTab.tabs("#promotionProduct .tabContent", {
+		tabs: "li",
+		event: "mouseover"
+	});
+	
+	$hotProductTab.tabs("#hotProduct .tabContent", {
+		tabs: "li",
+		event: "mouseover"
+	});
+	
+	$newProductTab.tabs("#newProduct .tabContent", {
+		tabs: "li",
+		event: "mouseover"
+	});**/
+
+$qiye_click.mouseover(function(){
+		$qiye_click[0].className="module_join";
+	});
+$qiye_click.mouseout(function(){
+	$qiye_click[0].className="module_join_t";
+});
+$shangcheng_click.mouseover(function(){
+	$shangcheng_click[0].className="module_join";
+});
+$shangcheng_click.mouseout(function(){
+	$shangcheng_click[0].className="module_join_t";
+});
+$jiadian_click.mouseover(function(){
+	$jiadian_click[0].className="module_join";
+});
+$jiadian_click.mouseout(function(){
+	$jiadian_click[0].className="module_join_t";
+});
+	
+ $('#slides').slidesjs({
+        width: 550,
+        height: 278,
+        play: {
+          active: true,
+          auto: true,
+          interval: 2000,
+          swap: true
+        }
+      });
+	function promotionInfo() {
+		$promotionProductInfo.each(function() {
+			var $this = $(this);
+			var beginDate = $this.attr("beginTimeStamp") != null ? new Date(parseFloat($this.attr("beginTimeStamp"))) : null;
+			var endDate = $this.attr("endTimeStamp") != null ? new Date(parseFloat($this.attr("endTimeStamp"))) : null;
+			
+if (beginDate != null) {
+				if (endDate != null) {
+					var time = (endDate - new Date()) / 1000;
+alert(time);
+					$this.html("剩余时间:<em>" + Math.floor(time / (24 * 3600)) + "<\/em> 天 <em>" + Math.floor((time % (24 * 3600)) / 3600) + "<\/em> 时 <em>" + Math.floor((time % 3600) / 60) + "<\/em> 分");
+				} else if (endDate != null && endDate < new Date()) {
+					$this.html("活动已结束");
+				} else {
+					$this.html("正在进行中...");
+				}
+			}
+		});
+	}
+	
+	promotionInfo();
+
+	setInterval(promotionInfo, 60 * 1000);	
+	$('.info').each(function(){
+               var $this = $(this);
+			var beginDate = $this.attr("beginTimeStamp") != null ? new Date(parseFloat($this.attr("beginTimeStamp"))) : null;
+			var endDate = $this.attr("endTimeStamp") != null ? new Date(parseFloat($this.attr("endTimeStamp"))) : null;
+               if (beginDate == null || beginDate <= new Date()) {
+				if (endDate != null && endDate >= new Date()) {
+					var time = (endDate - new Date()) / 1000;
+					$this.next().next().next().next().next().append("剩余时间:<em>" + Math.floor(time / (24 * 3600)) + "<\/em> 天 <em>" + Math.floor((time % (24 * 3600)) / 3600) + "<\/em> 时 <em>" + Math.floor((time % 3600) / 60) + "<\/em> 分");
+				} else if (endDate != null && endDate < new Date()) {
+					$this.next().next().next().next().next().html("活动已结束");
+                                        $this.parent().hide();   
+				} else {
+					$this.next().next().next().next().next().html("正在进行中...");
+				}
+	       }else{
+                    $this.parent().hide();     
+               }
+        });
+        /**
+	$hotProductImage.lazyload({
+		threshold: 100,
+		effect: "fadeIn",
+		skip_invisible: false
+	});
+	
+	$newProductImage.lazyload({
+		threshold: 100,
+		effect: "fadeIn",
+		skip_invisible: false
+	});**/
+    $('.allsort').css('display','block');
+    BindRecommend("#HomeTab", "a", "#HomeRecommend ul#countDownTimeSpan", "on", true);
+    BindRecommend("#show_pro_title", "a", "#BottomProductlist ul", "show_a", true);
+        var areaGroups = [];
+    areaGroups[-999999] = { "status": 1, "msg": true };
+    $(".rec_sku").delegate(".pic", "mouseenter", function () {
+        var img = $(this).find('.buy').find('img');
+        var id = $(this).attr('data-areaGroupSysNo');
+        if (id) {
+            $(this).removeAttr('data-areaGroupSysNo');
+            if (typeof(areaGroups[id]) != 'undefined') {
+                if (!areaGroups[id]) {
+                    var src = img.attr('src');
+                    src = src.replace('btn_buy.gif', 'btn_buy_un.gif');
+                    img.attr('src', src);
+                }
+            } else {
+                $.ajax({
+                    url: '/ajax/CheckProductAreaIsCanDelivery',
+                    data: { areaGroupSysNo: id },
+                    type: 'POST',
+                    success: function (data) {
+                        if (data.status == 1) {
+                            areaGroups[id] = data.msg;
+                            if (!data.msg) {
+                                var src = img.attr('src');
+                                src = src.replace('btn_buy.gif', 'btn_buy_un.gif');
+                                img.attr('src', src);
+                            }
+                        }
+                    }
+                })
+            }
+        }
+        $(this).find("img").eq(0).stop(true, false).animate({ "margin-top": "-10px", "opacity": "1" }, 300);
+        $(this).find(".buy").stop(true, false).animate({ "top": "120px" }, 200);
+    });
+    $(".rec_sku").delegate(".pic", "mouseleave", function () {
+        $(this).find("img").eq(0).stop(true, false).animate({ "margin-top": "0px", "opacity": "1" }, 200);
+        $(this).find(".buy").stop(true, false).animate({ "top": "150px" }, 300);
+    }); 
+     $("#shouye").addClass("on"); 
+	 
+      $("#HomeRecommend").delegate(".pic", "mouseenter", function () {
+        var img = $(this).find('.buy').find('img');
+        var id = $(this).attr('data-areaGroupSysNo');
+        if (id) {
+            $(this).removeAttr('data-areaGroupSysNo');
+            if (typeof(areaGroups[id]) != 'undefined') {
+                if (!areaGroups[id]) {
+                    var src = img.attr('src');
+                    src = src.replace('btn_buy.gif', 'btn_buy_un.gif');
+                    img.attr('src', src);
+                }
+            } else {
+                $.ajax({
+                    url: '/ajax/CheckProductAreaIsCanDelivery',
+                    data: { areaGroupSysNo: id },
+                    type: 'POST',
+                    success: function (data) {
+                        if (data.status == 1) {
+                            areaGroups[id] = data.msg;
+                            if (!data.msg) {
+                                var src = img.attr('src');
+                                src = src.replace('btn_buy.gif', 'btn_buy_un.gif');
+                                img.attr('src', src);
+                            }
+                        }
+                    }
+                })
+            }
+        }
+        $(this).find("img").eq(0).stop(true, false).animate({ "margin-top": "-10px", "opacity": "1" }, 300);
+        $(this).find(".buy").stop(true, false).animate({ "top": "120px" }, 200);
+    });
+    $("#HomeRecommend").delegate(".pic", "mouseleave", function () {
+        $(this).find("img").eq(0).stop(true, false).animate({ "margin-top": "0px", "opacity": "1" }, 200);
+        $(this).find(".buy").stop(true, false).animate({ "top": "150px" }, 300);
+    });
+    /**新闻公告点击事件**/
+    if(null!=$("#qiye")&&"undefined"!=$("#qiye")){
+       $("#qiye_click").click(function(){
+           window.location.href="/article/adverte/"+$("#qiye").val()+"/-1.jhtml";
+       });
+    }
+    if(null!=$("#shangcheng")&&"undefined"!=$("#shangcheng")){
+       $("#shangcheng_click").click(function(){
+           window.location.href="/article/adverte/"+$("#shangcheng").val()+"/-1.jhtml";
+       });
+    }
+    if(null!=$("#jiadian")&&"undefined"!=$("#jiadian")){
+       $("#jiadian_click").click(function(){
+           window.location.href="/article/categoryList/"+$("#jiadian").val()+".jhtml";
+       });
+    }
+         
+});
+  
+function BindRecommend(targetId, child, showId, cssClass, isShowImg) {
+    $(targetId).delegate(child, "mouseover",
+    function () {
+        var obj = this;
+        IndexRecommend = $(obj).index();
+        target = targetId;
+        setTimeout(function () {
+            if (IndexRecommend == $(obj).index() && target == targetId && IndexRecommend >= 0) {
+                var showIdList = showId.split("#");
+                if (showIdList.length == 2) {
+                    $(showId).hide()
+                } else {
+                    for (var a in showIdList) {
+                        if (showIdList[a] == "") {
+                            continue
+                        }
+                        $("#" + showIdList[a]).hide()
+                    }
+                }
+                var name = $(obj).attr("name");
+                var nameList = name.split("#");
+                if (nameList.length == 2) {
+                    if (isShowImg && $(obj).attr("data-img") == "0") {
+                        $(name).fadeIn(1200)
+                    } else {
+                        $(name).show()
+                    }
+                } else {
+                    for (var a in nameList) {
+                        if (nameList[a] == "") {
+                            continue
+                        }
+                        $("#" + nameList[a]).show()
+                    }
+                }
+                if (isShowImg) {
+                    var data = $(obj).attr("data-img");
+                    if (data) {
+                        if (data == "0") {
+                            $(obj).attr("data-img", "1");
+                            lazyLoad.Run(nameList[1])
+                        }
+                    }
+                }
+                $(obj).addClass(cssClass).siblings().removeClass(cssClass)
+            }
+        },
+        400)
+    }).delegate(child, "mouseout",
+    function () {
+        IndexRecommend = -1
+    })
+}
+
+function AddProductToCart(sysNo,count,name,image,price) {
+                var quantity = count;
+		var product_id = sysNo ;
+
+		if (/^\d*[1-9]\d*$/.test(quantity) && parseInt(quantity) > 0) {			
+			$.ajax({
+				url: "/cart/add.jhtml",
+				type: "POST",
+				data: {id: product_id, quantity: quantity},
+				dataType: "json",
+				cache: false,
+				success: function(message) { 
+                                    if(!(message.type == 'warn')){
+                                        $.message(message);
+                                        $("#cartpic").text("");
+                                        $("#cartname").text("");
+                                        $("#cartprice").text("");
+                                        $("#cartpic").append("<img src='"+image+"'/>");
+                                        $("#cartname").append(name);
+                                        $("#cartprice").append("￥"+price);
+                                        var cartcount = parseInt($("#cartofcount").text())+1;
+                                        $("#cartofcount").text("");
+                                        $("#cartofcount").append(cartcount.toString());
+                                        $("#headcartcount").text("");
+                                        $("#headcartcount").append(cartcount.toString());
+                                        $("#is_cartin").text("");
+                                        $("#is_cartin").append("x1&nbsp;&nbsp;加入成功");
+                                        $(".pop_cart").css("right", "-248px");
+                                        $("#right_cart").toggleClass("cart_on", true);
+                                        $(".pop_cart").show().stop(true, true).animate({ "right": "52px" }, 1000);
+                                        setTimeout(function () {
+                                            $("#right_cart").removeClass("cart_on", true);
+                                            $(".pop_cart").hide();
+                                        }, 3000);
+                                        }
+                                    else{
+                                        $("#cartpic").text("");
+                                        $("#cartname").text("");
+                                        $("#cartprice").text("");
+                                        $("#is_cartin").text("");
+                                        $("#is_cartin").append("库存不足，加入失败");
+                                        $(".pop_cart").css("right", "-248px");
+                                        $("#right_cart").toggleClass("cart_on", true);
+                                        $(".pop_cart").show().stop(true, true).animate({ "right": "52px" }, 1000);
+                                        setTimeout(function () {
+                                            $("#right_cart").removeClass("cart_on", true);
+                                            $(".pop_cart").hide();
+                                        }, 3000);                                 }  
+                                    }
+                                 
+			});
+		} else {
+			$.message("warn", "购买数量必须为正整数");
+		}   
+}
+ function openFlv(){
+   // var filePath = document.getElementById("filePath").value;
+	var s5 = new SWFObject("FlvPlayer.swf","playlist","1024","576","7");
+	s5.addParam("allowfullscreen","true");
+	s5.addVariable("autostart","true");
+	s5.addVariable("image","flashM-cebbank.jpg");
+	s5.addVariable("file","..");
+	s5.addVariable("width","1024");
+	s5.addVariable("height","576");
+	s5.write("d2");
+}
+    </script>
+    <style>
+    	#xydd ul {
+    		width:0px !important;
+    	}
+    </style>
+</head>
+<body>
+<html>
+<head>
+<meta http-equiv="content-type" content="charset=utf-8" />
+<title>UP</title>
+
+<link href="/resources/shop/css/heard.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+$().ready(function() {
+    /**导航动态样式*/
+       var url = window.location.href;
+       var inputs = $("#h_nav input");
+       var hos= "http://"+ window.location.host;
+       for(var y=0;y<inputs.length;y++){
+         if(url==hos+$(inputs[y]).val()){
+           $(inputs[y]).parent("li").attr("id","classify_ppp").siblings("li").removeAttr("id");
+           $("#h_nav li").first().attr("id","classify_act");
+           break;
+         }
+       }
+	$("#classify_ppp").prev().css("background", "none");
+	var $headerLogin = $("#headerLogin");
+	var $headerRegister = $("#headerRegister");
+	var $headerUsername = $("#headerUsername");
+	var $headerLogout = $("#headerLogout");
+        var $productSearchForm= $("#productSearchForm");
+        var $keyword = $("#productSearchForm input");
+        $headerLogin.hide();
+        $headerRegister.hide();
+        $headerUsername.hide();
+        $headerLogout.hide();
+        var username = getCookie("username");
+	if ($.checkLogin()) {
+		var path = location.href;
+		if(path.lastIndexOf("login.jhtml") == -1){
+		queryFavorite();
+		queryShippedOrder();
+		}
+		$("#welcome").text("您好, " + username);
+		$headerUsername.text("您好, " + username).show();
+		$headerLogout.show();
+	} else {
+		$headerLogin.show();   
+		$headerRegister.show();
+	}
+        $('#categoryList').delegate("li", "mousemove",
+             function (e) {
+             var height = $(this).offset().top;
+             var index = $(this).index();
+             if ($(this).find('div').hasClass("hover") == true) {
+                return
+              }
+             $(this).find('div').addClass('hover').siblings().removeClass("hover");
+             var list_top = index * 43 + 16;
+             $(this).find(".i-mc").css("top", list_top);
+             return false;
+             }).delegate("li", "mouseleave",
+              function (event) {
+             $(this).find('div').removeClass("hover");
+        })
+    	$productSearchForm.submit(function() {
+               	if ($.trim($keyword.val()) == "") {
+			return false;
+		}
+	});
+        $('.all').mouseover(function(){
+		$('.allsort').css('display','block');
+	});
+	
+	$('.all').mouseout(function(){	
+              if(window.location.pathname !== '/'){		
+               $('.allsort').css('display','none');   
+              }	
+	}); 
+        $('.allsort').mouseover(function(){
+		$('.allsort').css('display','block');
+	});
+	
+	$('.allsort').mouseout(function(){
+              if(window.location.pathname !== '/'){
+	       $('.allsort').css('display','none');
+              }
+	});
+        /**$(".nogoods").mouseover(function () {
+                $.ajax({
+				url: "/cart/list_forindex.jhtml",
+				type: "POST",
+                                data:{id:348,quantity:1},
+				dataType: "json",
+				cache: false,   
+				success: function(data) {  
+                                        //$("#cartcount").text("");
+                                        //$("#cartall").append("<h1>123</h1>"); 
+                                        $(".cartftb").find('dl').addClass('carthover');
+                                }
+	        }); 
+        });
+        **/ 
+        $(".nogoods").mouseover(function () {
+             $(".cartftb").find('dl').removeClass('carthover');
+        });
+        $("#cartListViews").mouseout(function () {
+              $(".cartftb").find('dl').removeClass('carthover');
+        }); 
+        queryInfo();  
+        $("#useweixin").click(function(){
+            $("#twocodeParent").toggle();
+        });
+	    /**搜索提交**/
+       $("#soso_but").click(function(){
+         $("#productSearchForm").submit();
+       });
+       
+      
+       
+       
+});
+
+// 加入购物车
+function addCart(id) {
+	var status = true;
+	$.ajax({
+		url: "/cart/queryCartIsExistStore.jhtml",
+		type: "POST",
+		data: {id: id},
+		dataType: "json",
+		cache: false,
+		success: function(data) {
+			if(data.message.type == "success") {
+				
+			} else if(data.message.type == "error") {
+				$.message(data.message);
+				status = false;
+			}
+			if(!status) {
+				return;
+			}
+			
+			$.ajax({
+				url: "/cart/add.jhtml",
+				type: "POST",
+				data: {id: id, quantity: 1},
+				dataType: "json",
+				cache: false,
+				success: function(message) {
+					window.location.href="/cart/list.jhtml";
+				}
+			});
+		}
+	});
+	
+}
+function queryInfo(){
+       	 $.ajax({
+			url: "/cart/queryCartCount.jhtml",
+			type: "POST",
+			dataType: "json",
+			cache: false,				
+			success: function(data) {
+				if (data.message.type == "success") {
+                                      //document.getElementById("cart_buy").innerHTML=data.quantity;
+                                      $("#cartofcount").text("");
+                                      $("#cartofcount").append(data.quantity);
+                                      $("#headcartcount").text("");
+                                      $("#headcartcount").append(data.quantity);
+				}
+			},
+			complete: function() {				
+			}
+		});
+}
+function queryFavorite(){
+       	 $.ajax({
+			url: "/member/favorite/queryFavoriteCount.jhtml",
+			type: "POST",
+			dataType: "json",
+			cache: false,				
+			success: function(data) {
+				if (data.message.type == "success") {
+                                      $("#favoriteCount").text("");
+                                      $("#favoriteCount").append(data.favoriteCount);
+				}
+			},
+			complete: function() {				
+			}
+		});
+}
+function queryShippedOrder(){
+       	 $.ajax({
+			url: "/member/order/queryShippedCount.jhtml",
+			type: "POST",
+			dataType: "json",
+			cache: false,				
+			success: function(data) {
+				if (data.message.type == "success") {
+                                      $("#shippedCount").text("");
+                                      $("#shippedCount").append(data.shippedCount);
+				}
+			},
+			complete: function() {				
+			}
+		});
+}
+$(function(){
+
+	// 线程 IDs
+	//var mouseover_tid = [];
+	//var mouseout_tid = [];
+	
+	//$('#classify_act').hover(
+	//	function(){
+	//		// 停止卷起事件
+	//		clearTimeout(mouseout_tid[0]);
+	//		// 当鼠标进入超过 0.2 秒, 展开菜单, 并记录到线程 ID 中
+	//		mouseover_tid[0] = setTimeout(function() {
+	//			$(this).children("#classify").slideDown(200);
+	//		}, 0);
+	//	},
+	//	function(){
+	//		 // 停止展开事件
+	//		clearTimeout(mouseover_tid[0]);
+	//		// 当鼠标离开超过 0.2 秒, 卷起菜单, 并记录到线程 ID 中
+	//		mouseout_tid[0] = setTimeout(function() {
+	//			$(this).children("#classify").slideUp(200);
+	//		}, 0);
+	//	}
+	//);
+         
+         
+        $("#classify_act").mouseover(function(){
+            $("#classify").slideDown(200);
+         }); 
+		 
+		 $("#classify").mouseleave(function(){
+            $(this).slideUp(200);
+         }); 
+		 
+		 $("#classify_act").mouseleave(function(){
+            $("#classify").slideUp(200);
+         }); 
+		 $("#ImageList ul li").click(function(){
+            window.open($("#rll").val());
+          });
+	});
+</script>
+</head>
+<body>
+<!--头部-->
+<div id="head" >
+  <div id="site_nav">
+    <div class="content">
+      <div class="hi_login"> <span>嗨，欢迎来到万家乐官方商城</span> <span id ="headerLogin"><a href="/login.jhtml">[登录]</a></span><span id ="headerRegister"><a href="/register.jhtml">[注册]</a></span><span id="headerUsername"></span><span id="headerLogout"><a class="login" href="/logout.jhtml">[退出]</a></span> </div>
+      <div class="head_my_infor">
+        <ul id="main_nav">
+         <li id="shop_car"><a href="/cart/list.jhtml">购物车</a>
+		   <dl>
+			 <dd><a href="javascript:;" id="welcome"></a></dd>
+			 <dd>
+				<p>订单最新状况:</p>
+				<p>收藏:<span id="favoriteCount">0</span>购物车:<span id="headcartcount">0</span>已发货:<span id="shippedCount">0</span></p>
+				</dd>
+			 <dd class="last-child"><a href="/member/order/list.jhtml">查看所有订单</a></dd>
+		   </dl>
+          </li>
+				<li><a href="/member/index.jhtml">我的万家乐</a></li>
+				<li><a href="/product/service.jhtml">服务中心</a></li>
+		      <li class="sjqy">
+                    	<a style="cursor:pointer;" id="dilog">微商城</a>
+                    	<!--二维码弹出框  -->
+                        <div class="tanchu">
+                            <div class="ewm"></div>
+                            
+                            <b></b>
+                        </div>
+                        <!--二维码弹出框  end-->
+                    </li>
+				<li><a href="/gw/index.jhtml" target="_blank">官方网站</a></li>
+				<li><a href="/store/apply.jhtml" target="_blank">我要开店</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <a href="/"><div id="logo"></div></a>
+    <div id="soso">
+     <form id="productSearchForm" action="/product/search.jhtml" method="get">
+      <input type="text" id="soso_text" value=""   name="keyword"/>
+      <input type="button"  id="soso_but" />
+
+      <div id="soso_hot">
+        <ul>
+					<li>热门搜索:</li>
+						<li><a href="/product/search.jhtml?keyword=%E7%87%83%E6%B0%94%E7%83%AD%E6%B0%B4%E5%99%A8">燃气热水器</a></li>
+						<li><a href="/product/search.jhtml?keyword=%E7%94%B5%E7%83%AD%E6%B0%B4%E5%99%A8">电热水器</a></li>
+						<li><a href="/product/search.jhtml?keyword=%E5%90%B8%E6%B2%B9%E7%83%9F%E6%9C%BA">吸油烟机</a></li>
+						<li><a href="/product/search.jhtml?keyword=%E7%81%B6%E5%85%B7">灶具</a></li>
+         
+        </ul>
+      </div>
+      </form>
+    </div>
+    <DIV id="clear"></DIV>
+  </div>
+</div>
+
+<div id="h_nav">
+  <div class="content">
+    <ul>
+      <li id="classify_act">商品分类
+
+      
+                <div id="classify" style="display:none;">
+
+		<ul>
+				<li>
+				<dl>
+					<dt>
+						<a href="/product/list/21.jhtml">热水器</a>
+					</dt>
+							<dd>
+								<a href="/product/list/27.jhtml">燃气热水器</a>
+							</dd>
+							<dd>
+								<a href="/product/list/441.jhtml">智能浴系列</a>
+							</dd>
+							<dd>
+								<a href="/product/list/442.jhtml">Q6</a>
+							</dd>
+							<dd>
+								<a href="/product/list/26.jhtml">电热水器</a>
+							</dd>
+				</dl>
+				<li>
+				<dl>
+					<dt>
+						<a href="/product/list/22.jhtml">厨房电器</a>
+					</dt>
+							<dd>
+								<a href="/product/list/31.jhtml">吸油烟机</a>
+							</dd>
+							<dd>
+								<a href="/product/list/29.jhtml">燃气灶具</a>
+							</dd>
+				</dl>
+				<li>
+				<dl>
+					<dt>
+						<a href="/product/list/23.jhtml">烟灶套餐</a>
+					</dt>
+				</dl>
+				<li>
+				<dl>
+					<dt>
+						<a href="/product/list/24.jhtml">空气能热水器</a>
+					</dt>
+				</dl>
+				<li>
+				<dl>
+					<dt>
+						<a href="/product/list/25.jhtml">赠品</a>
+					</dt>
+				</dl>
+				<li>
+				<dl class="last">
+					<dt>
+						<a href="/product/list/321.jhtml">测试属性分类</a>
+					</dt>
+							<dd>
+								<a href="/product/list/443.jhtml">测试分类</a>
+							</dd>
+							<dd>
+								<a href="/product/list/461.jhtml">测试子类</a>
+							</dd>
+				</dl>
+		</ul>
+          <!--<ul>
+            <li>
+              <dl>
+                <dt>热水系统</dt>
+                <dd><a href="#">燃气热水器</a></dd>
+                <dd><a href="#">空气能热水器</a></dd>
+                <dd><a href="#">电热水器</a></dd>
+                <dd><a href="#">太阳能热水器</a></dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt>厨房电器产品</dt>
+                <dd><a href="#">厨电套装</a></dd>
+                <dd><a href="#">吸油烟机</a></dd>
+                <dd><a href="#">燃气灶具</a></dd>
+                <dd><a href="#">消毒柜</a></dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt>供暖系统</dt>
+                <dd><a href="#">燃气壁挂炉</a></dd>
+                <dd><a href="#">散热器</a></dd>
+                <dd><a href="#">模块锅炉</a></dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt>生活电器</dt>
+                <dd><a href="#">电压力锅</a></dd>
+                <dd><a href="#">电池炉</a></dd>
+                <dd><a href="#">养生壶</dd>
+                <dd><a href="#">电饼铛</a></dd>
+                <dd><a href="#">电饭锅</a></dd>
+                <dd><a href="#">电风扇</a></dd>
+                <dd><a href="#">电暖器</a></dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt>空气净化器</dt>
+                <dd><a href="#">母婴专用</a></dd>
+                <dd><a href="#">办公专用</a></dd>
+                <dd><a href="#">pro-air商铺</a></dd>
+                <dd><a href="#">个人专用</a></dd>
+              </dl>
+            </li>
+          </ul>-->
+        </div>
+      </li>
+			<li>
+				<a class=word href="/">首页</a>
+				<input type="hidden" value="/" />
+			</li>
+			<li>
+				<a class=word href="/preSellRole/list.jhtml">新品上市</a>
+				<input type="hidden" value="/preSellRole/list.jhtml" />
+			</li>
+			<li>
+				<a class=word href="/product/preference.jhtml">特惠促销</a>
+				<input type="hidden" value="/product/preference.jhtml" />
+			</li>
+			<li>
+				<a class=word href="/group/list.jhtml">团购中心</a>
+				<input type="hidden" value="/group/list.jhtml" />
+			</li>
+			<li>
+				<a class=word href="/product/service.jhtml">服务中心</a>
+				<input type="hidden" value="/product/service.jhtml" />
+			</li>
+			<li>
+				<a class=word href="/store/list.jhtml">线下实体店</a>
+				<input type="hidden" value="/store/list.jhtml" />
+			</li>
+    </ul>
+    <DIV id="clear"></DIV>
+  </div>
+</div>
+
+<!-- QQ客服start -->
+    <SCRIPT type=text/javascript src="/resources/shop/js/kefu.js"></SCRIPT>
+    <LINK rel=stylesheet type=text/css href="/resources/shop/css/qq.css"> 
+    <!-- end -->
+
+<!-- QQ客服start -->
+		<DIV id=floatTools class=float0831> 
+			<DIV class=floatL>
+				<A  id=aFloatTools_Show class=btnOpen title=查看在线客服
+					onclick="javascript:$('#divFloatToolsView').animate({width: 'show', opacity: 'show'}, 'normal',function(){ $('#divFloatToolsView').show();kf_setCookie('RightFloatShown', 0, '', '/', 'www.istudy.com.cn'); });$('#aFloatTools_Show').attr('style','display:none');$('#aFloatTools_Hide').attr('style','display:block');"
+					href="javascript:void(0);">展开</A>
+				<A style="DISPLAY: none" id=aFloatTools_Hide class=btnCtn title=关闭在线客服
+					onclick="javascript:$('#divFloatToolsView').animate({width: 'hide', opacity: 'hide'}, 'normal',function(){ $('#divFloatToolsView').hide();kf_setCookie('RightFloatShown', 1, '', '/', 'www.istudy.com.cn'); });$('#aFloatTools_Show').attr('style','display:block');$('#aFloatTools_Hide').attr('style','display:none');"
+					href="javascript:void(0);">收缩</A>
+			</DIV>
+			<DIV style="display:none;" id=divFloatToolsView class=floatR>
+				<DIV class=tp></DIV>
+				<DIV class=cn>
+					<UL>
+						<LI class=top>
+							<H3 class=titZx>QQ咨询</H3> 
+						</LI>
+						<LI>
+							<SPAN class=icoZx>在线咨询</SPAN>
+						</LI> 
+						
+						
+						        <LI>
+									<A target="_blank" class=icoTc href="http://wpa.qq.com/msgrd?v=3&uin=3033958019&site=qq&menu=yes">
+									
+										客服一
+									
+									</A>
+								</LI>
+   <LI>
+									<A target="_blank" class=icoTc href="http://wpa.qq.com/msgrd?v=3&uin=3033958019&site=qq&menu=yes">
+									
+										客服二
+									
+									</A>
+								</LI>
+
+						
+						        
+						
+
+					</UL>
+					<UL>
+						<LI>
+							<H3 class=titDh>
+								电话咨询
+							</H3>
+						</LI>
+						<LI>
+							<SPAN class=icoTl>0757-66620898</SPAN>
+						</LI>
+					</UL>
+				</DIV>
+			</DIV>
+		</DIV>
+        <!-- end -->
+	<script>
+		$('#divFloatToolsView').animate({width: 'show', opacity: 'show'}, 'normal',function(){ $('#divFloatToolsView').show();kf_setCookie('RightFloatShown', 0, '', '/', 'www.istudy.com.cn'); });$('#aFloatTools_Show').attr('style','display:none');$('#aFloatTools_Hide').attr('style','display:block');
+	</script>
+
+<!--头部结束--> 
+</body>
+</html>     <!--banner开始-->
+<div id="banner">
+  <div id="ImageList">
+    <ul>
+    </ul>
+  </div>
+</div>
+<div id="xydd">
+  <ul id="xyddul">
+  </ul>
+</div>
+<!--banner end-->
+
+<div id="poster">
+  <div class="content">
+    <div id="p_once">
+	  <!--banner2开始-->
+
+
+<div style="width:550px; height:270px;">
+  <div class="container" >
+    <div id="slides">
+    </div>
+  </div>
+  </div>
+<!--banner2 end-->
+	
+	
+	</div>
+    <div id="p_twice"></div>
+    <div id="p_thre"></div>
+  </div>
+</div>
+<div class="content" style="width:1197px;"> 
+  
+  <!--精品推荐-->
+  <div class="title"><strong>精品推荐</strong></div>
+  <div class="recommend">
+    <dl>
+      <dt>
+      		<!-- 首页精品推荐左侧大图 -->
+      </dt>
+       <!-- 精品推荐 -->
+    </dl>
+  </div>
+  <!--精品推荐结束--> 
+  
+  <!--新品上市-->
+  <div class="title"><strong>新品上市</strong></div>
+  <div class="new">
+    <ul>
+      <li id="n_one">
+      </li>
+      <li id="n_two">
+        <div></div>
+      </li>
+      <li id="n_three">
+      </li>
+      <li id="n_four">
+      </li>
+    </ul>
+  </div>
+  <!--新品结束--> 
+  
+  <!--新闻，公告，常识-->
+  <div class="module">           
+    <ul>
+      <li>
+        <div class="title"><strong>企业新闻</strong>
+          <div class="module_join_t"  id="qiye_click" style="cursor:pointer;"></div>
+        </div>
+        <div id="news">
+          <div class="module_infor">
+		  <ul>
+                   <input type="hidden" id="qiye" value="613"/>
+		</ul>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="title"><strong>商城公告</strong>
+          <div class="module_join_t" id="shangcheng_click" style="cursor:pointer;"></div>
+        </div>
+        <div id="notice">
+          <div class="module_infor">
+             <ul>
+                   <input type="hidden" id="shangcheng" value="614"/>
+		</ul>
+          </div>
+        </div>
+      </li>
+      <li style="margin-right:0px;">
+        <div class="title"><strong>家电常识</strong>
+          <div class="module_join_t"  id="jiadian_click" style="cursor:pointer;"></div>
+        </div>
+        <div id="know">
+          <div class="module_infor">
+		<ul>
+                   <input type="hidden" id="jiadian" value="615"/>
+		</ul>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <!--新闻，公告，常识，end--> 
+  
+</div>					
+<html>
+<head>
+<meta http-equiv="content-type" content="charset=utf-8" />
+<title>UP</title>
+<link href="/resources/shop/css/bottom.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="service">
+  <div id="service_left">
+    <Dl>
+      <dt><strong>售后服务和保修政策</strong></dt>
+      <dd>
+        <ul>
+          <li>燃气热水器</li>
+          <li>电热水器</li>
+          <li>空气能热水器</li>
+          <li>吸油烟机</li>
+          <li>燃气灶具</li>
+          <li>消毒柜</li>
+          <li>厨房电器</li>
+          <li>燃气灶具</li>
+          <li>生活小家电</li>
+        </ul>
+      </dd>
+    </Dl>
+  </div>
+  <div id="service_right">
+    <input type="button" value="在线客服"  class="cuser" />
+  </div>
+</div>
+<div id="bottom_infor">
+  <ul>
+		<li>
+		      <dl>
+			<dt>购物指南</dt>
+
+
+			</dl>
+		</li>
+		<li>
+		      <dl>
+			<dt>支付方式</dt>
+
+
+			</dl>
+		</li>
+		<li>
+		      <dl>
+			<dt>物流服务</dt>
+
+
+			</dl>
+		</li>
+		<li>
+		      <dl>
+			<dt>售后服务</dt>
+
+
+			</dl>
+		</li>
+		<li>
+		      <dl>
+			<dt>关于我们</dt>
+
+
+			</dl>
+		</li>
+    <!--<li>
+      <dl>
+        <dt>购物指南</dt>
+        <dd><a href="#">注册登录</a></dd>
+        <dd><a href="#">购物流程</a></dd>
+        <dd><a href="#">联系客服</a></dd>
+        <dd><a href="#">上门安装</a></dd>
+      </dl>
+    </li>
+    <li>
+      <dl>
+        <dt>支付方式</dt>
+        <dd><A href="#">在线支付</A></dd>
+        <dd><a href="#">货到付款</a></dd>
+        <dd><a href="#">发票制度</a></dd>
+      </dl>
+    </li>
+    <li>
+      <dl>
+        <dt>物流发配</dt>
+        <dd><a href="#">验货与签收</a></dd>
+        <dd><a href="#">配送时间</a></dd>
+        <dd><a href="#">配送范围</a></dd>
+        <dd><a href="#">注意事项</a></dd>
+      </dl>
+    </li>
+    <li>
+      <dl>
+        <dt>售后服务</dt>
+        <dd><a href="#">服务政策</a></dd>
+        <dd><a href="#">退换货说明</a></dd>
+        <dd><a href="#">咨询投诉</a></dd>
+      </dl>
+    </li>
+    <li>
+      <dl>
+        <dt>关于我们</dt>
+        <dd><a href="#">官网微博</a></dd>
+        <dd><a href="#">官方微信</a></dd>
+      </dl>
+    </li>-->
+  </ul>
+</div>
+<div id="scope" > <img src="/resources/shop/images/bottom_serve.png" width="1190" height="90" /> </div>
+<div id="copyright">
+					
+						<a href="/article/content/437.jhtml">购物流程</a>
+						|
+					
+					
+						<a href="/">配送方式</a>
+						|
+					
+					
+						<a href="/">付款方式</a>
+						|
+					
+					
+						<a href="/article/queryArticle/447.jhtml">售后服务</a>
+						|
+					
+					
+						<a href="/article/content/448.jhtml">投诉建议</a>
+						|
+					
+					
+						<a href="/">友情链接</a>
+						|
+					
+					
+						<a href="/">加入我们</a>
+						|
+					
+					
+						<a href="/article/content/451.jhtml">关于万家乐</a>
+						|
+					
+					
+						<a href="/">测试</a>
+						
+					
+<br />
+  Copyright © 2005-2013 欢迎光临万家乐官方商城-厂家直销、最低价格、品质保障、货到付款、配送及时、放心服务、轻松购物 版权所有</div>
+</body>
+</html></body>
+</html>

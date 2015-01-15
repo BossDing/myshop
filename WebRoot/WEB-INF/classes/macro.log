@@ -1,0 +1,908 @@
+2014-12-10 09:22:44,062-[HL] INFO Thread-2 org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2014-12-10 09:22:44,796-[HL] INFO Thread-2 org.springframework.web.context.support.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Wed Dec 10 09:22:44 CST 2014]; root of context hierarchy
+2014-12-10 09:22:45,281-[HL] INFO Thread-2 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/E:/project/macromall/WEB-INF/classes/applicationContext.xml]
+2014-12-10 09:22:47,218-[HL] INFO Thread-2 org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/E:/project/macromall/WEB-INF/classes/applicationContext-shiro.xml]
+2014-12-10 09:22:48,093-[HL] INFO Thread-2 org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from URL [file:/E:/project/macromall/WEB-INF/classes/shopxx.properties]
+2014-12-10 09:22:48,812-[HL] INFO Thread-2 com.octo.captcha.service.image.DefaultManageableImageCaptchaService - Init com.octo.captcha.service.captchastore.FastHashMapCaptchaStore
+2014-12-10 09:22:48,937-[HL] INFO Thread-2 org.springframework.web.context.support.XmlWebApplicationContext - Bean 'net.shopxx.CaptchaEngine#a75737' of type [class net.shopxx.CaptchaEngine] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-10 09:22:49,093-[HL] INFO Thread-2 org.springframework.web.context.support.XmlWebApplicationContext - Bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-10 09:22:49,093-[HL] INFO Thread-2 org.springframework.web.context.support.XmlWebApplicationContext - Bean 'org.springframework.cache.annotation.AnnotationCacheOperationSource#0' of type [class org.springframework.cache.annotation.AnnotationCacheOperationSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-10 09:22:49,109-[HL] INFO Thread-2 org.springframework.web.context.support.XmlWebApplicationContext - Bean 'org.springframework.cache.config.internalCacheAdvisor' of type [class org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-10 09:22:49,109-[HL] INFO Thread-2 org.springframework.web.context.support.XmlWebApplicationContext - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-10 09:22:49,171-[HL] INFO Thread-2 org.springframework.web.context.support.XmlWebApplicationContext - Bean 'imageCaptchaService' of type [class com.octo.captcha.service.image.DefaultManageableImageCaptchaService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-10 09:22:49,187-[HL] INFO Thread-2 org.springframework.web.context.support.XmlWebApplicationContext - Bean 'captchaServiceImpl' of type [class net.shopxx.service.impl.CaptchaServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-10 09:22:49,468-[HL] INFO Thread-2 org.springframework.web.context.support.XmlWebApplicationContext - Bean 'org.springframework.beans.factory.config.MethodInvokingFactoryBean#0' of type [class org.springframework.beans.factory.config.MethodInvokingFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-10 09:22:49,515-[HL] INFO Thread-2 org.springframework.web.context.support.XmlWebApplicationContext - Bean 'org.springframework.beans.factory.config.MethodInvokingFactoryBean#1' of type [class org.springframework.beans.factory.config.MethodInvokingFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-10 09:22:49,546-[HL] INFO Thread-2 com.mchange.v2.log.MLog - MLog clients using log4j logging.
+2014-12-10 09:22:49,671-[HL] INFO Thread-2 com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+2014-12-10 09:22:49,968-[HL] INFO Thread-2 org.springframework.web.context.support.XmlWebApplicationContext - Bean 'dataSource' of type [class com.mchange.v2.c3p0.ComboPooledDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-10 09:22:50,046-[HL] INFO Thread-2 org.springframework.web.context.support.XmlWebApplicationContext - Bean 'org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter#40b181' of type [class org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-12-10 09:22:50,062-[HL] INFO Thread-2 org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader - persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for URL [file:/E:/project/macromall/WEB-INF/classes/persistence.xml]
+2014-12-10 09:22:50,078-[HL] INFO Thread-2 org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'persistenceUnit'
+2014-12-10 09:22:50,125-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@11fcdde
+2014-12-10 09:22:50,125-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@11fcdde
+2014-12-10 09:22:50,125-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@11fcdde
+2014-12-10 09:22:50,125-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@16f4ce0
+2014-12-10 09:22:50,140-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@113cf49
+2014-12-10 09:22:50,140-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@19d96b1
+2014-12-10 09:22:50,140-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@1a550f9
+2014-12-10 09:22:50,140-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@1a550f9
+2014-12-10 09:22:50,140-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@1a550f9
+2014-12-10 09:22:50,140-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@166ff9c
+2014-12-10 09:22:50,140-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@166ff9c
+2014-12-10 09:22:50,140-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@166ff9c
+2014-12-10 09:22:50,156-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@9c1f2c
+2014-12-10 09:22:50,156-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@9c1f2c
+2014-12-10 09:22:50,156-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@9c1f2c
+2014-12-10 09:22:50,156-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@ba8fce
+2014-12-10 09:22:50,156-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@ba8fce
+2014-12-10 09:22:50,156-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@ba8fce
+2014-12-10 09:22:50,156-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@130500f
+2014-12-10 09:22:50,156-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@130500f
+2014-12-10 09:22:50,156-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@130500f
+2014-12-10 09:22:50,171-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@1e3940a
+2014-12-10 09:22:50,171-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@1e3940a
+2014-12-10 09:22:50,171-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@1e3940a
+2014-12-10 09:22:50,171-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@1bb6a69
+2014-12-10 09:22:50,171-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@1bb6a69
+2014-12-10 09:22:50,171-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@1bb6a69
+2014-12-10 09:22:50,171-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@4610fa
+2014-12-10 09:22:50,171-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@4610fa
+2014-12-10 09:22:50,187-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@3fe94a
+2014-12-10 09:22:50,187-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@3fe94a
+2014-12-10 09:22:50,187-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@6dd108
+2014-12-10 09:22:50,187-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@6dd108
+2014-12-10 09:22:50,187-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@105562b
+2014-12-10 09:22:50,187-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@105562b
+2014-12-10 09:22:50,203-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@158c3b7
+2014-12-10 09:22:50,203-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@158c3b7
+2014-12-10 09:22:50,203-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@ec366a
+2014-12-10 09:22:50,203-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@ec366a
+2014-12-10 09:22:50,218-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@1dc6a9d
+2014-12-10 09:22:50,218-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@1dc6a9d
+2014-12-10 09:22:50,218-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@1dc6a9d
+2014-12-10 09:22:50,218-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@1e3bfb6
+2014-12-10 09:22:50,218-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@19d688
+2014-12-10 09:22:50,218-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@19d688
+2014-12-10 09:22:50,218-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@19d688
+2014-12-10 09:22:50,218-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@c8f0a4
+2014-12-10 09:22:50,234-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@9801f4
+2014-12-10 09:22:50,234-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@9801f4
+2014-12-10 09:22:50,234-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@1fe1e26
+2014-12-10 09:22:50,234-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@1fe1e26
+2014-12-10 09:22:50,234-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@38fb59
+2014-12-10 09:22:50,234-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@38fb59
+2014-12-10 09:22:50,234-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@db5b3f
+2014-12-10 09:22:50,234-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@db5b3f
+2014-12-10 09:22:50,250-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@1a8739b
+2014-12-10 09:22:50,250-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@1a8739b
+2014-12-10 09:22:50,250-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@b7f2d0
+2014-12-10 09:22:50,250-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@84f665
+2014-12-10 09:22:50,250-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@453dd5
+2014-12-10 09:22:50,250-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@453dd5
+2014-12-10 09:22:50,250-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@453dd5
+2014-12-10 09:22:50,265-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@d1afd3
+2014-12-10 09:22:50,265-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@d1afd3
+2014-12-10 09:22:50,265-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@d1afd3
+2014-12-10 09:22:50,265-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@1115a61
+2014-12-10 09:22:50,265-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@5098f9
+2014-12-10 09:22:50,265-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@5098f9
+2014-12-10 09:22:50,281-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@5098f9
+2014-12-10 09:22:50,281-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@394ffa
+2014-12-10 09:22:50,281-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@394ffa
+2014-12-10 09:22:50,281-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@394ffa
+2014-12-10 09:22:50,281-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@76f1f4
+2014-12-10 09:22:50,296-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@66998f
+2014-12-10 09:22:50,296-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@66998f
+2014-12-10 09:22:50,312-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@104a4b6
+2014-12-10 09:22:50,312-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@4683c2
+2014-12-10 09:22:50,312-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@26d560
+2014-12-10 09:22:50,312-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@26d560
+2014-12-10 09:22:50,328-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@16e46f5
+2014-12-10 09:22:50,328-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@117a4c6
+2014-12-10 09:22:50,328-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@1672113
+2014-12-10 09:22:50,328-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@8d0a11
+2014-12-10 09:22:50,328-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@1e26d42
+2014-12-10 09:22:50,328-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@1e26d42
+2014-12-10 09:22:50,343-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@1db8f8e
+2014-12-10 09:22:50,343-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@1adbfde
+2014-12-10 09:22:50,343-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@fb0b0
+2014-12-10 09:22:50,343-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@18ff27
+2014-12-10 09:22:50,343-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@1177115
+2014-12-10 09:22:50,343-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@150a0
+2014-12-10 09:22:50,343-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@546169
+2014-12-10 09:22:50,343-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@1c737be
+2014-12-10 09:22:50,375-[HL] INFO Thread-2 org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+2014-12-10 09:22:50,375-[HL] INFO Thread-2 org.hibernate.cfg.Environment - Hibernate 3.6.10.Final
+2014-12-10 09:22:50,375-[HL] INFO Thread-2 org.hibernate.cfg.Environment - hibernate.properties not found
+2014-12-10 09:22:50,375-[HL] INFO Thread-2 org.hibernate.cfg.Environment - Bytecode provider name : javassist
+2014-12-10 09:22:50,390-[HL] INFO Thread-2 org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+2014-12-10 09:22:50,453-[HL] INFO Thread-2 org.hibernate.ejb.Version - Hibernate EntityManager 3.6.10.Final
+2014-12-10 09:22:50,453-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@11fcdde
+2014-12-10 09:22:50,453-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@11fcdde
+2014-12-10 09:22:50,453-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@11fcdde
+2014-12-10 09:22:50,453-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@16f4ce0
+2014-12-10 09:22:50,453-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@113cf49
+2014-12-10 09:22:50,453-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@19d96b1
+2014-12-10 09:22:50,453-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@1a550f9
+2014-12-10 09:22:50,453-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@1a550f9
+2014-12-10 09:22:50,468-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@1a550f9
+2014-12-10 09:22:50,468-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@166ff9c
+2014-12-10 09:22:50,468-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@166ff9c
+2014-12-10 09:22:50,468-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@166ff9c
+2014-12-10 09:22:50,468-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@9c1f2c
+2014-12-10 09:22:50,468-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@9c1f2c
+2014-12-10 09:22:50,468-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@9c1f2c
+2014-12-10 09:22:50,468-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@ba8fce
+2014-12-10 09:22:50,468-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@ba8fce
+2014-12-10 09:22:50,468-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@ba8fce
+2014-12-10 09:22:50,468-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@130500f
+2014-12-10 09:22:50,468-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@130500f
+2014-12-10 09:22:50,468-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@130500f
+2014-12-10 09:22:50,468-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@1e3940a
+2014-12-10 09:22:50,484-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@1e3940a
+2014-12-10 09:22:50,484-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@1e3940a
+2014-12-10 09:22:50,484-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@1bb6a69
+2014-12-10 09:22:50,484-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@1bb6a69
+2014-12-10 09:22:50,484-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@1bb6a69
+2014-12-10 09:22:50,484-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@4610fa
+2014-12-10 09:22:50,484-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@4610fa
+2014-12-10 09:22:50,484-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@3fe94a
+2014-12-10 09:22:50,484-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@3fe94a
+2014-12-10 09:22:50,484-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@6dd108
+2014-12-10 09:22:50,484-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@6dd108
+2014-12-10 09:22:50,484-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@105562b
+2014-12-10 09:22:50,484-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@105562b
+2014-12-10 09:22:50,484-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@158c3b7
+2014-12-10 09:22:50,500-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@158c3b7
+2014-12-10 09:22:50,500-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@ec366a
+2014-12-10 09:22:50,500-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@ec366a
+2014-12-10 09:22:50,500-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@1dc6a9d
+2014-12-10 09:22:50,500-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@1dc6a9d
+2014-12-10 09:22:50,500-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@1dc6a9d
+2014-12-10 09:22:50,500-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@1e3bfb6
+2014-12-10 09:22:50,500-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@19d688
+2014-12-10 09:22:50,500-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@19d688
+2014-12-10 09:22:50,500-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@19d688
+2014-12-10 09:22:50,500-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@c8f0a4
+2014-12-10 09:22:50,500-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@9801f4
+2014-12-10 09:22:50,500-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@9801f4
+2014-12-10 09:22:50,500-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@1fe1e26
+2014-12-10 09:22:50,500-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@1fe1e26
+2014-12-10 09:22:50,500-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@38fb59
+2014-12-10 09:22:50,500-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@38fb59
+2014-12-10 09:22:50,500-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@db5b3f
+2014-12-10 09:22:50,500-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@db5b3f
+2014-12-10 09:22:50,500-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@1a8739b
+2014-12-10 09:22:50,500-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@1a8739b
+2014-12-10 09:22:50,500-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@b7f2d0
+2014-12-10 09:22:50,515-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@84f665
+2014-12-10 09:22:50,515-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@453dd5
+2014-12-10 09:22:50,515-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@453dd5
+2014-12-10 09:22:50,515-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@453dd5
+2014-12-10 09:22:50,515-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@d1afd3
+2014-12-10 09:22:50,515-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@d1afd3
+2014-12-10 09:22:50,515-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@d1afd3
+2014-12-10 09:22:50,515-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@1115a61
+2014-12-10 09:22:50,515-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@5098f9
+2014-12-10 09:22:50,515-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@5098f9
+2014-12-10 09:22:50,515-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@5098f9
+2014-12-10 09:22:50,515-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@394ffa
+2014-12-10 09:22:50,515-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@394ffa
+2014-12-10 09:22:50,515-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@394ffa
+2014-12-10 09:22:50,515-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@76f1f4
+2014-12-10 09:22:50,515-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@66998f
+2014-12-10 09:22:50,515-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@66998f
+2014-12-10 09:22:50,515-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@104a4b6
+2014-12-10 09:22:50,515-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@4683c2
+2014-12-10 09:22:50,515-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@26d560
+2014-12-10 09:22:50,515-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@26d560
+2014-12-10 09:22:50,515-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@16e46f5
+2014-12-10 09:22:50,531-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@117a4c6
+2014-12-10 09:22:50,531-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@1672113
+2014-12-10 09:22:50,531-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@8d0a11
+2014-12-10 09:22:50,531-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@1e26d42
+2014-12-10 09:22:50,531-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@1e26d42
+2014-12-10 09:22:50,531-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@117ee94
+2014-12-10 09:22:50,531-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@3052ce
+2014-12-10 09:22:50,531-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@8c5488
+2014-12-10 09:22:50,531-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@101acff
+2014-12-10 09:22:50,531-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@104d976
+2014-12-10 09:22:50,531-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@161100c
+2014-12-10 09:22:50,531-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@1649b1a
+2014-12-10 09:22:50,531-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@2e879
+2014-12-10 09:22:50,546-[HL] INFO Thread-2 org.hibernate.ejb.Ejb3Configuration - Processing PersistenceUnitInfo [
+	name: persistenceUnit
+	...]
+2014-12-10 09:22:51,171-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.DeliveryCenter
+2014-12-10 09:22:51,203-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.DeliveryCenter on table xx_delivery_center
+2014-12-10 09:22:51,343-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.ProductNotify
+2014-12-10 09:22:51,343-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.ProductNotify on table xx_product_notify
+2014-12-10 09:22:51,343-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.ExperienceApply
+2014-12-10 09:22:51,343-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.ExperienceApply on table xx_experience_apply
+2014-12-10 09:22:51,359-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.TrialRemind
+2014-12-10 09:22:51,359-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.TrialRemind on table xx_trial_remind
+2014-12-10 09:22:51,359-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.OrderItem
+2014-12-10 09:22:51,359-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.OrderItem on table xx_order_item
+2014-12-10 09:22:51,375-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.WaterQualityData
+2014-12-10 09:22:51,375-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.WaterQualityData on table xx_water_quality_data
+2014-12-10 09:22:51,375-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.CartItem
+2014-12-10 09:22:51,375-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.CartItem on table xx_cart_item
+2014-12-10 09:22:51,375-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Area
+2014-12-10 09:22:51,390-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Area on table xx_area
+2014-12-10 09:22:51,421-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.SpecificationValue
+2014-12-10 09:22:51,421-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.SpecificationValue on table xx_specification_value
+2014-12-10 09:22:51,421-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Consultation
+2014-12-10 09:22:51,421-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Consultation on table xx_consultation
+2014-12-10 09:22:51,421-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Parameter
+2014-12-10 09:22:51,437-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Parameter on table xx_parameter
+2014-12-10 09:22:51,437-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Sn
+2014-12-10 09:22:51,437-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Sn on table xx_sn
+2014-12-10 09:22:51,437-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Payment
+2014-12-10 09:22:51,437-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Payment on table xx_payment
+2014-12-10 09:22:51,453-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.FriendLink
+2014-12-10 09:22:51,453-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.FriendLink on table xx_friend_link
+2014-12-10 09:22:51,453-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.ArticleCategory
+2014-12-10 09:22:51,468-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.ArticleCategory on table xx_article_category
+2014-12-10 09:22:51,468-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.ParameterGroup
+2014-12-10 09:22:51,468-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.ParameterGroup on table xx_parameter_group
+2014-12-10 09:22:51,468-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Outlet
+2014-12-10 09:22:51,468-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Outlet on table xx_outlet
+2014-12-10 09:22:51,515-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.MemberPoints
+2014-12-10 09:22:51,515-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.MemberPoints on table xx_rulepoints
+2014-12-10 09:22:51,515-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.AfterBooking
+2014-12-10 09:22:51,515-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.AfterBooking on table xx_after_booking
+2014-12-10 09:22:51,515-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.PointsWater
+2014-12-10 09:22:51,531-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.PointsWater on table xx_pointswater
+2014-12-10 09:22:51,531-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.ActionType
+2014-12-10 09:22:51,531-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.ActionType on table xx_action_type
+2014-12-10 09:22:51,531-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Area_Inventory
+2014-12-10 09:22:51,531-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Area_Inventory on table xx_area_inventory
+2014-12-10 09:22:51,531-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.ProductCategory
+2014-12-10 09:22:51,531-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.ProductCategory on table xx_product_category
+2014-12-10 09:22:51,546-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.MemberAttribute
+2014-12-10 09:22:51,546-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.MemberAttribute on table xx_member_attribute
+2014-12-10 09:22:51,546-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Ad
+2014-12-10 09:22:51,546-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Ad on table xx_ad
+2014-12-10 09:22:51,562-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Review
+2014-12-10 09:22:51,562-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Review on table xx_review
+2014-12-10 09:22:51,562-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.SignInPointRule
+2014-12-10 09:22:51,562-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.SignInPointRule on table xx_sign_in_point_rule
+2014-12-10 09:22:51,562-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.DeliveryCorp
+2014-12-10 09:22:51,562-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.DeliveryCorp on table xx_delivery_corp
+2014-12-10 09:22:51,562-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.AdPosition
+2014-12-10 09:22:51,578-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.AdPosition on table xx_ad_position
+2014-12-10 09:22:51,578-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.DeliveryTemplate
+2014-12-10 09:22:51,578-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.DeliveryTemplate on table xx_delivery_template
+2014-12-10 09:22:51,578-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.ServiceRegister
+2014-12-10 09:22:51,578-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.ServiceRegister on table xx_service_register
+2014-12-10 09:22:51,578-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Receiver
+2014-12-10 09:22:51,578-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Receiver on table xx_receiver
+2014-12-10 09:22:51,578-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Pushevent
+2014-12-10 09:22:51,593-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Pushevent on table pushevent
+2014-12-10 09:22:51,593-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Product
+2014-12-10 09:22:51,593-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Product on table xx_product
+2014-12-10 09:22:51,625-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Shipping
+2014-12-10 09:22:51,625-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Shipping on table xx_shipping
+2014-12-10 09:22:51,640-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.CouponCode
+2014-12-10 09:22:51,640-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.CouponCode on table xx_coupon_code
+2014-12-10 09:22:51,640-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Order
+2014-12-10 09:22:51,640-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Order on table xx_order
+2014-12-10 09:22:51,656-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.SiteService
+2014-12-10 09:22:51,656-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.SiteService on table xx_service
+2014-12-10 09:22:51,656-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Trial
+2014-12-10 09:22:51,656-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Trial on table xx_trial_role
+2014-12-10 09:22:51,656-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.PluginConfig
+2014-12-10 09:22:51,671-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.PluginConfig on table xx_plugin_config
+2014-12-10 09:22:51,671-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Extension
+2014-12-10 09:22:51,671-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Extension on table xx_extension
+2014-12-10 09:22:51,671-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Service
+2014-12-10 09:22:51,671-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Service on table xx_service
+2014-12-10 09:22:51,671-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Instruction
+2014-12-10 09:22:51,671-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Instruction on table xx_instruction
+2014-12-10 09:22:51,671-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.PreSellApply
+2014-12-10 09:22:51,671-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.PreSellApply on table xx_pre_sell_apply
+2014-12-10 09:22:51,687-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.GroupRemind
+2014-12-10 09:22:51,687-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.GroupRemind on table xx_group_remind
+2014-12-10 09:22:51,687-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Brand
+2014-12-10 09:22:51,687-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Brand on table xx_brand
+2014-12-10 09:22:51,687-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.TrialApply
+2014-12-10 09:22:51,687-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.TrialApply on table xx_trial_application
+2014-12-10 09:22:51,687-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Role
+2014-12-10 09:22:51,703-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Role on table xx_role
+2014-12-10 09:22:51,703-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Cart
+2014-12-10 09:22:51,703-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Cart on table xx_cart
+2014-12-10 09:22:51,703-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.OrderLog
+2014-12-10 09:22:51,703-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.OrderLog on table xx_order_log
+2014-12-10 09:22:51,703-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Experience
+2014-12-10 09:22:51,703-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Experience on table xx_experience
+2014-12-10 09:22:51,703-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Goods
+2014-12-10 09:22:51,718-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Goods on table xx_goods
+2014-12-10 09:22:51,718-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.MemberRank
+2014-12-10 09:22:51,718-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.MemberRank on table xx_member_rank
+2014-12-10 09:22:51,718-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.GroupPurchase
+2014-12-10 09:22:51,718-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.GroupPurchase on table xx_group_purchases
+2014-12-10 09:22:51,734-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.ShippingMethod
+2014-12-10 09:22:51,734-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.ShippingMethod on table xx_shipping_method
+2014-12-10 09:22:51,734-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Coupon
+2014-12-10 09:22:51,734-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Coupon on table xx_coupon
+2014-12-10 09:22:51,734-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Navigation
+2014-12-10 09:22:51,750-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Navigation on table xx_navigation
+2014-12-10 09:22:51,750-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Promotion
+2014-12-10 09:22:51,750-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Promotion on table xx_promotion
+2014-12-10 09:22:51,781-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Store
+2014-12-10 09:22:51,781-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Store on table xx_store
+2014-12-10 09:22:51,781-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Notice
+2014-12-10 09:22:51,781-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Notice on table xx_notice
+2014-12-10 09:22:51,781-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.PaymentMethod
+2014-12-10 09:22:51,781-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.PaymentMethod on table xx_payment_method
+2014-12-10 09:22:51,796-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Area_DS
+2014-12-10 09:22:51,796-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Area_DS on table xx_area_ds
+2014-12-10 09:22:51,796-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Seo
+2014-12-10 09:22:51,796-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Seo on table xx_seo
+2014-12-10 09:22:51,796-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Attribute
+2014-12-10 09:22:51,796-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Attribute on table xx_attribute
+2014-12-10 09:22:51,796-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.PreSellRemind
+2014-12-10 09:22:51,796-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.PreSellRemind on table xx_pre_sell_remind
+2014-12-10 09:22:51,796-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Returns
+2014-12-10 09:22:51,796-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Returns on table xx_returns
+2014-12-10 09:22:51,812-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Tag
+2014-12-10 09:22:51,812-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Tag on table xx_tag
+2014-12-10 09:22:51,890-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.GiftItem
+2014-12-10 09:22:51,890-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.GiftItem on table xx_gift_item
+2014-12-10 09:22:51,890-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Specification
+2014-12-10 09:22:51,890-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Specification on table xx_specification
+2014-12-10 09:22:51,890-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.PreSellRole
+2014-12-10 09:22:51,890-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.PreSellRole on table xx_pre_sell_role
+2014-12-10 09:22:51,890-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Admin
+2014-12-10 09:22:51,906-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Admin on table xx_admin
+2014-12-10 09:22:51,906-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Log
+2014-12-10 09:22:51,906-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Log on table xx_log
+2014-12-10 09:22:51,906-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.LeaveWords
+2014-12-10 09:22:51,906-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.LeaveWords on table xx_leave_words
+2014-12-10 09:22:51,906-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Article
+2014-12-10 09:22:51,906-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Article on table xx_article
+2014-12-10 09:22:51,906-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.TrialReport
+2014-12-10 09:22:51,906-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.TrialReport on table xx_trial_reportor
+2014-12-10 09:22:51,921-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.WarmTips
+2014-12-10 09:22:51,921-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.WarmTips on table xx_warm_tips
+2014-12-10 09:22:51,921-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Refunds
+2014-12-10 09:22:51,921-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Refunds on table xx_refunds
+2014-12-10 09:22:51,921-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Member
+2014-12-10 09:22:51,921-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Member on table xx_member
+2014-12-10 09:22:51,953-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.ReturnsItem
+2014-12-10 09:22:51,953-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.ReturnsItem on table xx_returns_item
+2014-12-10 09:22:51,953-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.ShippingItem
+2014-12-10 09:22:51,953-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.ShippingItem on table xx_shipping_item
+2014-12-10 09:22:51,984-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Deposit
+2014-12-10 09:22:51,984-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Deposit on table xx_deposit
+2014-12-10 09:22:51,984-[HL] INFO Thread-2 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: net.shopxx.entity.Message
+2014-12-10 09:22:51,984-[HL] INFO Thread-2 org.hibernate.cfg.annotations.EntityBinder - Bind entity net.shopxx.entity.Message on table xx_message
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Area.afterBookings -> xx_after_booking
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Area.children -> xx_area
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Area.deliveryCenters -> xx_delivery_center
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Area.members -> xx_member
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Area.orders -> xx_order
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Area.outlets -> xx_outlet
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Area.receivers -> xx_receiver
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Consultation.replyConsultations -> xx_consultation
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.ArticleCategory.articles -> xx_article
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.ArticleCategory.children -> xx_article_category
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.ParameterGroup.parameters -> xx_parameter
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.ActionType.promotions -> xx_promotion
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.ProductCategory.attributes -> xx_attribute
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.ProductCategory.children -> xx_product_category
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.ProductCategory.parameterGroups -> xx_parameter_group
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.ProductCategory.products -> xx_product
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Review.replyReviews -> xx_review
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.DeliveryCorp.shippingMethods -> xx_shipping_method
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.AdPosition.ads -> xx_ad
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Product.cartItems -> xx_cart_item
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Product.consultations -> xx_consultation
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Product.giftItems -> xx_gift_item
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Product.orderItems -> xx_order_item
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Product.productNotifies -> xx_product_notify
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Product.reviews -> xx_review
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Shipping.shippingItems -> xx_shipping_item
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Order.deposits -> xx_deposit
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Order.orderItems -> xx_order_item
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Order.orderLogs -> xx_order_log
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Order.payments -> xx_payment
+2014-12-10 09:22:52,015-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Order.refunds -> xx_refunds
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Order.returns -> xx_returns
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Order.shippings -> xx_shipping
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Trial.trialApplys -> xx_trial_application
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Trial.trialReports -> xx_trial_reportor
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Brand.products -> xx_product
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Cart.cartItems -> xx_cart_item
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Goods.products -> xx_product
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.MemberRank.members -> xx_member
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.GroupPurchase.remind -> xx_group_remind
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.ShippingMethod.orders -> xx_order
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Coupon.couponCodes -> xx_coupon_code
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Promotion.giftItems -> xx_gift_item
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.PaymentMethod.orders -> xx_order
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Returns.returnsItems -> xx_returns_item
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Specification.specificationValues -> xx_specification_value
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.PreSellRole.preSellApplys -> xx_pre_sell_apply
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Admin.orders -> xx_order
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.LeaveWords.replyLeaveWords -> xx_leave_words
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Member.afterBookings -> xx_after_booking
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Member.consultations -> xx_consultation
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Member.couponCodes -> xx_coupon_code
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Member.deposits -> xx_deposit
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Member.inMessages -> xx_message
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Member.leaveWordsSet -> xx_leave_words
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Member.orders -> xx_order
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Member.outMessages -> xx_message
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Member.payments -> xx_payment
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Member.productNotifies -> xx_product_notify
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Member.receivers -> xx_receiver
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Member.reviews -> xx_review
+2014-12-10 09:22:52,031-[HL] INFO Thread-2 org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: net.shopxx.entity.Message.replyMessages -> xx_message
+2014-12-10 09:22:52,046-[HL] INFO Thread-2 org.hibernate.cfg.Configuration - Hibernate Validator not found: ignoring
+2014-12-10 09:22:52,484-[HL] INFO Thread-2 org.hibernate.search.Version - Hibernate Search 3.4.2.Final
+2014-12-10 09:22:52,531-[HL] INFO Thread-2 org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2014-12-10 09:22:52,531-[HL] INFO Thread-2 org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider - Using provided datasource
+2014-12-10 09:22:52,562-[HL] INFO Thread-2 com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 60000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgel8l96dtcpfc18dbihd|53bbfa, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgel8l96dtcpfc18dbihd|53bbfa, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, jdbcUrl -> jdbc:oracle:thin:@192.168.103.1:1521:shopcs, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 600, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2014-12-10 09:22:53,984-[HL] INFO Thread-2 org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.Oracle10gDialect
+2014-12-10 09:22:54,000-[HL] INFO Thread-2 org.hibernate.engine.jdbc.JdbcSupportLoader - Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2014-12-10 09:22:54,000-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - Database ->
+       name : Oracle
+    version : Oracle Database 10g Enterprise Edition Release 10.2.0.1.0 - Production
+With the Partitioning, OLAP and Data Mining options
+      major : 10
+      minor : 2
+2014-12-10 09:22:54,000-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - Driver ->
+       name : Oracle JDBC driver
+    version : 11.2.0.1.0
+      major : 11
+      minor : 2
+2014-12-10 09:22:54,000-[HL] INFO Thread-2 org.hibernate.transaction.TransactionFactoryFactory - Using default transaction strategy (direct JDBC transactions)
+2014-12-10 09:22:54,000-[HL] INFO Thread-2 org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-10 09:22:54,000-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+2014-12-10 09:22:54,000-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+2014-12-10 09:22:54,000-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - JDBC batch size: 30
+2014-12-10 09:22:54,000-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+2014-12-10 09:22:54,000-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+2014-12-10 09:22:54,000-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): disabled
+2014-12-10 09:22:54,000-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - JDBC result set fetch size: 50
+2014-12-10 09:22:54,000-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+2014-12-10 09:22:54,000-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+2014-12-10 09:22:54,000-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+2014-12-10 09:22:54,000-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+2014-12-10 09:22:54,000-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+2014-12-10 09:22:54,000-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-10 09:22:54,015-[HL] INFO Thread-2 org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+2014-12-10 09:22:54,015-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+2014-12-10 09:22:54,015-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: enabled
+2014-12-10 09:22:54,015-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - Second-level cache: disabled
+2014-12-10 09:22:54,015-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - Query cache: disabled
+2014-12-10 09:22:54,015-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-10 09:22:54,015-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+2014-12-10 09:22:54,015-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+2014-12-10 09:22:54,078-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - Statistics: disabled
+2014-12-10 09:22:54,078-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+2014-12-10 09:22:54,078-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+2014-12-10 09:22:54,078-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+2014-12-10 09:22:54,078-[HL] INFO Thread-2 org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+2014-12-10 09:22:54,390-[HL] INFO Thread-2 org.hibernate.impl.SessionFactoryImpl - building session factory
+2014-12-10 09:22:54,390-[HL] TRACE Thread-2 org.hibernate.type.TypeFactory - Scoping types to session factory org.hibernate.impl.SessionFactoryImpl@91fa78
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@11fcdde
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@11fcdde
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@11fcdde
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@16f4ce0
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@113cf49
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@19d96b1
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@1a550f9
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@1a550f9
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@1a550f9
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@166ff9c
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@166ff9c
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@166ff9c
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@9c1f2c
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@9c1f2c
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@9c1f2c
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@ba8fce
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@ba8fce
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@ba8fce
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@130500f
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@130500f
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@130500f
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@1e3940a
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@1e3940a
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@1e3940a
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@1bb6a69
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@1bb6a69
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@1bb6a69
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@4610fa
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@4610fa
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@3fe94a
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@3fe94a
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@6dd108
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@6dd108
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@105562b
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@105562b
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@158c3b7
+2014-12-10 09:22:54,390-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@158c3b7
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@ec366a
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@ec366a
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@1dc6a9d
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@1dc6a9d
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@1dc6a9d
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@1e3bfb6
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@19d688
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@19d688
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@19d688
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@c8f0a4
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@9801f4
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@9801f4
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@1fe1e26
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@1fe1e26
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@38fb59
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@38fb59
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@db5b3f
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@db5b3f
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@1a8739b
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@1a8739b
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@b7f2d0
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@84f665
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@453dd5
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@453dd5
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@453dd5
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@d1afd3
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@d1afd3
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@d1afd3
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@1115a61
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@5098f9
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@5098f9
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@5098f9
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@394ffa
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@394ffa
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@394ffa
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@76f1f4
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@66998f
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@66998f
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@104a4b6
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@4683c2
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@26d560
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@26d560
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@16e46f5
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@117a4c6
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@1672113
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@8d0a11
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@1e26d42
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@1e26d42
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@1d2f117
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@1d22104
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@75a30f
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@1243f75
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@c2480b
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@107f8ba
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@5a7ff7
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@18767ad
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@a30a4e
+2014-12-10 09:22:54,406-[HL] INFO Thread-2 org.hibernate.type.BasicTypeRegistry - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@16e46f5
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@12801c5
+2014-12-10 09:22:54,406-[HL] INFO Thread-2 org.hibernate.type.BasicTypeRegistry - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1672113
+2014-12-10 09:22:54,406-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@16a2c7b
+2014-12-10 09:22:54,421-[HL] INFO Thread-2 org.hibernate.type.BasicTypeRegistry - Type registration [blob] overrides previous : org.hibernate.type.BlobType@66998f
+2014-12-10 09:22:54,421-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@16a2c7b
+2014-12-10 09:22:54,421-[HL] INFO Thread-2 org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@66998f
+2014-12-10 09:22:54,421-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@18e5ebd
+2014-12-10 09:22:54,421-[HL] INFO Thread-2 org.hibernate.type.BasicTypeRegistry - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@104a4b6
+2014-12-10 09:22:54,421-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@1371a59
+2014-12-10 09:22:54,421-[HL] INFO Thread-2 org.hibernate.type.BasicTypeRegistry - Type registration [clob] overrides previous : org.hibernate.type.ClobType@26d560
+2014-12-10 09:22:54,421-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@1371a59
+2014-12-10 09:22:54,421-[HL] INFO Thread-2 org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@26d560
+2014-12-10 09:22:54,421-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@1f9c5c8
+2014-12-10 09:22:54,421-[HL] INFO Thread-2 org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@117a4c6
+2014-12-10 09:22:54,421-[HL] DEBUG Thread-2 org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@1edcd24
+2014-12-10 09:22:54,421-[HL] INFO Thread-2 org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@4683c2
+2014-12-10 09:22:55,953-[HL] INFO Thread-2 org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+2014-12-10 09:22:55,953-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
+2014-12-10 09:22:55,953-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.SchemaUpdate - fetching database metadata
+2014-12-10 09:22:56,156-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.SchemaUpdate - updating schema
+2014-12-10 09:22:56,281-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.PUSHEVENT
+2014-12-10 09:22:56,281-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [fromusername, createtime, id, eventkey, objid, create_date, msgtype, event, modify_date, tousername]
+2014-12-10 09:22:56,281-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+2014-12-10 09:22:56,281-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0039938]
+2014-12-10 09:22:56,328-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_ACTION_TYPE
+2014-12-10 09:22:56,328-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, memo, create_date, modify_by, create_by, modify_date, action_name]
+2014-12-10 09:22:56,328-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+2014-12-10 09:22:56,328-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040573]
+2014-12-10 09:22:56,406-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_AD
+2014-12-10 09:22:56,406-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [store, modify_date, begin_date, type, url, id, content, end_date, title, ad_position, create_date, path, orders]
+2014-12-10 09:22:56,406-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk6d301c2fc77f07e, fk6d301c2e947c2f5]
+2014-12-10 09:22:56,406-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040580]
+2014-12-10 09:22:56,453-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_AD_POSITION
+2014-12-10 09:22:56,453-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [template, id, height, create_date, description, width, name, modify_date, stores]
+2014-12-10 09:22:56,453-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk919da306c0c11b4f]
+2014-12-10 09:22:56,453-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040602]
+2014-12-10 09:22:56,500-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_ADMIN
+2014-12-10 09:22:56,500-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [store, department, modify_date, locked_date, login_ip, is_locked, password, id, login_failure_count, is_enabled, username, create_date, email, name, entcode, login_date]
+2014-12-10 09:22:56,500-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk251b3550fc77f07e]
+2014-12-10 09:22:56,500-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040591, sys_c0040590]
+2014-12-10 09:22:56,640-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_ADMIN_PRODUCTCATEGORY
+2014-12-10 09:22:56,640-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [admin, productcategory]
+2014-12-10 09:22:56,640-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fkac3015fefa6e055a]
+2014-12-10 09:22:56,640-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: []
+2014-12-10 09:22:56,671-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_ADMIN_ROLE
+2014-12-10 09:22:56,671-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [roles, admins]
+2014-12-10 09:22:56,671-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fkd291d605a022690f, fkd291d6053ff548f7]
+2014-12-10 09:22:56,671-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040594]
+2014-12-10 09:22:56,828-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_AFTER_BOOKING
+2014-12-10 09:22:56,828-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [phone, zip_code, consignee, area_code, product_name, state, parts, type, sale_company, id, area, create_date, area_name, attribute_value2, attribute_value3, service_desc, attribute_value4, attribute_value1, member, sn, modify_date, fault_date, ent_code, category_id, product, attribute_value, content, extension, source, email, address, buy_date, fault_type, telephone, visit_service_date, finish_date]
+2014-12-10 09:22:56,828-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk8c73b9f792dafec5, fk8c73b9f739a0dade, fk8c73b9f779f8d99a, fk8c73b9f77c62edf8]
+2014-12-10 09:22:56,828-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040608]
+2014-12-10 09:22:56,968-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_AFTER_BOOKING_PRODUCT
+2014-12-10 09:22:56,968-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [after_bookings, products]
+2014-12-10 09:22:56,968-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk65cf46a75096de0f, fk65cf46a71a07c6de]
+2014-12-10 09:22:56,968-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0045357]
+2014-12-10 09:22:57,015-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_AREA
+2014-12-10 09:22:57,015-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, create_date, name, modify_date, parent, tree_path, orders, full_name]
+2014-12-10 09:22:57,015-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk9e19da6cfe1e12fb]
+2014-12-10 09:22:57,015-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040621]
+2014-12-10 09:22:57,046-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_AREA_DS
+2014-12-10 09:22:57,046-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, area_id, create_date, area_name, modify_date, super_id]
+2014-12-10 09:22:57,046-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+2014-12-10 09:22:57,046-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040625]
+2014-12-10 09:22:57,093-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_AREA_INVENTORY
+2014-12-10 09:22:57,093-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, item_code, area_s_name, create_date, warehouse_id, item_name, area_name, modify_date, qty, area_q_name, arids]
+2014-12-10 09:22:57,093-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+2014-12-10 09:22:57,093-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040630]
+2014-12-10 09:22:57,156-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_ARTICLE
+2014-12-10 09:22:57,156-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [jobname, modify_date, image, seo_title, id, content, author, jobnumber, hits, seo_description, title, create_date, is_publication, is_top, seo_keywords, orders, article_category]
+2014-12-10 09:22:57,156-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk636982b7ca3b1f7]
+2014-12-10 09:22:57,156-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040639]
+2014-12-10 09:22:57,203-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_ARTICLE_CATEGORY
+2014-12-10 09:22:57,203-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, seo_description, create_date, name, modify_date, parent, seo_keywords, grade, tree_path, seo_title, orders]
+2014-12-10 09:22:57,203-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk57108986f587647a]
+2014-12-10 09:22:57,203-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040646]
+2014-12-10 09:22:57,234-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_ARTICLE_TAG
+2014-12-10 09:22:57,234-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [tags, articles]
+2014-12-10 09:22:57,234-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fkb9183e1229f6deef, fkb9183e12c842716f]
+2014-12-10 09:22:57,234-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040649]
+2014-12-10 09:22:57,281-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_ATTRIBUTE
+2014-12-10 09:22:57,281-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, product_category, create_date, name, modify_date, property_index, orders]
+2014-12-10 09:22:57,281-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fke81f41dd7629117]
+2014-12-10 09:22:57,281-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040656]
+2014-12-10 09:22:57,328-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_ATTRIBUTE_OPTION
+2014-12-10 09:22:57,328-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [attribute, options]
+2014-12-10 09:22:57,328-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk96e026d75e1b95f4]
+2014-12-10 09:22:57,328-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: []
+2014-12-10 09:22:57,468-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_BRAND
+2014-12-10 09:22:57,468-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, logo, create_date, name, modify_date, orders, type, url, introduction]
+2014-12-10 09:22:57,468-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+2014-12-10 09:22:57,468-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040663]
+2014-12-10 09:22:57,593-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_CART
+2014-12-10 09:22:57,593-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [member, id, create_date, cart_key, modify_date]
+2014-12-10 09:22:57,593-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk9e1a84ff7c62edf8]
+2014-12-10 09:22:57,593-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040668]
+2014-12-10 09:22:57,718-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_CART_ITEM
+2014-12-10 09:22:57,718-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [product, id, temp_price2, pre_sell_role, create_date, modify_date, cart, quantity, pricex]
+2014-12-10 09:22:57,718-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk1a67f65379f8d99a, fk1a67f65339a23004]
+2014-12-10 09:22:57,718-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040675]
+2014-12-10 09:22:57,859-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_CONSULTATION
+2014-12-10 09:22:57,859-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [product, member, content, id, consultation_type, is_show, for_consultation, accessory, create_date, theme, modify_date, ip]
+2014-12-10 09:22:57,859-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk33228d687c62edf8, fk33228d6879f8d99a, fk33228d68366b868c]
+2014-12-10 09:22:57,859-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040683]
+2014-12-10 09:22:58,000-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_COUPON
+2014-12-10 09:22:58,000-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [is_exchange, minimum_price, modify_date, price_expression, begin_date, minimum_quantity, id, point, is_enabled, end_date, create_date, maximum_quantity, maximum_price, prefix, name, introduction]
+2014-12-10 09:22:58,000-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+2014-12-10 09:22:58,000-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040691]
+2014-12-10 09:22:58,125-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_COUPON_CODE
+2014-12-10 09:22:58,125-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [member, id, is_used, create_date, modify_date, code, coupon, used_date]
+2014-12-10 09:22:58,140-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fkef53a3a77c62edf8, fkef53a3a75b638910]
+2014-12-10 09:22:58,140-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040699, sys_c0040698]
+2014-12-10 09:22:58,265-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_COVERAGE_AREA
+2014-12-10 09:22:58,265-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [areas, products]
+2014-12-10 09:22:58,265-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk9ecd25855096de0f, fk9ecd25853eff4bd7]
+2014-12-10 09:22:58,265-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040702]
+2014-12-10 09:22:58,406-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_DELIVERY_CENTER
+2014-12-10 09:22:58,406-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [phone, memo, zip_code, modify_date, is_default, contact, id, area, create_date, address, area_name, name, stores, mobile]
+2014-12-10 09:22:58,406-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk18eb77c1c0c11b4f, fk18eb77c139a0dade]
+2014-12-10 09:22:58,406-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040711]
+2014-12-10 09:22:58,531-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_DELIVERY_CORP
+2014-12-10 09:22:58,531-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, create_date, name, modify_date, orders, code, url]
+2014-12-10 09:22:58,531-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+2014-12-10 09:22:58,531-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040716]
+2014-12-10 09:22:58,671-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_DELIVERY_TEMPLATE
+2014-12-10 09:22:58,671-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [offsetx, content, id, offsety, height, memo, create_date, width, name, background, modify_date, is_default]
+2014-12-10 09:22:58,671-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+2014-12-10 09:22:58,671-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040727]
+2014-12-10 09:22:58,812-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_DEPOSIT
+2014-12-10 09:22:58,812-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [member, trade_no, memo, payment, modify_date, type, operator, id, balance, create_date, debit, orders, stores, credit]
+2014-12-10 09:22:58,812-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fkebb7cc5fc0c11b4f, fkebb7cc5f7c62edf8, fkebb7cc5fb992e8ef, fkebb7cc5f4115a3c8]
+2014-12-10 09:22:58,812-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040736, sys_c0040737]
+2014-12-10 09:22:58,968-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_EXPERIENCE
+2014-12-10 09:22:58,968-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [promotionimagefrist, promotionimagesecond, phone, promotionlinkfrist, modify_date, image, id, busline, area, create_date, address, area_name, name, promotionlinksecond, orders, opentime, introduction, mapx, entcode, mapy]
+2014-12-10 09:22:58,968-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fka475400939a0dade]
+2014-12-10 09:22:58,968-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040742]
+2014-12-10 09:22:59,156-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_EXPERIENCE_APPLY
+2014-12-10 09:22:59,156-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [experience_type, experiences, modify_date, tel, id, experience_date, user_name, create_date, address, name, experience_id, orders, experience_apply_id, experience_status, note, entcode]
+2014-12-10 09:22:59,156-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fkcb453bb891c70477]
+2014-12-10 09:22:59,156-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040747]
+2014-12-10 09:22:59,296-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_EXPERIENCE_EXPERIENCE_IMAGE
+2014-12-10 09:22:59,296-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [title, thumbnail, source, orders, experience, medium, large]
+2014-12-10 09:22:59,296-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fkd54843bc2ac88998]
+2014-12-10 09:22:59,296-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: []
+2014-12-10 09:22:59,421-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_EXPERIENCE_PRODUCT
+2014-12-10 09:22:59,421-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [xx_experience, products]
+2014-12-10 09:22:59,421-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk2bba9ab9d4577037, fk2bba9ab95096de0f]
+2014-12-10 09:22:59,421-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040751]
+2014-12-10 09:22:59,562-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_EXTENSION
+2014-12-10 09:22:59,562-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, user_name, sn, end_date, bar_code, create_date, modify_date, card_no, password]
+2014-12-10 09:22:59,562-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+2014-12-10 09:22:59,562-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040755]
+2014-12-10 09:22:59,687-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_FRIEND_LINK
+2014-12-10 09:22:59,687-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, logo, create_date, name, modify_date, orders, type, url]
+2014-12-10 09:22:59,687-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+2014-12-10 09:22:59,687-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040762]
+2014-12-10 09:22:59,828-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_GIFT_ITEM
+2014-12-10 09:22:59,828-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, gift, create_date, promotion, modify_date, quantity]
+2014-12-10 09:22:59,828-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk2fb85243fd463a02, fk2fb852438c9b75db]
+2014-12-10 09:22:59,828-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040775, sys_c0040776]
+2014-12-10 09:22:59,953-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_GOODS
+2014-12-10 09:22:59,953-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, create_date, modify_date]
+2014-12-10 09:22:59,953-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+2014-12-10 09:22:59,953-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040780]
+2014-12-10 09:23:00,093-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_GROUP_PURCHASES
+2014-12-10 09:23:00,093-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [wantcount2, wantcount1, wantcount5, wantcount4, wantcount3, type, id, create_date, previous_price, prbegindate, name, path, prenddate, buycount, modify_date, grdesc, product, purchase_price5, purchase_price, purchase_price4, purchase_price3, market_price, images, orders, enddate, begindate, purchase_price2, purchase_price1]
+2014-12-10 09:23:00,093-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fkb4b61e9379f8d99a]
+2014-12-10 09:23:00,093-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040801]
+2014-12-10 09:23:00,234-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_GROUP_PURCHASES_PRODUCT
+2014-12-10 09:23:00,234-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [products, xx_group_purchases]
+2014-12-10 09:23:00,234-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk41214f435dbd11ef, fk41214f435096de0f]
+2014-12-10 09:23:00,234-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040804]
+2014-12-10 09:23:00,375-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_GROUP_REMIND
+2014-12-10 09:23:00,375-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, isremind, create_date, group_purchase, email, contectperson, modify_date, remindtime, mobile]
+2014-12-10 09:23:00,375-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk731e25a46f98121d]
+2014-12-10 09:23:00,375-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040812]
+2014-12-10 09:23:00,500-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_INSTRUCTION
+2014-12-10 09:23:00,500-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, create_date, name, modify_date, url]
+2014-12-10 09:23:00,500-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+2014-12-10 09:23:00,500-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0045838]
+2014-12-10 09:23:00,687-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_LEAVE_WORDS
+2014-12-10 09:23:00,687-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [member, join_area, consultation_type, phone, remark, theme, modify_date, join_type, id, content, user_name, source, create_date, accessory, micro, address, email, for_leave_words, is_read, qq, entcode]
+2014-12-10 09:23:00,687-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk512e9462c97cf9a1, fk512e94627c62edf8]
+2014-12-10 09:23:00,687-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040816]
+2014-12-10 09:23:00,812-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_LOG
+2014-12-10 09:23:00,812-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [content, id, operation, parameter, create_date, modify_date, operator, ip]
+2014-12-10 09:23:00,812-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+2014-12-10 09:23:00,812-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040822]
+2014-12-10 09:23:00,984-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_MEMBER
+2014-12-10 09:23:00,984-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [birth, phone, is_locked, password, safe_key_value, amount, balance, username, create_date, attribute_value6, image_name, attribute_value7, attribute_value8, attribute_value9, attribute_value2, gender, attribute_value3, attribute_value4, openid, attribute_value5, attribute_value0, login_date, attribute_value1, member_rank, login_ip, exp, email, safe_key_expire, mobile, zip_code, locked_date, yinghanzhanghao, sign_in_date, dangweimingchen, id, wangwang, area, name, kaihuyh, qq, zhucedianhua, modify_date, register_ip, nashuishibiehao, login_failure_count, is_enabled, point, serial_sign_in_times, zengzhishuiyhzh, microno, address, zhucedizhi, zhifubao]
+2014-12-10 09:23:01,000-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk92d398b939a0dade, fk92d398b937884f5b]
+2014-12-10 09:23:01,000-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040837, sys_c0040836]
+2014-12-10 09:23:01,125-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_MEMBER_ATTRIBUTE
+2014-12-10 09:23:01,125-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, is_enabled, is_required, create_date, name, modify_date, property_index, orders, type]
+2014-12-10 09:23:01,125-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+2014-12-10 09:23:01,125-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040845]
+2014-12-10 09:23:01,265-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_MEMBER_ATTRIBUTE_OPTION
+2014-12-10 09:23:01,265-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [member_attribute, options]
+2014-12-10 09:23:01,265-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fkc3dc263e8a8815]
+2014-12-10 09:23:01,265-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: []
+2014-12-10 09:23:01,390-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_MEMBER_FAVORITE_PRODUCT
+2014-12-10 09:23:01,390-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [favorite_products, favorite_members]
+2014-12-10 09:23:01,390-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk44df1412830d5552, fk44df1412a43b40d4]
+2014-12-10 09:23:01,390-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040849]
+2014-12-10 09:23:01,531-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_MEMBER_RANK
+2014-12-10 09:23:01,531-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [amount, id, exp, point, scale, create_date, name, modify_date, is_default, is_special]
+2014-12-10 09:23:01,531-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+2014-12-10 09:23:01,531-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040857, sys_c0040859, sys_c0040858]
+2014-12-10 09:23:01,671-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_MESSAGE
+2014-12-10 09:23:01,671-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [receiver_read, is_draft, receiver, modify_date, for_message, receiver_delete, ip, sender, id, content, title, sender_read, create_date, sender_delete]
+2014-12-10 09:23:01,671-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fkc7fbb5c88c6c4d4d, fkc7fbb5c886a07d93, fkc7fbb5c8e2b39a54]
+2014-12-10 09:23:01,671-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040871]
+2014-12-10 09:23:01,796-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_NAVIGATION
+2014-12-10 09:23:01,796-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [position, id, store, create_date, is_blank_target, name, modify_date, orders, url]
+2014-12-10 09:23:01,796-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk1894f0b3fc77f07e]
+2014-12-10 09:23:01,796-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040879]
+2014-12-10 09:23:01,921-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_NOTICE
+2014-12-10 09:23:01,921-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [content, id, notice_date, create_date, is_publication, theme, modify_date]
+2014-12-10 09:23:01,921-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+2014-12-10 09:23:01,921-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040884]
+2014-12-10 09:23:02,109-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_ORDER
+2014-12-10 09:23:02,109-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [payment_method_name, phone, shipping_method, zip_code, memo, lock_expire, consignee, promotion, coupon_code, type, time_quantum, payment_status, city, is_allocated_stock, id, amount_paid, area, create_date, offset_amount, low_points_paid, area_name, province, shipping_status, is_invoice, district, review_status, promotion_discount, member, expire, sn, invoice_title, modify_date, receipt_address, shipping_method_name, operator, order_status, fee, point, receipt_time, tax, address, freight, coupon_discount, stores, payment_method]
+2014-12-10 09:23:02,109-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk25e6b94f7c62edf8, fk25e6b94fc050045d, fk25e6b94fd3a8be7d, fk25e6b94f39a0dade, fk25e6b94fd7122aaf, fk25e6b94fc0c11b4f, fk25e6b94f67f7c585]
+2014-12-10 09:23:02,109-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040910, sys_c0040911]
+2014-12-10 09:23:02,234-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_ORDER_COUPON
+2014-12-10 09:23:02,234-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [coupons, orders]
+2014-12-10 09:23:02,234-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fka3f6d516e538ddf7, fka3f6d516b992e8ef]
+2014-12-10 09:23:02,234-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: []
+2014-12-10 09:23:02,375-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_ORDER_ITEM
+2014-12-10 09:23:02,375-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [low_points, sn, weight, is_gift, return_quantity, modify_date, shipped_quantity, product, id, price, thumbnail, create_date, low_price, name, orders, quantity, review_status, full_name]
+2014-12-10 09:23:02,375-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fkd69ff40379f8d99a, fkd69ff403b992e8ef]
+2014-12-10 09:23:02,375-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040926]
+2014-12-10 09:23:02,515-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_ORDER_LOG
+2014-12-10 09:23:02,515-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [content, id, create_date, modify_date, orders, type, operator]
+2014-12-10 09:23:02,515-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fkf6684c54b992e8ef]
+2014-12-10 09:23:02,515-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040932]
+2014-12-10 09:23:02,656-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_OUTLET
+2014-12-10 09:23:02,656-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [phone, manager, zip_code, install_book_phone, remark, repair_book_phone, center_sn, state, complaint_phone, category_names, id, repair_query_phone, area, create_date, area_name, manager_sn, name, install_query_phone, sn, fax, service_area, modify_date, ent_code, unitlevel, manager_phone, address, unit_type, introduction, work_date]
+2014-12-10 09:23:02,656-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk9722162c39a0dade]
+2014-12-10 09:23:02,656-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040934]
+2014-12-10 09:23:02,796-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_OUTLET_PRODUCT_CATEGORY
+2014-12-10 09:23:02,796-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [outlets, product_categorys]
+2014-12-10 09:23:02,796-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk32d928017efedad7, fk32d928019d09deae]
+2014-12-10 09:23:02,796-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040937]
+2014-12-10 09:23:02,921-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_PARAMETER
+2014-12-10 09:23:02,921-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, parameter_group, create_date, name, modify_date, orders]
+2014-12-10 09:23:02,921-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk8238fd2a818bf383]
+2014-12-10 09:23:02,921-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040943]
+2014-12-10 09:23:03,046-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_PARAMETER_GROUP
+2014-12-10 09:23:03,046-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, product_category, create_date, name, modify_date, orders]
+2014-12-10 09:23:03,062-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fkd68a4f2ad7629117]
+2014-12-10 09:23:03,062-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040949]
+2014-12-10 09:23:03,203-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_PAYMENT
+2014-12-10 09:23:03,203-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [member, expire, sn, payment_date, memo, status, modify_date, type, transaction_id, operator, id, amount, fee, payment_plugin_id, create_date, payer, account, openid, orders, bank, method, stores, payment_method]
+2014-12-10 09:23:03,203-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk602ce7c7c0c11b4f, fk602ce7c77c62edf8, fk602ce7c7b992e8ef]
+2014-12-10 09:23:03,218-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040960, sys_c0040959]
+2014-12-10 09:23:03,359-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_PAYMENT_METHOD
+2014-12-10 09:23:03,359-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [content, id, icon, create_date, description, name, modify_date, method, orders, timeout]
+2014-12-10 09:23:03,359-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+2014-12-10 09:23:03,359-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040966]
+2014-12-10 09:23:03,484-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_PAYMENT_SHIPPING_METHOD
+2014-12-10 09:23:03,484-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [payment_methods, shipping_methods]
+2014-12-10 09:23:03,484-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fkc230a01aa2ed13bc, fkc230a01a85883714]
+2014-12-10 09:23:03,484-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040969]
+2014-12-10 09:23:03,625-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_PLUGIN_CONFIG
+2014-12-10 09:23:03,625-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, is_enabled, create_date, plugin_id, modify_date, orders, stores]
+2014-12-10 09:23:03,625-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk5e60c2cfc0c11b4f]
+2014-12-10 09:23:03,625-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040975]
+2014-12-10 09:23:03,750-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_PLUGIN_CONFIG_ATTRIBUTE
+2014-12-10 09:23:03,750-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [name, attributes, plugin_config]
+2014-12-10 09:23:03,750-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk42cb712ce174c3e7]
+2014-12-10 09:23:03,750-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040978]
+2014-12-10 09:23:03,890-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_POINTSWATER
+2014-12-10 09:23:03,890-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [id, create_date, points_stat, rulename, b_member_id, modify_date, orders, points, note, member_id, ip]
+2014-12-10 09:23:03,890-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fkce51eb55b992e8ef]
+2014-12-10 09:23:03,890-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040986]
+2014-12-10 09:23:04,046-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_PRE_SELL_APPLY
+2014-12-10 09:23:04,046-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [email_status, created_by, area_id, modify_date, applier_email, ent_code, pre_sell_apply_no, applier_mobile, member_id, id, infor_strarus, create_date, address, apply_date, item_id, remark_information, last_update_by, pre_sell_role_id, applier_name]
+2014-12-10 09:23:04,046-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk3d879e7c21a6821a, fk3d879e7cca10c3e, fk3d879e7ccf4c45e, fk3d879e7ca8dc672]
+2014-12-10 09:23:04,046-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0040997]
+2014-12-10 09:23:04,187-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_PRE_SELL_REMIND
+2014-12-10 09:23:04,187-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [created_by, id, create_date, tel, pre_sell_remind_no, modify_date, ent_code, remaided_date, last_update_by, pre_sell_role_id, is_remaided, orders]
+2014-12-10 09:23:04,187-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+2014-12-10 09:23:04,187-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0041003, sys_c0041002]
+2014-12-10 09:23:04,343-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_PRE_SELL_ROLE
+2014-12-10 09:23:04,343-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [pre_sell_type, modify_date, begin_date, image, reserve_date, product, id, end_date, title, create_date, qty_pre_sell, item_id, name, pre_sell_price, qty_limit, qty_applied]
+2014-12-10 09:23:04,343-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
+2014-12-10 09:23:04,343-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0041011]
+2014-12-10 09:23:04,484-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_PRE_SELL_ROLE_MEMBER_RANK
+2014-12-10 09:23:04,484-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [member_ranks, xx_pre_sell_role]
+2014-12-10 09:23:04,484-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk5470f89ae24d908c, fk5470f89a9f5f5c0f]
+2014-12-10 09:23:04,484-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0041014]
+2014-12-10 09:23:04,625-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_PRE_SELL_ROLE_PRODUCT
+2014-12-10 09:23:04,625-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [xx_pre_sell_role, products]
+2014-12-10 09:23:04,625-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk86ee17585096de0f, fk86ee17589f5f5c0f]
+2014-12-10 09:23:04,625-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0041017]
+2014-12-10 09:23:04,828-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_PRODUCT
+2014-12-10 09:23:04,828-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [low_points, is_marketable, orderhot, week_sales, store, total_score, month_hits_date, score, month_hits, seo_description, stock, attribute_value6, create_date, month_sales, attribute_value7, attribute_value8, sales, attribute_value9, features, attribute_value2, attribute_value3, seo_keywords, attribute_value4, attribute_value5, attribute_value0, attribute_value1, sn, source_id, image, month_sales_date, seo_title, cost, hits, price, low_price, is_top, orders, showimg, introduction, attribute_value13, attribute_value14, attribute_value15, weight, attribute_value16, attribute_value17, memo, check_status, attribute_value18, attribute_value19, goods, score_count, bigimage, is_use_fenxiao, is_list, week_hits_date, id, product_category, name, stock_memo, synopsis, instruction, week_hits, attribute_value10, ordernew, attribute_value12, attribute_value11, ue, is_gift, modify_date, keyword, week_sales_date, unit, point, eshopsn, market_price, brand, core, allocated_stock, stores, entcode, full_name]
+2014-12-10 09:23:04,828-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk7c9e82b0c0c11b4f, fk7c9e82b0fa9695ca, fk7c9e82b0fb212d68, fk7c9e82b0d7629117]
+2014-12-10 09:23:04,828-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0041048, sys_c0041047]
+2014-12-10 09:23:04,968-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_PRODUCT_CATEGORY
+2014-12-10 09:23:04,968-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [is_show_product, modify_date, parent, image, seo_title, id, seo_description, create_date, name, is_repair, grade, seo_keywords, orders, tree_path, stores, is_instruction, is_install, entcode]
+2014-12-10 09:23:04,984-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk1b7971adfbdd5b73, fk1b7971adc0c11b4f]
+2014-12-10 09:23:04,984-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0041055]
+2014-12-10 09:23:05,109-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_PRODUCT_CATEGORY_BRAND
+2014-12-10 09:23:05,109-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [brands, product_categories]
+2014-12-10 09:23:05,109-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fke42d6a75a2ab700f, fke42d6a758c4c0635]
+2014-12-10 09:23:05,109-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0041058]
+2014-12-10 09:23:05,234-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_PRODUCT_MEMBER_PRICE
+2014-12-10 09:23:05,234-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [product, member_price, member_price_key]
+2014-12-10 09:23:05,234-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fkdccd889379f8d99a, fkdccd88935ccd83ae]
+2014-12-10 09:23:05,250-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0041061]
+2014-12-10 09:23:05,375-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_PRODUCT_NOTIFY
+2014-12-10 09:23:05,375-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [product, member, id, create_date, email, modify_date, has_sent]
+2014-12-10 09:23:05,375-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fkdcb1abb87c62edf8, fkdcb1abb879f8d99a]
+2014-12-10 09:23:05,375-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0041068]
+2014-12-10 09:23:05,515-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_PRODUCT_PARAMETER_VALUE
+2014-12-10 09:23:05,515-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [parameter_value, product, parameter_value_key]
+2014-12-10 09:23:05,515-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk1b76fdcceda221e0, fk1b76fdcc79f8d99a]
+2014-12-10 09:23:05,515-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [sys_c0041071]
+2014-12-10 09:23:05,640-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - table found: MACRO.XX_PRODUCT_PRODUCT_IMAGE
+2014-12-10 09:23:05,640-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - columns: [product, title, thumbnail, source, orders, medium, large]
+2014-12-10 09:23:05,640-[HL] INFO Thread-2 org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: [fk66470abc79f8d99a]

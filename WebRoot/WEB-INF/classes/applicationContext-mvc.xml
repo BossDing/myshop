@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd
+       http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd"
+	default-lazy-init="true">
+ <!-- 加载配置文件 -->
+	<context:property-placeholder location="classpath*:/shopxx.properties" ignore-resource-not-found="true" ignore-unresolvable="true" />
+
+	<context:component-scan base-package="net.shopxx" use-default-filters="false">
+		<!-- 只扫描 @Controller 防止与SpringIOC容器重复扫描 -->
+		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller" />
+	</context:component-scan>
+
+	<!-- 在SpringMVC的配置文件中通过mvc:annotation-driven的validator属性可以指定全局的Validator。 -->
+	<mvc:annotation-driven validator="validator" />
+
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<!-- 拦截指定路径 -->
+			<mvc:mapping path="/order/**" />
+			<mvc:mapping path="/member/**" />
+			<bean id="memberInterceptor" class="net.shopxx.interceptor.MemberInterceptor" />
+		</mvc:interceptor>
+		<mvc:interceptor>
+			<mvc:mapping path="/**" />
+			<mvc:exclude-mapping path="/payment/**" /><!-- 排除 -->
+			<bean id="tokenInterceptor" class="net.shopxx.interceptor.TokenInterceptor" />
+		</mvc:interceptor>
+		<!-- 
+		<mvc:interceptor>
+			<mvc:mapping path="/admin/**" />
+			<bean id="executeTimeInterceptor" class="net.shopxx.interceptor.ExecuteTimeInterceptor" />
+		</mvc:interceptor>
+		-->
+		<mvc:interceptor>
+			<mvc:mapping path="/admin/**" />
+			<bean id="webContentInterceptor" class="org.springframework.web.servlet.mvc.WebContentInterceptor">
+				<property name="cacheSeconds" value="0" />
+			</bean>
+		</mvc:interceptor>
+		<mvc:interceptor>
+			<mvc:mapping path="/**" />
+			<bean id="openSessionInViewInterceptor" class="org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor">
+				<property name="entityManagerFactory" ref="entityManagerFactory" />
+			</bean>
+		</mvc:interceptor>
+		<mvc:interceptor>
+			<mvc:mapping path="/admin/**" />
+			<bean id="listInterceptor" class="net.shopxx.interceptor.ListInterceptor" />
+		</mvc:interceptor>
+		<mvc:interceptor>
+			<mvc:mapping path="/admin/**" />
+			<bean id="logInterceptor" class="net.shopxx.interceptor.LogInterceptor" />
+		</mvc:interceptor>
+	</mvc:interceptors>
+
+	<!-- 在SpringMVC的配置文件中通过mvc:annotation-driven的validator属性也可以指定全局的Validator -->
+	<bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean">
+		<property name="validationMessageSource" ref="messageSource" />
+	</bean>
+	
+	<!-- 
+	exposeRequestAttributes  exposeSessionAttributes两个属性都被设置为true。
+	结果是请求和会话属性都被复制到模板的属性集中，可以使用FreeMarker的表达式语言来访问并显示。
+	<property name="exposeRequestAttributes" value="true" />
+	<property name="exposeSessionAttributes" value="true" />
+	如果需要使用Spring对FreeMarker宏命令支持，这个属性要设置为true
+	<property name="exposeSpringMacroHelpers" value="true" /> 
+	 -->
+	<bean id="viewResolver" class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
+		<property name="contentType" value="text/html; charset=UTF-8" />
+		<property name="suffix" value="${template.suffix}" />
+	</bean>
+
+<!-- 上传文件
+defaultEncoding必须和jsp中pageEncoding一致，以便解析表单的内容
+ -->
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<property name="defaultEncoding" value="UTF-8" />
+	</bean>
+<!-- 如果希望对所有异常进行同一处理，可以使用它，它将异常类名映射为视图名，即发生异常时使用对应的视图报告异常 -->
+	<bean id="exceptionResolver" class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+		<property name="defaultErrorView" value="shop/common/error" />
+	</bean>
+
+</beans>
